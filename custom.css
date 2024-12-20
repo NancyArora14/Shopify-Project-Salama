@@ -103,7 +103,7 @@
 
     #header li.nav-item.dropdown:nth-last-child(1):hover a {
         text-decoration: none;
-        color: #17463e;
+        color: #17463e !important;
     }
 
     header#header {
