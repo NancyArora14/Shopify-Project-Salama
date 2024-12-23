@@ -51,8 +51,8 @@ h6 {
 }
 
 /* li.nav-item.dropdown:hover {
-border-bottom: 1px solid #f3dfc9;
-} */
+    border-bottom: 1px solid #f3dfc9;
+    } */
 .announcement-bar ul.announcement-list {
     display: flex;
     gap: 25px;
@@ -186,19 +186,21 @@ body .cst-home-banner video.cst-video {
 
 
 body .cst-home-banner .box-content-center h3.titlebig {
-    font-family: 'Runalto' !important;
-    font-size: 55px !important;
+    font-family: Runalto !important;
+    font-size: 64px !important;
     text-transform: uppercase;
-    font-weight: bold !important;
+    color: #f3dfc9 !important;
+    font-weight: 700 !important;
 }
 
 body .cst-about-banner .box-content-center h3.titlebig {
     font-family: 'Runalto' !important;
-    font-size: 55px !important;
+    font-size: 64px !important;
     text-transform: uppercase;
     font-weight: 600 !important;
     max-width: 700px;
     margin: 0 auto;
+    color: #f3dfc9 !important;
 }
 
 body .cst-home-banner .box-content-center .box-title2 {
@@ -209,6 +211,7 @@ body .cst-home-banner .box-content-center .box-title2 {
 .box-content-center .box-title2 .title-small {
     font-family: 'Runalto' !important;
     font-weight: 600 !important;
+    color: #f3dfc9 !important;
 }
 
 body .cst-home-banner .button-shop-slideshow_MLeWhm {
@@ -239,6 +242,21 @@ body .cst-home-banner .btn-animation-slideshow_F3nHV8.animated {
 
 }
 
+.section-slideshow-v1 .slick-active .info-sideh1 .box-info-slideshow_MLeWhm .btn-animation-slideshow_MLeWhm .button-main2:hover {
+    background: #17463E !important;
+    color: #f3dfc9 !important;
+    border-top-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+}
+
+body .section-slideshow-v1 .slick-active .info-sideh1 .box-content-center .button-shop-slideshow_F3nHV8:hover {
+    background: #17463E !important;
+    color: #f3dfc9 !important;
+    border-top-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+}
+
+
 body .cst-home-banner .button-shop-slideshow_F3nHV8:hover {
     background: #f3dfc9 !important;
     color: #17463E !important;
@@ -247,14 +265,14 @@ body .cst-home-banner .button-shop-slideshow_F3nHV8:hover {
 body .cst-home-banner .button-main2 {
     background: #17463E !important;
     color: #f3dfc9 !important;
-    font-size: 15px;
-    border-radius: 14px;
+    font-size: 16px;
     height: 47px;
     max-width: 189px;
     width: 100%;
     display: inline-block;
     line-height: 44px;
-    font-weight: 600;
+    font-weight: 500;
+    border-radius: 0;
 }
 
 body .cst-home-banner .box-content-center h3 {
