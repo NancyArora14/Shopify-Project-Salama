@@ -32,6 +32,7 @@ h6 {
 #header .menu ul .nav-item .nav-link:hover {
     border-bottom: 1px solid #f3dfc9 !important;
     color: #f3dfc9 !important;
+    text-decoration: none !important;
 }
 
 #header .currencies-login .cart-login-search ul li a svg:hover {
@@ -51,8 +52,8 @@ h6 {
 }
 
 /* li.nav-item.dropdown:hover {
-    border-bottom: 1px solid #f3dfc9;
-    } */
+border-bottom: 1px solid #f3dfc9;
+} */
 .announcement-bar ul.announcement-list {
     display: flex;
     gap: 25px;
@@ -88,12 +89,12 @@ body #header {
 #header li.nav-item.dropdown:nth-last-child(1) {
     background: #f3dfc9;
     border-radius: 0;
-    padding: 10px;
+    padding: 10px 20px;
     transition: .3s;
 }
 
 #header li.nav-item.dropdown:nth-last-child(1) a {
-    color: #17463e;
+    color: #085848;
 }
 
 #header li.nav-item.dropdown:nth-last-child(1):hover {
@@ -103,11 +104,11 @@ body #header {
 
 #header li.nav-item.dropdown:nth-last-child(1):hover a {
     text-decoration: none;
-    color: #17463e !important;
+    color: #085848 !important;
 }
 
 header#header {
-    background: #17463e !important;
+    background: #085848 !important;
     padding-top: 10px;
     padding-bottom: 13px;
 }
@@ -141,17 +142,17 @@ header#header {
 }
 
 .contact-form input.shop-button {
-    background: #17463E !important;
+    background: #085848 !important;
     font-size: 16px !important;
     font-weight: 500 !important;
     letter-spacing: 0 !important;
     color: #f3dfc9 !important;
     font-family: 'Urbanist' !important;
-    border: 1px solid #17463E !important;
+    border: 1px solid #085848 !important;
 }
 
 .contact-form input.shop-button:hover {
-    background: #17463E !important;
+    background: #085848 !important;
     color: #f3dfc9 !important;
     border-top-left-radius: 16px !important;
     border-bottom-right-radius: 16px !important;
@@ -189,7 +190,7 @@ body .cst-home-banner .box-content-center h3.titlebig {
     font-family: Runalto !important;
     font-size: 64px !important;
     text-transform: uppercase;
-    color: #f3dfc9 !important;
+    color: #fff !important;
     font-weight: 700 !important;
 }
 
@@ -200,7 +201,7 @@ body .cst-about-banner .box-content-center h3.titlebig {
     font-weight: 600 !important;
     max-width: 700px;
     margin: 0 auto;
-    color: #f3dfc9 !important;
+    color: #fff !important;
 }
 
 body .cst-home-banner .box-content-center .box-title2 {
@@ -211,11 +212,11 @@ body .cst-home-banner .box-content-center .box-title2 {
 .box-content-center .box-title2 .title-small {
     font-family: 'Runalto' !important;
     font-weight: 600 !important;
-    color: #f3dfc9 !important;
+    color: #fff !important;
 }
 
 body .cst-home-banner .button-shop-slideshow_MLeWhm {
-    background: #17463E !important;
+    background: #085848 !important;
     font-size: 15px;
     border-radius: 14px;
     height: 47px;
@@ -228,7 +229,7 @@ body .cst-home-banner .button-shop-slideshow_MLeWhm {
 
 body .cst-home-banner .button-shop-slideshow_MLeWhm:hover {
     background: #f3dfc9 !important;
-    color: #17463E !important;
+    color: #085848 !important;
 }
 
 body .cst-home-banner .btn-animation-slideshow_F3nHV8.animated {
@@ -243,14 +244,14 @@ body .cst-home-banner .btn-animation-slideshow_F3nHV8.animated {
 }
 
 .section-slideshow-v1 .slick-active .info-sideh1 .box-info-slideshow_MLeWhm .btn-animation-slideshow_MLeWhm .button-main2:hover {
-    background: #17463E !important;
+    background: #085848 !important;
     color: #f3dfc9 !important;
     border-top-left-radius: 16px !important;
     border-bottom-right-radius: 16px !important;
 }
 
 body .section-slideshow-v1 .slick-active .info-sideh1 .box-content-center .button-shop-slideshow_F3nHV8:hover {
-    background: #17463E !important;
+    background: #085848 !important;
     color: #f3dfc9 !important;
     border-top-left-radius: 16px !important;
     border-bottom-right-radius: 16px !important;
@@ -259,11 +260,11 @@ body .section-slideshow-v1 .slick-active .info-sideh1 .box-content-center .butto
 
 body .cst-home-banner .button-shop-slideshow_F3nHV8:hover {
     background: #f3dfc9 !important;
-    color: #17463E !important;
+    color: #085848 !important;
 }
 
 body .cst-home-banner .button-main2 {
-    background: #17463E !important;
+    background: #085848 !important;
     color: #f3dfc9 !important;
     font-size: 16px;
     height: 47px;
@@ -288,11 +289,11 @@ body .cst-home-banner .box-content-center h3 {
 
 .cst-home-treatment .owl-nav span {
     font-size: 40px;
-    color: #17463e;
+    color: #085848;
 }
 
 .cst-home-treatment .owl-carousel .owl-nav button {
-    background: #ffffff !important;
+    background: #f3dfc9 !important;
 }
 
 .cst-home-treatment .text-block p {
@@ -309,8 +310,8 @@ body .cst-home-banner .box-content-center h3 {
 .cst-home-treatment .column {
     display: flex;
     justify-content: space-between;
-    background: #f3dfc9;
-    border-radius: 10px;
+    background: #fff;
+    border-radius: 0;
     padding: 7px 20px;
 }
 
@@ -323,10 +324,12 @@ body .cst-home-banner .box-content-center h3 {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
 body .cst-home-treatment {
     padding: 120px 40px;
+    background: #f3dfc9;
 }
 
 .cst-home-imgText .container {
@@ -336,7 +339,7 @@ body .cst-home-treatment {
 
 .cst-home-imgText.custom-banner {
     background: #f3dfc9;
-    padding: 40px 0 0;
+    padding: 120px 0;
 }
 
 .cst-home-imgText .custom-banner-right img {
@@ -346,7 +349,8 @@ body .cst-home-treatment {
 }
 
 .cst-home-imgText .custom-banner-main {
-    padding: 40px 0;
+    padding-top: 40px;
+    padding-bottom: 0;
 }
 
 .cst-home-imgText .custom-banner-content.page-width {
@@ -384,7 +388,7 @@ body .cst-home-treatment {
     background: #fff;
     margin: 24px 0;
     padding: 15px;
-    border-radius: 16px;
+    border-radius: 0;
     list-style: none;
     position: relative;
     font-family: 'Urbanist';
@@ -442,7 +446,7 @@ body .cst-home-treatment {
 }
 
 .cst-home-team button.slick-arrow {
-    background: #f3dfc9;
+    background: #fff;
     width: 50px;
     height: 50px;
     border-radius: 30px;
@@ -456,6 +460,7 @@ body .cst-home-treatment {
 
 .cst-home-team.custom-section {
     padding: 120px 0 0 0;
+    background: #f3dfc9;
 }
 
 .cst-home-team .container {
@@ -545,6 +550,10 @@ body .cst-home-treatment {
     font-weight: 400;
 }
 
+.cst-home-ourapproch {
+    background: #f3dfc9;
+}
+
 .cst-home-ourapproch .custom-left-column {
     display: flex;
     flex-direction: column;
@@ -627,7 +636,7 @@ body .cst-home-treatment {
 
 .cst-home-imgText {
     background: #f3dfc9;
-    padding: 81px 0;
+    padding: 120px 0 !important;
 }
 
 
@@ -671,8 +680,13 @@ body .cst-home-treatment {
 }
 
 .cst-home-reviews {
-    padding: 0;
+    padding: 120px 0;
     margin: 0;
+    background: #f3dfc9;
+}
+
+.cst-home-reviews .review__card {
+    border: 1px solid #085848;
 }
 
 .cst-home-reviews h1.title--decorated {
@@ -686,9 +700,18 @@ body .cst-home-treatment {
     font-family: Urbanist;
 }
 
+section.cst-home-faq {
+    background: #f3dfc9;
+    padding: 120px 0 50px 0;
+}
+
+.cst-home-faq .asked {
+    margin: 0 !important;
+}
+
 body .cst-home-faq a.title_question {
     font-size: 20px !important;
-    color: #17463E !important;
+    color: #085848 !important;
     font-family: 'Urbanist' !important;
 }
 
@@ -707,6 +730,10 @@ body .cst-home-faq h3 {
     color: #085848;
 }
 
+#cst-home-contact {
+    background: #f3dfc9;
+}
+
 .contact-page .contact-form .contact_title {
     font-weight: bold !important;
 }
@@ -719,12 +746,21 @@ body .cst-home-faq .row.content_askeds {
 }
 
 body .cst-home-faq .box_content_question {
-    border-bottom: 1px solid #bbbbbb;
+    border-bottom: 1px solid #085848;
     padding: 24px 0 !important;
 }
 
 .content-page.contact-page {
+    background: #f3dfc9;
     padding-bottom: 120px;
+}
+
+.contact-page .contact-form input {
+    border: 1px solid #085848 !important;
+}
+
+.contact-message textarea {
+    border: 1px solid #085848 !important;
 }
 
 .contact-page label {
@@ -746,7 +782,7 @@ body .contact-page .contact-form .contact_bottom {
 }
 
 footer.footer_v5 {
-    background-color: #17463E !important;
+    background-color: #085848 !important;
 }
 
 footer .copyright {
@@ -758,7 +794,7 @@ footer .list-icon svg {
 }
 
 footer.footer_v5 {
-    background-color: #17463E !important;
+    background-color: #085848 !important;
 }
 
 .footer_v5 .menu_footer li a {
