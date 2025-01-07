@@ -727,8 +727,19 @@ font-weight: 400;
 .cst-home-ourapproch {
 background: #F0F5F4;
 }
-.cst-issues-approch {
+/* .cst-issues-approch {
 padding-bottom: 120px;
+} */
+.cst-issues-imgText .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 80px 60px;
+}
+.cst-issues-imgText  .text-container {
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
 }
 .cst-home-ourapproch .custom-left-column {
 display: flex;
@@ -788,7 +799,7 @@ font-size: 16px;
 display: none;
 }
 .cst-home-banner  .text-center.box-info {
-text-align: left !important;!i;!;
+text-align: left !important;
 }
 
 .cst-home-ourapproch .cst-wrapper::after {
@@ -971,7 +982,7 @@ background: none;
 border-color:#f3dfc9;
 }
 .footer_v5 .top-footer .container {
-padding: 0 40px;
+padding: 0 60px;
 max-width: 100%;
 }
 .footer_v5 .logo-footer .logosvg {
@@ -1302,6 +1313,23 @@ height: 8px;
 /*About-Css-end*/
 
 /*our-services-offerings-Css-start*/
+.cst-therapies-Benefitscontainer {
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.cst-therapies-Benefitscontainer h2.heading-title {
+    font-size: 40px;
+    font-weight: 500;
+    color: #085848;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cst-therapies-Benefitscontainer .rich-text__content li {
+    font-family: Urbanist;
+    font-size: 16px;
+    color: #085848;
+}
 body .m-cst-issues-time {
 padding-top: 120px;
 }
@@ -1327,11 +1355,20 @@ border: 2px solid #a8a8a8;
 color: red;
 font-weight: bold;
 }
+body .cst-issues-symptoms{
+    padding: 80px 0;
+}
+body .cst-issues-symptoms .custom-banner-right img {
+    height: 100%;
+    object-fit: cover;
+}
+
 .cst-issues-symptoms li {
 font-family: Urbanist;
 font-size: 16px;
 color: #085848;
 }
+
 .cst-issues-symptoms h2.custom-banner-heading{  
 font-size: 40px;
 font-weight: 500;
@@ -1351,8 +1388,9 @@ margin-top: 18px;
 }
 
 .cst-issues-ayurvediccontainer {
-margin: 0;
-padding: 120px 0;
+    margin: 0;
+    padding: 120px 0;
+    max-width: 100%;
 }
 
 .cst-issues-ayurvediccontainer h2.heading-title {
@@ -1649,6 +1687,9 @@ font-size: 35px !important;
 }
 }
 @media screen and (max-width:789px){
+    .footer_v5 .top-footer .container{
+       padding: 40px 20px;
+    }
 .cst-about-drSec {
 padding: 60px 0  !important;
 }
