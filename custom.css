@@ -26,6 +26,52 @@ font-family: "Outfit", serif;
 }
 /*marque-start*/
 
+/*dropdown-start*/
+#header .menu ul .nav-item .list-woman.page {
+    padding-top: 0;
+}
+#header .menu ul .nav-item .list-woman.page {
+    padding-top: 0;
+    background: #f3dfc9;
+}
+    body #header .menu ul .nav-item .list-woman .list-clothing ul li a {
+    color: #085848;
+    font-family: Urbanist !important;
+    font-weight: 500;
+}
+body #header .menu ul .nav-item .list-woman .list-clothing ul li a:hover{
+    color: #085848;
+}
+#header .menu ul .nav-item .list-woman .list-clothing ul li a:after{
+    border-bottom: 1px solid #085848;
+}
+header .dropdown-menu.list-woman.page.show {
+    max-height: 300px; 
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    display: block !important;
+  }
+
+  header .dropdown-menu.list-woman.page.show::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  header .dropdown-menu.list-woman.page.show::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px; 
+  }
+  
+  header .dropdown-menu.list-woman.page.show::-webkit-scrollbar-track {
+    background-color: #f9f9f9; 
+  }
+  
+  header .dropdown-menu.list-woman.page.show {
+    background-color: rgba(255, 0, 0, 0.2); 
+    height: 300px; 
+    overflow-y: scroll; 
+  }
+/*dropdown-end*/
+
 .marquee_container {
 width: 100%;
 overflow: hidden;
