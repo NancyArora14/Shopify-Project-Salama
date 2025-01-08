@@ -1484,13 +1484,13 @@ margin: 0;
 font-family: Outfit, serif;
 }
 .cst-knowBody-quiz .answers {
-    font-size: 16px;
-    line-height: 38px;
-    font-family: Urbanist;
-    display: flex;
-    justify-content: start;
-    gap: 32px;
-    margin-bottom: 20px;
+font-size: 16px;
+line-height: 38px;
+font-family: Urbanist;
+display: flex;
+justify-content: start;
+gap: 32px;
+margin-bottom: 20px;
 }
 .cst-knowBody-quiz button {
 display: inline-block;
