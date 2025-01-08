@@ -355,7 +355,6 @@ text-align: center;
 .cst-home-imgText .text-container p {
 font-size: 18px;
 font-weight: 500;
-font-family: 'Urbanist';
 color: #000;
 }
 body .cst-home-banner .box-content-center .box-title2 {
@@ -1466,7 +1465,7 @@ object-fit: cover;
 
 /*quiz-pagecss-start*/
 .cst-knowBody-quiz {
-padding: 120px 60px;
+padding:80px 60px;
 }
 .cst-knowBody-quiz h1 {
 color: #085848;
@@ -1483,10 +1482,34 @@ line-height: 31px;
 border-radius: 0;
 font-weight: 500;
 margin: 0;
+font-family: Outfit, serif;
 }
 .cst-knowBody-quiz .answers {
 font-size: 18px;
 line-height: 38px;
+font-family: 'Urbanist';
+display: flex;
+flex-direction: column;
+}
+.cst-knowBody-quiz button {
+display: inline-block;
+background: #085848;
+color: #f3dfc9;
+padding: 12px 45px;
+font-family: Urbanist;
+font-size: 16px;
+font-weight: 500;
+border: 1px solid #085848;
+transition: .3s;
+text-transform: capitalize;
+margin-top: 20px;
+}
+.cst-knowBody-quiz button:hover {
+background: #085848;
+color: #f3dfc9;
+border-top-left-radius: 16px;
+border-bottom-right-radius: 16px;
+border: 1px solid #085848;
 }
 /*quiz-pagecss-end*/
 
