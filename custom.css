@@ -919,7 +919,7 @@ padding: 0 60px;
 .cst-home-imgText .text-container h3 {
 font-size: 28px;
 color: #085848;
-font-weight: 500;
+font-weight:400;
 margin: 0;
 text-align: left;
 text-transform:none;
@@ -1141,7 +1141,7 @@ font-weight: 500;
 }
 .cst-about-purpose .mission-content h2 {
 font-size: 40px;
-font-weight: 500;
+font-weight: 400;
 color: #085848;
 text-align: left;
 }
@@ -1183,7 +1183,7 @@ margin-bottom: 0;
 }
 .cst-about-vision .mission-content h2 {
 font-size: 40px;
-font-weight: 500;
+font-weight:400;
 color: #085848;
 text-align: left;
 }
