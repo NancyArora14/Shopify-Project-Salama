@@ -1131,6 +1131,9 @@ padding: 20px ;
 height: 28px;
 }
 /*About-Css-start*/
+.cst-about-richtext{
+margin-bottom: 0;
+}
 .cst-about-richtextcontainer h2 {
 color: #085848;
 text-transform: uppercase;
@@ -1559,6 +1562,8 @@ row-gap: 10px;
 }
 .cst-knowBody-quiz .answers span {
 width: calc(50% - 32px);
+font-size: 18px;
+font-weight: 500;
 }
 .cst-knowBody-quiz button {
 display: inline-block;
@@ -1914,9 +1919,9 @@ font-weight: 500;
 font-family: 'Outfit';
 }
 .cst-mainArticle .content-post-default strong {
-    font-size: 15px;
-    color: #085848;
-    font-weight: 600;
+font-size: 15px;
+color: #085848;
+font-weight: 600;
 }
 .cst-mainArticle .article-page .content-single-blog .post-details .article_title {
 font-size: 40px;
@@ -2024,6 +2029,10 @@ font-size: 13px;
 body #header .menu ul .nav-item{
 margin-right: 12px;
 }
+.cst-knowBody-quiz .answers span{
+font-size: 16px;
+line-height: normal;
+}
 }
 @media screen and (max-width:1390px){
 #header li.nav-item.dropdown:nth-last-child(1) a{
@@ -2086,6 +2095,18 @@ font-size: 15px;
 }
 }
 @media screen and (max-width:991px){
+.cst-knowBody-quiz {
+    padding: 40px 20px;
+}
+.cst-knowBody-quiz .answers {
+    flex-direction: column;
+}
+.cst-knowBody-quiz .answers span{
+    width: 100%;
+}
+.cst-knowBody-quiz h1{
+    font-size: 35px;
+}
 .cst-issues-symptoms .custom-banner-right img {
 max-width: 100%;
 }
@@ -2095,11 +2116,14 @@ flex-direction: column-reverse;
 .page-pitta .cst-bodyType-richtext.container-v1{
 padding: 30px 0;
 }
+.cst-about-richtext .rich-text__heading-- h2{
+font-size: 35px;
+}
 .cst-mainArticle .article-page .content-single-blog .post-details .article_title{
 font-size: 24px;
 }
 .cst-mainArticle h2.title-single-related-post{
-    font-size: 35px !important;
+font-size: 35px !important;
 }
 .cst-therapies-Benefits h2.heading-title, .cst-issues-ayurvedic h2{
 font-size: 35px;
