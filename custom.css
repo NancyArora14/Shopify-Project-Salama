@@ -1898,6 +1898,8 @@ font-weight: 500;
 font-size: 40px;
 line-height: normal;
 margin-bottom: 0;
+font-family: 'Outfit';
+letter-spacing: 0;
 }
 .cst-mainBlogs h3.title-section-blog::before {
 display: none;
@@ -1911,7 +1913,11 @@ font-size: 16px;
 font-weight: 500;
 font-family: 'Outfit';
 }
-
+.cst-mainArticle .content-post-default strong {
+    font-size: 15px;
+    color: #085848;
+    font-weight: 600;
+}
 .cst-mainArticle .article-page .content-single-blog .post-details .article_title {
 font-size: 40px;
 font-weight: 500;
@@ -1992,8 +1998,8 @@ border-top-left-radius: 16px;
 border-bottom-right-radius: 16px;
 }
 .cst-mainArticle .article-page .content-single-blog .post-details .single-post-thumb img {
-    height: 550px;
-    object-fit: cover;
+height: 550px;
+object-fit: cover;
 }
 /* Blog-css-end */
 
@@ -2090,10 +2096,10 @@ flex-direction: column-reverse;
 padding: 30px 0;
 }
 .cst-mainArticle .article-page .content-single-blog .post-details .article_title{
-    font-size: 24px;
+font-size: 24px;
 }
-.cst-mainArticle .article-page .content-single-blog .post-details .article_title{
-    font-size: 35px; 
+.cst-mainArticle h2.title-single-related-post{
+    font-size: 35px !important;
 }
 .cst-therapies-Benefits h2.heading-title, .cst-issues-ayurvedic h2{
 font-size: 35px;
