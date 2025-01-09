@@ -958,6 +958,10 @@ font-family: Urbanist;
 section.cst-home-faq {
 padding: 0 50px 120px;
 }
+.cst-home-faq .page_aboutus_v1.page_FQA .asked {
+    margin-top: 0;
+    padding-top: 40px;
+}
 .cst-home-faq .asked {
 margin: 0 !important;
 }
@@ -1896,6 +1900,9 @@ flex-direction: column-reverse;
 .page-pitta .cst-bodyType-richtext.container-v1{
 padding: 30px 0;
 }
+.cst-faqPage-Faq .newsletter .box-content h3{
+    font-size: 35px;
+}
 .page-pitta .cst-maincontnet-wrapp .custom-banner-heading{
 font-size: 35px;
 }
@@ -2022,6 +2029,9 @@ padding:0 20px;
 }
 .cst-about-accordiansText .main-content {
 margin-bottom: 0;
+}
+.page_aboutus_v1.page_FQA .asked .content_askeds .box_content_question .title_question{
+    font-size: 18px;
 }
 .cst-issues-imgText .text-container h3{
 font-size: 24px;
