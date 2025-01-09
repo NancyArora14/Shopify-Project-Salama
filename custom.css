@@ -1892,6 +1892,26 @@ color: #085848;
 text-align: left;
 font-family: 'Urbanist';
 }
+.cst-faqPage-Faq  .newsletter .box-email .btn-primary {
+display: inline-block;
+background: #085848;
+color: #f3dfc9;
+padding: 12px 45px;
+font-family: Urbanist;
+font-size: 16px;
+font-weight: 500;
+border: 1px solid;
+transition: .3s;
+text-transform: capitalize;
+margin-top: 20px;
+}
+
+.cst-faqPage-Faq .newsletter .box-email .btn-primary:hover{
+background: #085848;
+color: #f3dfc9;
+border-top-left-radius: 16px;
+border-bottom-right-radius: 16px;
+}
 /* faq-css-end */
 
 /* Blog-css-start */
@@ -2096,16 +2116,16 @@ font-size: 15px;
 }
 @media screen and (max-width:991px){
 .cst-knowBody-quiz {
-    padding: 40px 20px;
+padding: 40px 20px;
 }
 .cst-knowBody-quiz .answers {
-    flex-direction: column;
+flex-direction: column;
 }
 .cst-knowBody-quiz .answers span{
-    width: 100%;
+width: 100%;
 }
 .cst-knowBody-quiz h1{
-    font-size: 35px;
+font-size: 35px;
 }
 .cst-issues-symptoms .custom-banner-right img {
 max-width: 100%;
