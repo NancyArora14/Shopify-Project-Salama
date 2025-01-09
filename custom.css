@@ -253,7 +253,7 @@ padding: 12px 45px;
 font-family: Urbanist;
 font-size: 16px;
 font-weight: 500;
-border: 1px solid #f3dfc9;
+border: 1px solid ;
 transition: .3s;
 text-transform: capitalize;
 margin-top: 20px;
@@ -354,8 +354,9 @@ text-align: center;
 }
 .cst-home-imgText .text-container p {
 font-size: 18px;
-font-weight: 500;
+font-weight: 400;
 color: #000;
+line-height: normal;
 }
 body .cst-home-banner .box-content-center .box-title2 {
 font-family: "Outfit", serif !important;
@@ -958,9 +959,9 @@ font-family: Urbanist;
 section.cst-home-faq {
 padding: 0 50px 120px;
 }
-.cst-home-faq .page_aboutus_v1.page_FQA .asked {
-    margin-top: 0;
-    padding-top: 40px;
+.cst-faqPage-Faq .asked {
+margin-top: 0 !important;
+padding-top: 40px !important;
 }
 .cst-home-faq .asked {
 margin: 0 !important;
@@ -1359,6 +1360,29 @@ height: 8px;
 /*About-Css-end*/
 
 /*our-services-offerings-Css-start*/
+.cst-therapies-Benefits h2 {
+font-size: 40px;
+font-weight: 500;
+color: #085848;
+margin-bottom: 50px;
+}
+
+.cst-therapies-Benefits.custom-multi-column {
+padding: 50px 0;
+}
+
+.cst-therapies-Benefits .image-block {
+max-width: 75px;
+}
+.cst-therapies-Benefits .item.column {
+flex-direction: column-reverse;
+}
+.cst-therapies-therapy .custom-banner-left {
+display: flex
+;
+flex-direction: column;
+justify-content: center;
+}
 .cst-therapies-Benefitscontainer {
 margin: 0 auto;
 padding-bottom: 80px;
@@ -1469,6 +1493,35 @@ line-height: 24px;
 .cst-issues-imgText .image-container img {
 height: 100%;
 object-fit: cover;
+}
+.cst-therapies-Benefits  h2.heading-title {
+font-size: 40px;
+font-weight: 500;
+color: #085848;
+}
+.cst-issues-ayurvedic h2 {
+font-size: 40px;
+font-weight: 500;
+color: #085848;
+}
+.cst-issues-ayurvedic li {
+font-size: 16px;
+color: #085848;
+font-weight: 500;
+line-height: 25px;
+}
+.cst-issues-ayurvedic.container {
+margin-bottom: 0;
+padding: 50px;
+}
+.cst-therapies-Benefits .cst-issues-ayurvedic {
+margin-bottom: 0;
+}
+.cst-therapies-Benefits  .rich-text__content li,p {
+font-size: 16px;
+color: #085848;
+font-weight: 500;
+line-height: 25px;
 }
 /*our-services-offerings-css-end*/
 
@@ -1763,50 +1816,186 @@ margin: 0 auto;
 /* page-pitta-css-end */
 
 /* faq-css-start */
+.breadcrumb_collection2 .bg-breadcrumb {
+position: relative;
+}
+.breadcrumb_collection2 .bg-breadcrumb::after {
+position: absolute;
+content: '';
+width: 100%;
+background: #1a1818b3;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+}
 .cst-faqPage-Faq .breadcrumb_collection2 .bg-breadcrumb .title-page h2 {
-    font-size: 40px;
-    font-weight: 500;
-    color: #f3dfc9;
-    padding-top: 30px;
-    font-family: 'Outfit';
+font-size: 40px;
+font-weight: 500;
+color: #f3dfc9;
+padding-top: 30px;
+font-family: 'Outfit';
+z-index: 1;
+}
+.cst-about-richtext .rich-text__heading-- h2 {
+font-size: 40px;
+font-weight: 500;
+padding-top: 50px;
+font-family: 'Outfit';
+color: #085848;
 }
 .cst-faqPage-Faq  .wrap-bread-crumb .bread-crumb a {
-    font-size: 18px;
-    color: #f3dfc9;
-    font-family: 'Urbanist';
+font-size: 18px;
+color: #f3dfc9;
+font-family: 'Urbanist';
+z-index: 1;
+position: relative;
+}
+.cst-faqPage-Faq .wrap-bread-crumb .bread-crumb a:hover {
+color: #fff;
 }
 .cst-faqPage-Faq  .breadcrumb_collection2 .bg-breadcrumb .bread-crumb strong{
-    font-size: 18px;
-    color: #f3dfc9;
-    font-family: 'Urbanist';
+font-size: 18px;
+color: #f3dfc9;
+font-family: 'Urbanist';
+z-index: 1;
+position: relative;
 }
- .cst-faqPage-Faq .newsletter .box-content h3 {
-    font-size: 40px !important;
-    font-weight: 400 !important;
-    color: #085848;
-    line-height: normal !important;
-    text-align: center;
+.cst-faqPage-Faq .newsletter .box-content h3 {
+font-size: 40px !important;
+font-weight: 500 !important;
+color: #085848;
+line-height: normal !important;
+text-align: center;
 }
 body .cst-faqPage-Faq .top_asked p.mb-0 {
-    font-size: 18px;
-    color: #000;
+font-size: 18px;
+color: #000;
 }
 .cst-faqPage-Faq h3 {
-    color: #085848;
+color: #085848;
 }
 body .cst-faqPage-Faq .card-body {
-    font-size: 18px;
-    color: #000;
-    font-family: 'Urbanist';
+font-size: 18px;
+color: #000;
+font-family: 'Urbanist';
 }
 .page_aboutus_v1.page_FQA .asked .content_askeds .box_content_question .title_question {
-    font-size: 24px;
-    font-weight: 500;
-    color: #085848;
-    text-align: left;
-    font-family: 'Urbanist';
+font-size: 24px;
+font-weight: 500;
+color: #085848;
+text-align: left;
+font-family: 'Urbanist';
 }
 /* faq-css-end */
+
+/* Blog-css-start */
+.cst-mainBlogs h3.title-section-blog {
+text-align: center;
+display: block;
+color: #085848 !important;
+font-weight: 500;
+font-size: 40px;
+line-height: normal;
+margin-bottom: 0;
+}
+.cst-mainBlogs h3.title-section-blog::before {
+display: none;
+}
+.cst-mainBlogs .section-blog-v2 .info_blog .title-blog a:hover {
+color: #085848;
+}
+.cst-mainArticle .breadcrumb-noheading strong {
+color: #085848;
+font-size: 16px;
+font-weight: 500;
+font-family: 'Outfit';
+}
+
+.cst-mainArticle .article-page .content-single-blog .post-details .article_title {
+font-size: 40px;
+font-weight: 500;
+color: #f3dfc9;
+}
+
+.cst-mainArticle  .article-page .content-single-blog .post-details .cmt-author .date-post i  a {
+COLOR: #f3dfc9;
+}
+
+.cst-mainArticle  .content-post-default p {
+font-size: 23px;
+line-height: normal;
+}
+
+.cst-mainArticle  .article-page .content-single-blog .post-details .content-post-default p {
+font-size: 18px;
+color: #000;
+line-height: 29px;
+}
+
+.cst-mainArticle  .article-page .content-single-blog .post-details .content-post-default ol {
+padding: 0;
+}
+.cst-mainArticle  .content-post-default p strong {
+color: #085848;
+font-size: 15px;
+font-weight: 600;
+}
+.cst-mainArticle h3 {
+padding-top: 20px;
+color: #085848 ;
+font-size: 24px;
+font-weight: 300;
+}
+.cst-mainArticle h3::before{
+display: none !important;
+}
+.cst-mainArticle .article-page .content-single-blog .next_prev_post a {
+color: #085848;
+border-bottom: 1px solid;
+}
+.cst-mainArticle h2.title-single-related-post {
+font-size: 40px !important;
+color: #085848  !important;
+font-weight: 500 !important;
+}
+.cst-mainArticle h2.title-single-related-post:before {
+display: none;
+}
+.cst-mainArticle .article-page .content-single-blog .single-related-post .blog_grid .post-info .blog-title {
+color: #085848;
+font-size: 16px;
+}
+.cst-mainArticle .article-page .content-single-blog .single-related-post .blog_grid .post-info .post-title a:after {
+color: #000;
+font-weight: 500;
+}
+.cst-mainArticle .article-page .content-single-blog .single-related-post .blog_grid .post-info .btn_readmore span {
+display: inline-block;
+background: #085848;
+color: #f3dfc9;
+padding: 12px 45px;
+font-family: Urbanist;
+font-size: 16px;
+font-weight: 500;
+border: 1px solid;
+transition: .3s;
+text-transform: capitalize;
+}
+.cst-mainArticle .article-page .content-single-blog .single-related-post .blog_grid .post-info .btn_readmore span:after{
+display: none;
+}
+.cst-mainArticle .article-page .content-single-blog .single-related-post .blog_grid .post-info .btn_readmore span:hover{
+background: #085848;
+color: #f3dfc9;
+border-top-left-radius: 16px;
+border-bottom-right-radius: 16px;
+}
+.cst-mainArticle .article-page .content-single-blog .post-details .single-post-thumb img {
+    height: 550px;
+    object-fit: cover;
+}
+/* Blog-css-end */
 
 /* Responsive-Css-Start */
 
@@ -1900,8 +2089,23 @@ flex-direction: column-reverse;
 .page-pitta .cst-bodyType-richtext.container-v1{
 padding: 30px 0;
 }
+.cst-mainArticle .article-page .content-single-blog .post-details .article_title{
+    font-size: 24px;
+}
+.cst-mainArticle .article-page .content-single-blog .post-details .article_title{
+    font-size: 35px; 
+}
+.cst-therapies-Benefits h2.heading-title, .cst-issues-ayurvedic h2{
+font-size: 35px;
+}
 .cst-faqPage-Faq .newsletter .box-content h3{
-    font-size: 35px;
+font-size: 35px !important;
+}
+.cst-mainBlogs h3.title-section-blog{
+font-size: 35px;
+}
+.cst-therapies-Benefits h2{
+font-size: 35px;
 }
 .page-pitta .cst-maincontnet-wrapp .custom-banner-heading{
 font-size: 35px;
@@ -2031,7 +2235,7 @@ padding:0 20px;
 margin-bottom: 0;
 }
 .page_aboutus_v1.page_FQA .asked .content_askeds .box_content_question .title_question{
-    font-size: 18px;
+font-size: 18px;
 }
 .cst-issues-imgText .text-container h3{
 font-size: 24px;
