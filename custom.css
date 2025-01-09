@@ -356,7 +356,7 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 color: #000;
-line-height: normal;
+line-height: 28px;
 }
 body .cst-home-banner .box-content-center .box-title2 {
 font-family: "Outfit", serif !important;
@@ -957,7 +957,7 @@ font-size: 14px;
 font-family: Urbanist;
 }
 section.cst-home-faq {
-padding: 0 50px 120px;
+padding: 50px  50px 120px;
 }
 .cst-faqPage-Faq .asked {
 margin-top: 0 !important;
@@ -1149,6 +1149,10 @@ text-align: left;
 color: #000;
 font-size: 18px;
 font-family: Urbanist;
+font-weight: 400;
+}
+.cst-about-purpose .mission-content p em {
+font-style: normal;
 }
 .cst-about-purpose .mission-container {
 max-width: 1440px;
@@ -1191,6 +1195,7 @@ text-align: left;
 color: #000000;
 font-size: 18px;
 font-family: Urbanist;
+font-weight:400;
 }
 .cst-about-vision .mission-container {
 max-width: 1440px;
