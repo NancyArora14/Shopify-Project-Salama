@@ -1660,7 +1660,7 @@ height: 100%;
 object-fit: cover;
 }
 
-.cst-bodyType-messagecontainer {
+.page-pitta .cst-bodyType-messagecontainer {
 text-align: left;
 width: 100%;
 margin: 0 auto;
@@ -1668,42 +1668,91 @@ padding: 20px 20px;
 max-width: 100%;
 background: #08584875;
 }
-.cst-bodyType-messagecontainer .grid {
+.page-pitta .cst-bodyType-messagecontainer .grid {
 max-width: 1200px;
 margin: 0 auto;
 }
-.cst-bodyType-messagecontainer h1 {
+.page-pitta .cst-bodyType-messagecontainer h1 {
 font-size: 24px;
 }
-.cst-bodyType-Video {
+.page-pitta .cst-bodyType-Video {
 width: 100%;
 max-width: 1200px;
 margin: 0 auto;
-padding: 40px 20px;
+padding: 0 20px;
 }
-.cst-bodyType-AboutAyurvedacontainer {
+.page-pitta .cst-bodyType-AboutAyurvedacontainer {
 margin: 0 auto;
 max-width: 1200px;
 padding: 0 20px;
 }
 
-.cst-bodyType-richtext2container {
+.page-pitta .cst-bodyType-richtext2container {
 margin: 0 auto;
 padding: 40px 20px;
 max-width: 1200px;
 }
 
-body .cst-bodyType-image1 {
-max-width: 700px;
+.page-pitta .cst-bodyType-image1 {
+max-width: 1160px;
 margin: 0 auto;
-padding: 50px 20px 0;
+padding: 0 20px 0;
 }
+.page-pitta .cst-bodyType-image1 img {
+max-width: 100%;
+height: 653px;
+width: 100%;
+object-fit: cover;
+}
+
+
 .page-pitta .cst-main-bannercnt.container {
-padding: 0 20px;
+padding: 0 60px;
+max-width: 100%;
+margin: 0 auto;
 }
 .page-pitta .cst-maincontnet-wrapp .custom-banner-heading {
 text-align: center;
 margin: 0 0 40px;
+font-size: 40px;
+font-weight: 500;
+color: #085848;
+}
+.page-pitta .custom-banner-left {
+display: flex
+;
+flex-direction: column;
+justify-content: center;
+}
+.page-pitta .custom-banner-left p{
+font-size: 16px;
+color: #085848;
+font-weight: 500;
+line-height: 24px;
+}
+.page-pitta .custom-banner-right img{
+max-width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.page-pitta .cst-bodyType-richtext h2.heading-title{
+font-size: 40px;
+font-weight: 500;
+color: #085848;
+margin: 0;
+}
+.page-pitta .cst-bodyType-richtext .rich-text__content{
+padding: 20px;
+}
+.page-pitta .cst-bodyType-richtext .rich-text__content p{
+font-size: 16px;
+color: #085848;
+font-weight: 500;
+line-height: 25px;
+}
+.page-pitta .cst-bodyType-richtext.container-v1 {
+padding: 60px 0;
+margin: 0 auto;
 }
 /* Responsive-Css-Start */
 
@@ -1794,8 +1843,17 @@ max-width: 100%;
 body .custom-banner-main.reverse-order {
 flex-direction: column-reverse;
 }
+.page-pitta .cst-bodyType-richtext.container-v1{
+padding: 30px 0;
+}
+.page-pitta .cst-maincontnet-wrapp .custom-banner-heading{
+font-size: 35px;
+}
+.page-pitta .cst-bodyType-richtext h2.heading-title{
+font-size: 35px;
+}
 .cst-home-table.custom-table-section h2{
-    font-size: 35px;
+font-size: 35px;
 }
 .cst-about-vision .mission-content h2{
 font-size: 35px;
@@ -1899,6 +1957,12 @@ width: 100%;
 }
 }
 @media screen and (max-width:789px){
+.page-pitta .cst-bodyType-richtext h2.heading-title{
+font-size: 24px;
+}
+.page-pitta .custom-banner-main {
+flex-direction: column-reverse;
+}
 .cst-home-faq .col-lg-12.top_asked{
 padding-left: 20px !important;
 padding-right: 20px !important;
@@ -1935,7 +1999,7 @@ padding: 40px 20px;
 padding: 60px 0  !important;
 }
 body .cst-main-bannercnt.container {
-padding: 0 20px;
+padding: 0 20px !important;
 }
 .cst-home-imgText .container {
 max-width: 100%;
@@ -2067,20 +2131,23 @@ flex-direction: row;
 width: 100%;
 }
 
-body .custom-banner-main {
+.page-pitta .custom-banner-main {
 flex-wrap: wrap;
 flex-direction: column-reverse;
 }
 
-body .custom-banner-left {
+.page-pitta .custom-banner-left {
 width: 100%;
 flex: inherit;
 }
-body .custom-banner-right img {
+.page-pitta  .custom-banner-right img {
 max-width: 100%;
 }
 .page-pitta .custom-banner-heading {
 font-size: 30px;
+}
+.page-pitta .cst-bodyType-image1 img{
+height: 450px;
 }
 }
 @media screen and (max-width:575px){
