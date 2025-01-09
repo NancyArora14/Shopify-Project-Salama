@@ -1468,7 +1468,7 @@ object-fit: cover;
 }
 /*our-services-offerings-css-end*/
 
-/*quiz-pagecss-start*/
+/*quiz-page-css-start*/
 .cst-knowBody-quiz {
 padding:80px 60px;
 }
@@ -1523,9 +1523,8 @@ border-top-left-radius: 16px;
 border-bottom-right-radius: 16px;
 border: 1px solid #085848;
 }
-/*quiz-pagecss-end*/
 
-/* 23-12-2024 */
+
 div#quiz-kit-question-wrapper-145749 {
 background: #f3dfc9;
 }
@@ -1563,6 +1562,7 @@ font-family: Urbanist !important;
 div#quiz-kit-question-radio-buttons-145752 button{
 font-family: Urbanist !important;
 }
+
 .cst-home-faq .card-body {
 font-size: 16px !important;
 font-family: 'Urbanist';
@@ -1659,7 +1659,9 @@ body .cst-about-imageText1 .image-container img {
 height: 100%;
 object-fit: cover;
 }
+/*quiz-page-css-end*/
 
+/* page-pitta-css-start */
 .page-pitta .cst-bodyType-messagecontainer {
 text-align: left;
 width: 100%;
@@ -1754,6 +1756,54 @@ line-height: 25px;
 padding: 60px 0;
 margin: 0 auto;
 }
+/* page-pitta-css-end */
+
+/* faq-css-start */
+.cst-faqPage-Faq .breadcrumb_collection2 .bg-breadcrumb .title-page h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #f3dfc9;
+    padding-top: 30px;
+    font-family: 'Outfit';
+}
+.cst-faqPage-Faq  .wrap-bread-crumb .bread-crumb a {
+    font-size: 18px;
+    color: #f3dfc9;
+    font-family: 'Urbanist';
+}
+.cst-faqPage-Faq  .breadcrumb_collection2 .bg-breadcrumb .bread-crumb strong{
+    font-size: 18px;
+    color: #f3dfc9;
+    font-family: 'Urbanist';
+}
+ .cst-faqPage-Faq .newsletter .box-content h3 {
+    font-size: 40px !important;
+    font-weight: 400 !important;
+    color: #085848;
+    line-height: normal !important;
+    text-align: center;
+}
+body .cst-faqPage-Faq .top_asked p.mb-0 {
+    font-size: 18px;
+    color: #000;
+}
+.cst-faqPage-Faq h3 {
+    color: #085848;
+}
+body .cst-faqPage-Faq .card-body {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Urbanist';
+}
+.page_aboutus_v1.page_FQA .asked .content_askeds .box_content_question .title_question {
+    font-size: 24px;
+    font-weight: 500;
+    color: #085848;
+    text-align: left;
+    font-family: 'Urbanist';
+}
+/* faq-css-end */
+
 /* Responsive-Css-Start */
 
 @media screen and (max-width:1530px){
