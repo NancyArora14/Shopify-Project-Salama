@@ -1794,6 +1794,7 @@ body {
   }
   body .cst-text-health-issue .image-row img {
   width: 100%;
+  object-fit: fill;
   }
   body .cst-text-health-issue .image-row  {
   height: 100%;
@@ -1834,6 +1835,7 @@ body {
   }
   .cst-issues-AyurvedicPerspective.image-with-text-section ul {
   padding-left: 20px;
+  margin-bottom: 0;
   }
   body .cst-custom-grid-heath-issues {
   padding: 0 60px 50px;
@@ -3359,6 +3361,21 @@ body {
   
   .cst-home-treatment .text-block {
   white-space: nowrap;
+  }
+  .cst-issues-AyurvedicPerspective .text-container h3{
+    line-height: 38px;
+  }
+  .cst-issues-AyurvedicPerspective .text-container .cst-content p{
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .cst-issues-AyurvedicPerspective .text-container li{
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .cst-issues-AyurvedicPerspective .maincontent.maincontent2 p{
+    font-size: 18px;
+    line-height: 23px;
   }
   }
   
