@@ -134,7 +134,6 @@ body {
   #header .menu ul .nav-item .nav-link:focus,
   #header .menu ul .nav-item .nav-link:hover {
   color: #f3dfc9 !important;
-  border-bottom: 1px solid !important;
   }
   
   #header .container-v1 {
@@ -2603,10 +2602,12 @@ body {
   }
   
   .cst-mainArticle .article-page .content-single-blog .single-related-post .blog_grid .post-info .post-title a:after {
-  color: #000;
+    color: #085848;
   font-weight: 500;
   }
-  
+  .article-page .content-single-blog .single-related-post .blog_grid .post-info .post-title a{
+    font-family: Urbanist;
+  }
   .cst-mainArticle .article-page .content-single-blog .single-related-post .blog_grid .post-info .btn_readmore span {
   display: inline-block;
   background: #085848;
