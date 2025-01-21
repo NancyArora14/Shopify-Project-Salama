@@ -1834,7 +1834,7 @@ body {
   text-align: left;
   }
   .cst-issues-AyurvedicPerspective.image-with-text-section ul {
-  padding-left: 20px;
+  padding-left: 35px;
   margin-bottom: 0;
   }
   body .cst-custom-grid-heath-issues {
@@ -1941,6 +1941,7 @@ body {
   .m-cst-issues-time  .cst-weeek-month p {
   color: #F3DFC9 !important;
   font-size: 20px;
+  line-height: normal;
   }
   body .cst-issues-symptoms {
   padding: 80px 0;
