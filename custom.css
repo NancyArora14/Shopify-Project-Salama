@@ -1904,7 +1904,7 @@ list-style: disc;
   color: #085a48;
   text-align: left;
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 0;
 }
 .cst-custom-wich-text-with-images.container {
   max-width: 100%;
@@ -1914,6 +1914,10 @@ list-style: disc;
 .cst-custom-wich-text-with-images .rich-text__content {
   text-align: left;
   width: 70%;
+  display: flex
+;
+  flex-direction: column;
+  justify-content: center;
 }
 .cst-custom-wich-text-with-images .grid {
  display: flex;
@@ -2878,30 +2882,17 @@ object-fit: cover;
 
 /* tab css-start */
 
-:root {
-/* Tabs specific */
---primary-color: #646cff;
---background-color: #000;
---text-color: rgba(255, 255, 255, 0.87);
---border-color: rgba(255, 255, 255, 0.05);
-/* Colors */
---tabs-gap: 0.5rem;
---tab-padding: 0.75rem 1.25rem;
---tab-border-radius: 8px;
---tab-font-size: 1rem;
---tab-font-weight: 500;
---tabs-nav-padding: 0.375rem;
-}
+
 .cst-custom-tab-section-only .tabs {
 width: 100%;
 max-width: 1240px;
-margin: 80px auto;
+margin: 0 auto;
 background: #f8f3e9;
 padding: 40px;
 border-radius: 20px;
 }
 .cst-custom-tab-section-only {
-padding: 30px;
+padding:0 30px;
 }
 .cst-custom-tab-section-only .tab-flex {
 display: grid;
