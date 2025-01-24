@@ -1922,11 +1922,38 @@ list-style: disc;
 .cst-custom-wich-text-with-images .grid {
  display: flex;
 }
-.rich-text-with-image-icons img {
+
+.cst-custom-wich-text-with-images  .rich-text-with-image-icons img {
   display: flex
 ;
   justify-content: end;
   margin-left: auto;
+}
+
+.cst-custom-banner-v2-therapies-page a.button-shop.button-shop-template--17663614976185__section_banner_v2_Jz6FbG {
+  transition: .3s;
+  text-transform: capitalize;
+  padding: 12px 45px;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cst-custom-banner-v2-therapies-page .section-banner-v2 .banner-box .banner-info .button-shop-template--17663614976185__section_banner_v2_Jz6FbG:hover{
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.cst-custom-banner-v2-therapies-page h3 {
+  font-size: 40px !important;
+  font-weight: 400 !important;
+  font-family: 'Outfit' !important;
+}
+.cst-custom-banner-v2-therapies-page .section-banner-v2 .banner-box .banner-info.content-left {
+  left: 0;
+  padding: 0 60px;
+}
+.cst-custom-banner-v2-therapies-page  p.sub-title {
+  max-width: 850px;
+  line-height: 140%;
 }
 .cst-custom-wich-text-with-images .rich-text-with-image-icons {
   width: 30%;
@@ -2885,8 +2912,6 @@ object-fit: cover;
 /* Blog-css-end */
 
 /* tab css-start */
-
-
 .cst-custom-tab-section-only .tabs {
   width: 100%;
   max-width: 100%;
@@ -2894,8 +2919,9 @@ object-fit: cover;
   padding: 0;
 }
 .cst-custom-tab-section-only {
-  padding: 60px 30px;
+  padding: 60px;
   background: #FDF9F4;
+  margin-bottom: 50px;
 }
 .cst-custom-tab-section-only .tab-flex {
 display: grid;
@@ -2914,7 +2940,7 @@ justify-content: space-between;
 }
 
 .cst-custom-tab-section-only .tab-button {
-  width: 100%;
+  width: 100% !important;
   flex: 1;
   all: unset;
   position: relative;
@@ -2928,6 +2954,7 @@ justify-content: space-between;
   text-align: center;
   white-space: nowrap;
   z-index: 1;
+  color: #085848;
   background: #CCD9D2;
 }
 
@@ -2937,7 +2964,7 @@ color: #fff;
 
 .tab-button:hover,
 .tab-button[aria-selected="true"] {
-color: #fff;
+color: #F3DFC9;
 background: #085A48;
 }
 .cst-custom-tab-section-only .tabs-indicator {
@@ -2951,7 +2978,7 @@ box-shadow: 0 0 0 1px var(--border-color), 0 4px 12px rgba(0, 0, 0, 0.1);
 will-change: transform, width;
 }
 .cst-custom-tab-section-only .tab-panel {
-padding: 20px;
+padding: 20px 0;
 background: transparent;
 border-radius: var(--tab-border-radius);
 display: none;
