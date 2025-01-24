@@ -31,6 +31,9 @@ font-family: "Outfit", serif;
 /*marque-start*/
 
 /*dropdown-start*/
+.box_contentmenu .tab_content_menu_mobile .tab-content #tab_menu_mobile .menu-horizon-list .toggle-menumobile i {
+color: #f3dfc9;
+}
 #header .menu ul .nav-item .list-woman.page {
 padding-top: 0;
 }
@@ -2245,64 +2248,67 @@ margin: 0 auto;
 /*our-services-offerings-css-end*/
 
 /*quiz-page-css-start*/
+.cst-knowBody-quiz .result-button {
+text-align: end;
+}
 .cst-knowBody-quiz .quix-wrap-content {
-  padding: 40px;
-  background: #FBF5EF;
-  margin-bottom: 24px;
-  position: relative;
-  z-index: 1;
+padding: 40px;
+background: #FBF5EF;
+margin-bottom: 24px;
+position: relative;
+z-index: 1;
 }
 .cst-knowBody-quiz .quix-wrap-content::after {
-  position: absolute;
-  top: 15%;
-  bottom: 0;
-  right: 0; 
-  left: auto; 
-  background-image: url(/cdn/shop/files/Group_3_1.png?v=1737712781);
-  content: "";
-  height: 644px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: right center; 
-  object-fit: cover;
-  background-size: contain;
-  margin-right: 0;
-  margin-left: auto;
-  z-index: -1;
+position: absolute;
+top: 15%;
+bottom: 0;
+right: 0; 
+left: auto; 
+background-image: url(/cdn/shop/files/Group_3_1.png?v=1737712781);
+content: "";
+height: 644px;
+width: 100%;
+background-repeat: no-repeat;
+background-position: right center; 
+object-fit: cover;
+background-size: contain;
+margin-right: 0;
+margin-left: auto;
+z-index: -1;
 }
 .cst-custom-banner-v2-quiz-page .banner-info.content-left {
-  left: 0 !important;
-  padding-left: 60px !important;
+left: 0 !important;
+padding-left: 60px !important;
 }
 
 .cst-custom-banner-v2-quiz-page .section-banner-v2 .banner-box .banner-info .title {
-  font-size: 40px;
-  font-weight: 500;
-  font-family: 'Outfit';
+font-size: 40px;
+font-weight: 500;
+font-family: 'Outfit';
 }
 
 .cst-custom-banner-v2-quiz-page  p.sub-title {
-  max-width: 700px;
-  line-height: 150%;
-  font-size: 18px;
+max-width: 700px;
+line-height: 150%;
+font-size: 18px;
 }
 
 .cst-custom-banner-v2-quiz-page .section-banner-v2 {
 margin-top: 0px;
 }
 .cst-knowBody-quiz {
-  padding: 80px 220px;
-  max-width: 100%;
-  margin: 0 auto;
+padding: 40px 220px;
+max-width: 100%;
+margin: 0 auto;
 }
 
 .cst-knowBody-quiz h1 {
-  color: #085848;
-  font-size: 32px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  text-align: left;
+color: #085848;
+font-size: 32px;
+font-weight: 500;
+text-transform: uppercase;
+margin-bottom: 30px;
+text-align: left;
 }
 
 .cst-knowBody-quiz .question label {
@@ -2316,22 +2322,22 @@ font-family: Outfit, serif;
 }
 
 .cst-knowBody-quiz .answers {
-  font-size: 16px;
-  line-height: 38px;
-  font-family: Urbanist;
-  display: flex
+font-size: 16px;
+line-height: 38px;
+font-family: Urbanist;
+display: flex
 ;
-  justify-content: start;
-  gap: 32px;
-  margin-bottom: 20px;
-  flex-direction: column;
-  row-gap: 10px;
+justify-content: start;
+gap: 32px;
+margin-bottom: 20px;
+flex-direction: column;
+row-gap: 10px;
 }
 
 .cst-knowBody-quiz .answers span {
-  font-size: 16px;
-  font-weight: 500;
-  color: #085A48;
+font-size: 16px;
+font-weight: 500;
+color: #085A48;
 }
 
 .cst-knowBody-quiz button {
@@ -2532,6 +2538,7 @@ body
 .menu-horizon-list
 .nammenu {
 color: #f3dfc9;
+font-family: 'Urbanist';
 }
 
 body
@@ -2546,6 +2553,8 @@ border-bottom: 1px solid #f3dfc9;
 body .box_contentmenu .tab_content_menu_mobile .close-menu-mobile {
 background-color: #f3dfc9;
 color: #085848;
+font-family: 'Urbanist';
+font-weight: 500;
 }
 
 body .cst-about-imageText1 .image-container img {
@@ -2976,6 +2985,9 @@ object-fit: cover;
 /* Blog-css-end */
 
 /* tab css-start */
+.cst-custom-tab-section-therapies-page .tab-lists {
+min-height: 357px;
+}
 .cst-custom-tab-section-only .tabs {
 width: 100%;
 max-width: 100%;
@@ -3043,7 +3055,7 @@ box-shadow: 0 0 0 1px var(--border-color), 0 4px 12px rgba(0, 0, 0, 0.1);
 will-change: transform, width;
 }
 .cst-custom-tab-section-only .tab-panel {
-padding: 20px 0;
+padding-top: 20px ;
 background: transparent;
 border-radius: var(--tab-border-radius);
 display: none;
@@ -3094,6 +3106,8 @@ padding-left: 35px;
 .cst-custom-tab-section-only .tab-img img {
 max-width: 100%;
 width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
 .cst-custom-tab-section-only .tab-img {
@@ -3157,8 +3171,8 @@ text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
-  .cst-knowBody-quiz {
-    padding: 80px 100px;
+.cst-knowBody-quiz {
+padding: 40px 100px;
 }
 .cst-custom-tab-section-only .tab-button {
 padding: 8px 133px;
@@ -3267,9 +3281,9 @@ padding: 60px 20px;
 }
 
 @media screen and (max-width: 991px) {
-  .cst-custom-banner-v2-quiz-page .banner-info.content-left{
-    padding-left: 30px !important;
-  }
+.cst-custom-banner-v2-quiz-page .banner-info.content-left{
+padding-left: 30px !important;
+}
 .cst-custom-wich-text-with-images .rich-text-with-image-icons img {
 margin: 0 auto;
 }
@@ -3545,6 +3559,9 @@ flex-direction: column-reverse;
 }
 
 @media screen and (max-width: 789px) {
+.cst-custom-tab-section-therapies-page .tab-lists {
+min-height: unset;
+}
 .cst-custom-banner-v2-therapies-page .section-banner-v2 .box-img-banner img {
 object-position: 75% 43%;
 }
@@ -3555,14 +3572,15 @@ margin-bottom: 0;
 font-size: 30px !important;
 }
 .cst-custom-banner-v2-quiz-page .section-banner-v2 .banner-box .banner-info .title{
-  font-size: 35px;
+font-size: 35px;
 }
 
 .cst-custom-tab-section-only .tab-flex {
-grid-template-columns: 1fr;
+display: flex
+;
 padding-left: 0;
 padding-right: 0;
-gap: 0;
+flex-direction: column-reverse;
 }
 .tabs {
 padding: 25px;
@@ -3868,12 +3886,11 @@ height: 450px;
 }
 
 @media screen and (max-width: 575px) {
-  .cst-knowBody-quiz .quix-wrap-content{
-    padding: 30px 20px;
-  }
+.cst-knowBody-quiz .quix-wrap-content{
+padding: 30px 20px;
+}
 .cst-custom-tab-section-only .tab-flex {
 padding-top: 0;
-gap: 0;
 }
 .cst-custom-tab-section-only .tabs-nav {
 justify-content: center;
