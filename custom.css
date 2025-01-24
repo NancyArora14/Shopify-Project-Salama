@@ -1894,7 +1894,69 @@ font-weight: 400;
 line-height: 160%;
 list-style: disc;
 }
+.cst-custom-image-with-text-therapies {
+  background: #EBF2F0;
+  padding: 0;
+}
+.cst-custom-wich-text-with-images h2.heading-title {
+  line-height: 50px;
+  font-weight: 500;
+  color: #085a48;
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.cst-custom-wich-text-with-images.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px 60px;
+}
+.cst-custom-wich-text-with-images .rich-text__content {
+  text-align: left;
+  width: 70%;
+}
+.cst-custom-wich-text-with-images .grid {
+ display: flex;
+}
+.rich-text-with-image-icons img {
+  display: flex
+;
+  justify-content: end;
+  margin-left: auto;
+}
+.cst-custom-wich-text-with-images .rich-text-with-image-icons {
+  width: 30%;
+}
+.cst-custom-wich-text-with-images .rich-text__content p {
+  font-size: 18px;
+  color: #085848;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
 
+.cst-custom-wich-text-with-images .rich-text__content ul {
+  padding-left: 35px;
+  margin-bottom: 0;
+}
+
+.cst-custom-wich-text-with-images .rich-text__content li {
+  font-size: 18px;
+  color: #085848;
+  line-height: 28px;
+  font-weight: 400;
+  list-style: disc;
+}
+
+.cst-custom-wich-text-with-images .rich-text__content a {
+  color: #b7482b;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.cst-custom-image-with-text-therapies .cst-odd-sec.cst-last-block {
+    margin: 0;
+}
 .cst-custom-image-with-text-therapies .cst-content {
 margin-top: 30px;
 }
