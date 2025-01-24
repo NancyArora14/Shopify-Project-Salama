@@ -1960,7 +1960,7 @@ max-width: 850px;
 line-height: 140%;
 }
 .cst-custom-wich-text-with-images .rich-text__content p:nth-child(4) {
-  margin-top: 10px;
+margin-top: 10px;
 }
 .cst-custom-wich-text-with-images .rich-text__content p {
 font-size: 18px;
@@ -2805,20 +2805,79 @@ display: none;
 .cst-mainBlogs .section-blog-v2 .info_blog .title-blog a:hover {
 color: #085848;
 }
+.cst-mainArticle  .cst-custom-blog-info-right-side {
+display: flex
+;
+align-items: center;
+justify-content: space-between;
+}
+.cst-mainArticle .container {
+max-width: 100%;
+margin: 0 auto;
+padding: 80px 120px;
+}
+.cst-mainArticle .cst-custom-blog-info-right-side h2{
+font-size: 40px;
+color: #085A48;
+font-weight: 500;
+font-family: 'Outfit';
+max-width: 533px;
+margin-top: 20px;
+}
+.cst-mainArticle .cst-custom-blog-info-right-side p{
+font-size: 16px;
+max-width: 900px;
+}
 
+.cst-mainArticle .cst-custom-blog-info-left-side p{
+font-size: 16px;
+}
+.cst-mainArticle .content-post-default h3 {
+color: #B7482B;
+font-size: 24px;
+font-weight: 500;
+line-height: 150%;
+padding-top: 20px;
+}
 .cst-mainArticle .breadcrumb-noheading strong {
 color: #085848;
 font-size: 16px;
 font-weight: 500;
 font-family: "Outfit";
 }
-
-.cst-mainArticle .content-post-default strong {
-font-size: 15px;
-color: #085848;
+.cst-mainArticle .cst-custom-blog-book-consultants h4 {
+font-size: 18px;
+line-height: 27px;
 font-weight: 600;
 }
 
+.cst-mainArticle  .cst-custom-blog-book-consultants p {
+color: #000;
+line-height: 24px;
+max-width: 256px;
+}
+.cst-mainArticle .article-page .content-single-blog .post-details{
+border: 0;
+}
+.cst-mainArticle  .article_sidebar {
+background: #f0f5f4;
+padding: 24px;
+margin-top: 63px;
+max-width: 304px;
+}
+.cst-mainArticle .content-post-default strong {
+font-size: 16px;
+color: #085848;
+font-weight: 700;
+}
+.cst-mainArticle .single-post-thumb img {
+height: 600px;
+object-fit: cover;
+width: 100%;
+}
+.cst-mainArticle .content-post-default ul {
+margin: 20px 0;
+}
 .cst-mainArticle
 .article-page
 .content-single-blog
@@ -2840,22 +2899,42 @@ a {
 color: #f3dfc9;
 }
 
-.cst-mainArticle .content-post-default p {
-font-size: 23px;
-line-height: normal;
+.cst-mainArticle ol.blog-list-items {
+padding-top: 7px !important;
 }
-
+.cst-mainArticle .blog-list-items li {
+margin-bottom: 17px !important;
+}
+.cst-mainArticle .blog-list-items li:last-child {
+margin-bottom: 0;
+}
+.cst-mainArticle .row.next_prev_post{
+display: none;
+}
 .cst-mainArticle
 .article-page
 .content-single-blog
 .post-details
 .content-post-default
 p {
-font-size: 18px;
+font-size: 16px;
 color: #000;
-line-height: 29px;
+line-height: 150%;
 }
-
+.cst-mainArticle .row.cate-tags {
+display: none;
+}
+.cst-mainArticle
+.article-page
+.content-single-blog
+.post-details
+.content-post-default
+li {
+font-size: 16px;
+color: #000;
+line-height: 27px;
+margin: 5px 0;
+}
 .cst-mainArticle
 .article-page
 .content-single-blog
@@ -2863,25 +2942,27 @@ line-height: 29px;
 .content-post-default
 ol {
 padding: 0;
+margin-bottom: 0;
 }
 
 .cst-mainArticle .content-post-default p strong {
 color: #085848;
-font-size: 15px;
+font-size:16px;
 font-weight: 600;
-}
-
-.cst-mainArticle h3 {
-padding-top: 20px;
-color: #085848;
-font-size: 24px;
-font-weight: 300;
 }
 
 .cst-mainArticle h3::before {
 display: none !important;
 }
-
+.cst-mainArticle  p.blog-iframe-video {
+padding-top: 30px;
+}
+.cst-mainArticle  p.blog-iframe-video img { 
+width: 100%;
+object-fit: cover;
+height: 600px;
+padding-bottom: 20px;
+}
 .cst-mainArticle .article-page .content-single-blog .next_prev_post a {
 color: #085848;
 border-bottom: 1px solid;
@@ -2891,8 +2972,32 @@ border-bottom: 1px solid;
 font-size: 40px !important;
 color: #085848 !important;
 font-weight: 500 !important;
+margin-bottom: 20px;
 }
-
+.cst-mainArticle .single-post-date {
+display: none;
+}
+.cst-mainArticle .post-info h4 {
+color: #B7482B;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+padding: 12px 0;
+}
+.cst-mainArticle .post-info a.btn_readmore {
+display: none;
+}
+.cst-mainArticle .post-info h3.post-title.mb-0 {
+font-size: 18px;
+line-height: 22px;
+font-weight: 500;
+}
+.cst-mainArticle .blog_grid .post-thumb img {
+height: 350px;
+width: 100%;
+object-fit: cover;
+margin: 0 auto;
+}
 .cst-mainArticle h2.title-single-related-post:before {
 display: none;
 }
@@ -3139,11 +3244,23 @@ line-height: normal;
 }
 }
 @media screen and (max-width: 1440px) {
+.cst-mainArticle .cst-custom-blog-info-right-side h2{
+font-size: 35px;
+}
+.cst-mainArticle .container {
+padding: 80px;
+}
+.cst-mainArticle .cst-custom-blog-info-right-side{
+align-items: baseline;
+}
 .cst-issues-AyurvedicPerspective .image-container img {
 height: 100%;
 }
 }
 @media screen and (max-width: 1390px) {
+.cst-mainArticle .cst-custom-blog-info-right-side{
+flex-direction: column;
+}
 .cst-about-purpose .mission-content p {
 font-size: 16px;
 }
@@ -3238,6 +3355,17 @@ grid-template-columns: repeat(2, 1fr);
 }
 
 @media screen and (max-width: 1050px) {
+.cst-custom-blog-book-consultants .cst-banner-btn a{
+padding: 8px 39px;
+}
+.cst-mainArticle .article_sidebar {
+margin-top: 0;
+margin-bottom: 50px;
+}
+.cst-mainArticle .post-info h3.post-title.mb-0 {
+font-size: 15px;
+line-height: 22px;
+}
 .cst-custom-banner-v2-therapies-page .section-banner-v2 .banner-box .banner-info.content-left {
 padding: 0 30px;
 }
@@ -3282,6 +3410,12 @@ padding: 60px 20px;
 }
 
 @media screen and (max-width: 991px) {
+.cst-mainArticle .content-post-default h3{
+line-height: 118%;
+}
+.cst-mainArticle .container {
+padding: 30px;
+}
 .cst-custom-banner-v2-quiz-page .banner-info.content-left{
 padding-left: 30px !important;
 }
