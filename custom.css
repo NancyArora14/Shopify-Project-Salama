@@ -1936,15 +1936,19 @@ list-style: disc;
   color: #085848;
   line-height: 28px;
   font-weight: 400;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .cst-custom-wich-text-with-images .rich-text__content ul {
   padding-left: 35px;
   margin-bottom: 0;
 }
-
+.cst-custom-image-with-text-2-therapies-page .cst-main-content-sec {
+  flex-direction: column;
+  text-align: left;
+  align-items: start;
+}
 .cst-custom-wich-text-with-images .rich-text__content li {
   font-size: 18px;
   color: #085848;
@@ -2884,47 +2888,47 @@ object-fit: cover;
 
 
 .cst-custom-tab-section-only .tabs {
-width: 100%;
-max-width: 1240px;
-margin: 0 auto;
-background: #f8f3e9;
-padding: 40px;
-border-radius: 20px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
 }
 .cst-custom-tab-section-only {
-padding:0 30px;
+  padding: 60px 30px;
+  background: #FDF9F4;
 }
 .cst-custom-tab-section-only .tab-flex {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 gap: 38px;
-padding: 20px 24px;
+padding: 0;
 }
 .cst-custom-tab-section-only .tabs-nav {
 position: relative;
 display: flex;
-gap: 20px;
+gap: 0;
 border-radius: 30px;
 margin-bottom: 10px;
 isolation: isolate;
-justify-content: center;
+justify-content: space-between;
 }
 
 .cst-custom-tab-section-only .tab-button {
-flex: 1;
-all: unset;
-position: relative;
-padding: 8px 148px;
-font-size: 20px;
-font-weight: 400;
-color: rgb(0 0 0 / 87%);
-border-radius: 30px;
-cursor: pointer;
-transition: color var(--transition-duration) var(--transition-timing);
-text-align: center;
-white-space: nowrap;
-z-index: 1;
-background: #ffa700;
+  width: 100%;
+  flex: 1;
+  all: unset;
+  position: relative;
+  padding: 8px 148px;
+  font-size: 20px;
+  font-family: 'Urbanist';
+  font-weight: 500;
+  border-radius: 0;
+  cursor: pointer;
+  transition: color var(--transition-duration) var(--transition-timing);
+  text-align: center;
+  white-space: nowrap;
+  z-index: 1;
+  background: #CCD9D2;
 }
 
 .cst-custom-tab-section-only .tab-button:hover {
@@ -2934,7 +2938,7 @@ color: #fff;
 .tab-button:hover,
 .tab-button[aria-selected="true"] {
 color: #fff;
-background: #d98500;
+background: #085A48;
 }
 .cst-custom-tab-section-only .tabs-indicator {
 position: absolute;
