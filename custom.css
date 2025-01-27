@@ -2346,6 +2346,7 @@ display: none;
 }
 #shopify-section-cst-video video {
 width: 100%;
+height: 420px;
 }
 .cst-custom-richtext-quiz-result-page {
 padding: 45px 0 0;
@@ -2353,8 +2354,10 @@ margin-bottom: 40px;
 }
 .cst-custom-image-quiz-result-page img {
 width: 100%;
-height: 700px;
+height: 600px !important;
 object-fit: cover;
+max-width: 800px !important;
+display: block;
 }
 .cst-custom-richtext-quiz-result-page h2.heading-title {
 font-size: 24px;
