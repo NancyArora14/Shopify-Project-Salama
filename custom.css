@@ -1173,6 +1173,7 @@ margin: 0 !important;
 
 .cst-home-faq p {
 text-align: center;
+line-height: normal;
 }
 
 body .cst-home-faq a.title_question {
@@ -3718,15 +3719,27 @@ flex-direction: column-reverse;
 }
 
 @media screen and (max-width: 789px) {
-    .remove-bg-home .image-with-text-block.reverse.cst-odd-sec.cst-last-block {
+.cst-custom-banner-v2-quiz-page .banner-info.content-left{
+max-width: 100% !important;
+}
+.cst-custom-banner-v2-quiz-page p.sub-title{
+margin-bottom: 0;
+}
+.cst-issues-ayurvedic.container {
+padding: 40px 20px;
+}
+.remove-bg-home .image-with-text-block.reverse.cst-odd-sec.cst-last-block {
 padding: 0;
-    }
-    .remove-bg-home .image-container {
-        padding-right: 0;
-    }
-   .remove-bg-home.cst-home-imgText .text-container {
-        padding: 20px 0 0;
-    }
+}
+.remove-bg-home .image-container {
+padding-right: 0;
+}
+.remove-bg-home.cst-home-imgText .text-container {
+padding: 20px 0 0;
+}
+body .m-cst-issues-time{
+padding: 60px 0;
+}
 .cst-custom-tab-section-therapies-page .tab-lists {
 min-height: unset;
 }
