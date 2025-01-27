@@ -3194,10 +3194,13 @@ padding: 20px 0 10px;
 .cst-mainArticle .post-info a.btn_readmore {
 display: none;
 }
-.cst-mainArticle .post-info h3.post-title.mb-0 {
+.cst-mainArticle .post-info h3.post-title {
 font-size: 18px;
 line-height: 22px;
 font-weight: 500;
+}
+.cst-mainArticle .post-info h3 a:hover {
+    color: #085848;
 }
 .cst-mainArticle .blog_grid .post-thumb img {
 height: 350px;
