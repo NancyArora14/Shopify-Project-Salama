@@ -3718,6 +3718,15 @@ flex-direction: column-reverse;
 }
 
 @media screen and (max-width: 789px) {
+    .remove-bg-home .image-with-text-block.reverse.cst-odd-sec.cst-last-block {
+padding: 0;
+    }
+    .remove-bg-home .image-container {
+        padding-right: 0;
+    }
+   .remove-bg-home.cst-home-imgText .text-container {
+        padding: 20px 0 0;
+    }
 .cst-custom-tab-section-therapies-page .tab-lists {
 min-height: unset;
 }
