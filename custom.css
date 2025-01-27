@@ -2345,8 +2345,8 @@ margin-bottom: 0;
 display: none;
 }
 #shopify-section-cst-video video {
-    width: 100%;
-    max-width: 800px;
+width: 100%;
+max-width: 800px;
 }
 .cst-custom-richtext-quiz-result-page {
 padding: 45px 0 0;
@@ -3200,7 +3200,7 @@ line-height: 22px;
 font-weight: 500;
 }
 .cst-mainArticle .post-info h3 a:hover {
-    color: #085848;
+color: #085848;
 }
 .cst-mainArticle .blog_grid .post-thumb img {
 height: 350px;
