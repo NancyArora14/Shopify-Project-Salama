@@ -2821,8 +2821,15 @@ color: #085848;
 }
 .cst-mainArticle .cst-custom-blog-info-right-side {
 display: flex;
-align-items: center;
-justify-content: space-between;
+align-items: end;
+gap: 67px;
+justify-content: center;
+}
+.cst-mainArticle .cst-custom-blog-info-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100%;
 }
 .cst-mainArticle .container {
 max-width: 100%;
@@ -2833,17 +2840,24 @@ padding: 80px 120px;
 font-size: 40px;
 color: #085a48;
 font-weight: 500;
-font-family: "Outfit";
+font-family: Outfit;
 max-width: 533px;
 margin-top: 20px;
+margin-bottom: 0;
+line-height: 50.4px;
 }
 .cst-mainArticle .cst-custom-blog-info-right-side p {
 font-size: 16px;
-max-width: 900px;
+max-width: 626px;
 }
 
 .cst-mainArticle .cst-custom-blog-info-left-side p {
 font-size: 16px;
+display: flex;
+justify-content: start;
+max-width: 1224px;
+margin: 0 auto;
+color: #085A48B2;
 }
 .cst-mainArticle .content-post-default h3 {
 color: #b7482b;
@@ -3257,22 +3271,19 @@ line-height: normal;
 }
 }
 @media screen and (max-width: 1440px) {
-.cst-mainArticle .cst-custom-blog-info-right-side h2 {
-font-size: 35px;
-}
 .cst-mainArticle .container {
 padding: 80px;
 }
-.cst-mainArticle .cst-custom-blog-info-right-side {
-align-items: baseline;
+.cst-mainArticle .cst-custom-blog-info-right-side{
+gap: 40px;
 }
 .cst-issues-AyurvedicPerspective .image-container img {
 height: 100%;
 }
 }
 @media screen and (max-width: 1390px) {
-.cst-mainArticle .cst-custom-blog-info-right-side {
-flex-direction: column;
+.cst-mainArticle .container {
+padding: 70px 60px;
 }
 .cst-about-purpose .mission-content p {
 font-size: 16px;
@@ -3302,6 +3313,16 @@ text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
+    .cst-mainArticle .container {
+        padding: 60px 50px;
+    }
+.cst-mainArticle .cst-custom-blog-info-right-side h2{
+font-size: 30px;
+line-height: 41.4px;
+}
+.cst-mainArticle .cst-custom-blog-info-right-side {
+gap: 30px;
+}
 .cst-knowBody-quiz {
 padding: 40px 100px;
 }
@@ -3368,6 +3389,19 @@ grid-template-columns: repeat(2, 1fr);
 }
 
 @media screen and (max-width: 1050px) {
+    .cst-mainArticle .cst-custom-blog-info-right-side {
+        flex-direction: column;
+        align-items: start;
+    }
+    .cst-mainArticle .cst-custom-blog-info-right-side {
+        gap: 14px;
+    }
+    .cst-mainArticle .cst-custom-blog-info-right-side p{
+        max-width: 100%;
+    }
+    .cst-mainArticle .cst-custom-blog-info-right-side h2{
+        max-width: 100%;
+    }
 .cst-custom-blog-book-consultants .cst-banner-btn a {
 padding: 8px 39px;
 }
