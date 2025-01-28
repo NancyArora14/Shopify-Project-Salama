@@ -137,7 +137,9 @@ transform: translate3d(-100%, 0, 0);
 }
 
 /*marque-end*/
-
+#header .menu ul .nav-item .nav-link.active {
+text-decoration: underline;
+}
 #header .menu ul .nav-item .nav-link.active,
 #header .menu ul .nav-item .nav-link:focus,
 #header .menu ul .nav-item .nav-link:hover {
@@ -429,7 +431,7 @@ text-align: left;
 }
 
 .cst-home-imgText .text-container p {
-font-size: 16px;
+font-size: 18px;
 font-weight: 400;
 color: #000;
 line-height: 28px;
@@ -730,7 +732,7 @@ filter: invert(1);
 }
 
 .cst-home-imgText .custom-banner-left p {
-font-size: 16px;
+font-size: 18px;
 color: #085848;
 line-height: 27px;
 border-radius: 0;
@@ -1006,7 +1008,7 @@ font-weight: 500;
 
 .cst-home-ourapproch p {
 color: #085848;
-font-size: 16px;
+font-size: 18px;
 }
 
 .cst-home-ourapproch .custom-left-column p {
@@ -1112,7 +1114,7 @@ padding: 0 60px;
 }
 
 .cst-home-imgText .text-container h3 {
-font-size: 32px;
+font-size:40px;
 color: #085848;
 font-weight: 500;
 margin: 0;
@@ -1226,6 +1228,8 @@ padding: 30px 0 0 !important;
 body .cst-home-faq .box_content_question {
 border-bottom: 1px solid #c9c9c987;
 padding: 24px 0 !important;
+font-size: 18px;
+color: #000;
 }
 
 .content-page.contact-page {
@@ -1244,6 +1248,7 @@ border: 1px solid #c9c9c987 !important;
 .contact-page label {
 margin-left: 0 !important;
 font-family: Urbanist;
+font-size: 18px !important;
 }
 
 body .contact-page .contact-form .contact_bottom {
@@ -1330,7 +1335,9 @@ color: #f3dfc9 !important;
 .footer_v5 .copyright {
 border-top: 1px solid#f3dfc9;
 }
-
+.cst-home-table.custom-table-section p {
+font-size: 18px;
+}
 .cst-home-table.custom-table-section {
 max-width: 1200px;
 margin: 0 auto;
@@ -1425,8 +1432,8 @@ margin-bottom: 0;
 .cst-about-purpose .mission-content p {
 color: #000;
 font-size: 18px;
-font-family: Urbanist;
 font-weight: 400;
+line-height: 28px;
 }
 
 .cst-about-purpose .mission-content p em {
@@ -1484,7 +1491,7 @@ margin-bottom: 0;
 .cst-about-vision .mission-content p {
 color: #000000;
 font-size: 18px;
-font-family: Urbanist;
+line-height: 28px;
 font-weight: 400;
 }
 
@@ -1525,6 +1532,7 @@ align-items: center;
 body .cst-about-imageText1 {
 background: transparent;
 padding-bottom: 0;
+padding-top: 120px;
 }
 
 .cst-about-imageText1 h3 {
@@ -1742,6 +1750,9 @@ font-size: 18px;
 color: #085848;
 line-height: 21px;
 font-weight: 400;
+}
+.cst-home-ourapproch .custom-right-block .cst-block_content {
+font-size: 18px;
 }
 .cst-custom-our-approach-heath-issues .custom-left-column {
 width: 30%;
@@ -2043,7 +2054,12 @@ max-width: 75px;
 .cst-therapies-Benefits .item.column {
 flex-direction: column-reverse;
 }
-
+.cst-therapies-Benefits .item.column p{
+font-size: 18px;
+}
+.cst-issues-ayurvedic.container .rich-text__content p {
+font-size: 18px;
+}
 .cst-therapies-therapy .custom-banner-left {
 display: flex;
 flex-direction: column;
@@ -2131,7 +2147,7 @@ object-fit: cover;
 
 .cst-issues-symptoms li {
 font-family: Urbanist;
-font-size: 16px;
+font-size: 18px;
 color: #085848;
 }
 
@@ -2189,7 +2205,7 @@ padding-top: 30px;
 }
 
 .cst-issues-imgText .cst-content p {
-font-size: 16px;
+font-size: 18px;
 color: #085848;
 line-height: 24px;
 text-align: left;
@@ -2277,7 +2293,7 @@ padding: 0 !important;
 }
 .cst-custom-info-quiz-result-page .section-info-v1 p {
 text-align: left;
-font-size: 16px;
+font-size: 18px;
 font-weight: 500;
 color: #000000a6;
 line-height: 27px;
@@ -2287,7 +2303,7 @@ padding-left: 48px;
 }
 .cst-custom-info-quiz-result-page .section-info-v1 li {
 text-align: left;
-font-size: 16px;
+font-size: 18px;
 font-weight: 500;
 color: #000000a6;
 line-height: 27px;
@@ -2494,7 +2510,7 @@ margin: 0 auto;
 
 .cst-knowBody-quiz h1 {
 color: #085848;
-font-size: 32px;
+font-size: 40px;
 font-weight: 500;
 text-transform: uppercase;
 margin-bottom: 30px;
@@ -2556,7 +2572,7 @@ background: #f3dfc9;
 }
 
 .review__content p {
-font-size: 16px !important;
+font-size: 18px !important;
 }
 
 .review__image__wrapper .review__title {
@@ -2930,7 +2946,7 @@ color: #000;
 
 .cst-faqPage-Faq.page_FQA .asked .top_asked h3 {
 color: #085848;
-font-size: 35px;
+font-size:40px;
 }
 
 body .cst-faqPage-Faq .card-body {
@@ -2974,6 +2990,18 @@ border-bottom-right-radius: 16px;
 /* faq-css-end */
 
 /* Blog-css-start */
+.cst-mainBlogs p.description.text-center {
+color: #000 !important;
+}
+.cst-mainBlogs .section-blog-v2 .info_blog .content {
+color: #085848;
+}
+.cst-mainBlogs .section-blog-v2 .info_blog .date .day {
+color: #085848;
+}
+.cst-mainBlogs .section-blog-v2 .info_blog .date .day:after{
+display: none;
+}
 .cst-mainBlogs h3.title-section-blog {
 text-align: center;
 display: block;
@@ -3021,15 +3049,15 @@ margin-bottom: 0;
 line-height: 50.4px;
 }
 .cst-mainArticle .cst-custom-blog-info-right-side p {
-font-size: 16px;
-max-width: 626px;
+font-size: 18px;
+max-width: 658px;
 }
 
 .cst-mainArticle .cst-custom-blog-info-left-side p {
 font-size: 16px;
 display: flex;
 justify-content: start;
-max-width: 1224px;
+max-width: 1250px;
 margin: 0 auto;
 color: #085A48B2;
 }
@@ -3073,7 +3101,7 @@ top: 20px;
 right: 20px;
 }
 .cst-mainArticle .content-post-default strong {
-font-size: 16px;
+font-size: 18px;
 color: #085848;
 font-weight: 700;
 }
@@ -3124,7 +3152,7 @@ display: none;
 .post-details
 .content-post-default
 p {
-font-size: 16px;
+font-size: 18px;
 color: #000;
 line-height: 150%;
 }
@@ -3137,10 +3165,24 @@ display: none;
 .post-details
 .content-post-default
 li {
-font-size: 16px;
+font-size: 18px;
 color: #000;
 line-height: 27px;
 margin: 5px 0;
+position: relative;
+}
+.cst-mainArticle .article-page .content-single-blog .post-details .content-post-default li::before {
+    position: absolute;
+    background: #085848;
+    height: 4px;
+    width: 4px;
+    content: '';
+    left: -9px;
+    border-radius: 30px;
+    top: 12px;
+}
+.cst-mainArticle .article-page .content-single-blog .post-details .content-post-default ul {
+    padding-left: 15px;
 }
 .cst-mainArticle
 .article-page
@@ -3149,12 +3191,13 @@ margin: 5px 0;
 .content-post-default
 ol {
 padding: 0;
+padding-left: 15px;
 margin-bottom: 0;
 }
 
 .cst-mainArticle .content-post-default p strong {
 color: #085848;
-font-size: 16px;
+font-size: 18px;
 font-weight: 600;
 }
 
@@ -3429,13 +3472,38 @@ object-fit: cover;
 .cst-custom-tab-section-only .tab-img {
 width: 100%;
 }
-/* tabs-css-end */
 .cst-custom-read-more {
 display: none;
 }
 
 .cst-custom-grid-heath-issues .cst-custom-read-more {
 display: block;
+}
+
+.bread-crumb {
+padding: 22px 0;
+background: #f5f0eb;
+text-align: center;
+border-top: 0.5px solid #085a4842;
+}
+
+.bread-crumb a {
+color: #085848;
+font-size: 17px;
+font-weight: 500;
+font-family: 'Outfit';
+}
+
+.bread-crumb strong {
+color: #085848;
+font-size: 17px;
+font-weight: 500;
+font-family: 'Outfit';
+}
+
+.bread-crumb i {
+margin-left: 15px;
+margin-right: 15px;
 }
 /* Responsive-Css-Start */
 
@@ -3644,7 +3712,26 @@ line-height: 140%;
 padding: 8px 110px;
 }
 .cst-home-imgText .custom-banner-left p {
-font-size: 15px;
+font-size:16px;
+}
+.cst-home-ourapproch .custom-right-block .cst-block_content {
+font-size:16px;
+}
+.cst-issues-imgText .cst-content p{
+font-size:16px;
+}
+.cst-issues-ayurvedic.container .rich-text__content p{
+font-size:16px;
+}
+.cst-home-ourapproch p{
+font-size:16px;
+}
+.cst-issues-symptoms li{
+font-size:16px;
+}
+.cst-home-imgText .text-container p{
+font-size:16px;
+line-height: 23px;
 }
 body .cst-text-health-issue {
 padding: 60px 20px;
@@ -3664,6 +3751,33 @@ padding: 60px 20px;
 }
 
 @media screen and (max-width: 991px) {
+.cst-mainArticle .content-post-default strong {
+font-size: 16px;
+}
+.cst-mainArticle
+.article-page
+.content-single-blog
+.post-details
+.content-post-default
+li {
+font-size: 16px;
+}
+
+.cst-mainArticle .article-page .content-single-blog .post-details .content-post-default p{
+    font-size: 16px;
+}
+.cst-custom-info-quiz-result-page .section-info-v1 p {
+font-size: 16px;
+}
+.cst-custom-info-quiz-result-page .section-info-v1 li {
+font-size: 16px;
+}
+.cst-mainArticle .cst-custom-blog-info-right-side p{
+    font-size: 16px;
+}
+body .cst-about-imageText1{
+padding-top: 80px;
+}
 .article_sidebar.cst-mainArticle{
 margin-bottom: 50px;
 }
@@ -3695,6 +3809,9 @@ margin: 0 auto;
 padding-left: 25px;
 }
 .cst-custom-wich-text-with-images h2.heading-title {
+font-size: 35px;
+}
+.cst-faqPage-Faq.page_FQA .asked .top_asked h3{
 font-size: 35px;
 }
 .cst-custom-banner-quiz-result-page .left-div h2{
@@ -3768,6 +3885,7 @@ width: 100%;
 
 .cst-knowBody-quiz h1 {
 font-size: 30px;
+line-height: normal;
 }
 
 .cst-issues-symptoms .custom-banner-right img {
