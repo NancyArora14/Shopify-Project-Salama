@@ -1,4603 +1,4655 @@
 body {
-    box-sizing: border-box;
-    }
-    
-    p {
-    margin: 0;
-    padding: 0;
-    font-family: "Urbanist" !important;
-    }
-    
-    ul {
-    padding: 0;
-    }
-    
-    li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-family: Urbanist;
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-    font-family: "Outfit", serif;
-    }
-    
-    /*marque-start*/
-    
-    /*dropdown-start*/
-    .box_contentmenu
-    .tab_content_menu_mobile
-    .tab-content
-    #tab_menu_mobile
-    .menu-horizon-list
-    .toggle-menumobile
-    i {
-    color: #f3dfc9;
-    }
-    #header .menu ul .nav-item .list-woman.page {
-    padding-top: 0;
-    }
-    
-    #header .menu ul .nav-item .list-woman.page {
-    padding-top: 0;
-    background: #f3dfc9;
-    }
-    
-    body #header .menu ul .nav-item .list-woman .list-clothing ul li a {
-    color: #085848;
-    font-family: Urbanist !important;
-    font-weight: 500;
-    }
-    
-    body #header .menu ul .nav-item .list-woman .list-clothing ul li a:hover {
-    color: #085848;
-    }
-    
-    #header .menu ul .nav-item .list-woman .list-clothing ul li a:after {
-    border-bottom: 1px solid #085848;
-    }
-    
-    header .dropdown-menu.list-woman.page.show {
-    max-height: 300px;
-    overflow-y: scroll !important;
-    overflow-x: hidden !important;
-    display: block !important;
-    }
-    
-    header .dropdown-menu.list-woman.page.show::-webkit-scrollbar {
-    width: 8px;
-    }
-    
-    header .dropdown-menu.list-woman.page.show::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 4px;
-    }
-    
-    header .dropdown-menu.list-woman.page.show::-webkit-scrollbar-track {
-    background-color: #f9f9f9;
-    }
-    
-    header .dropdown-menu.list-woman.page.show {
-    background-color: rgba(255, 0, 0, 0.2);
-    height: 300px;
-    overflow-y: scroll;
-    }
-    
-    /*dropdown-end*/
-    
-    .marquee_container {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 0.2rem 0;
-    }
-    
-    .marquee {
-    display: inline-block;
-    animation: marquee 35s linear infinite;
-    }
-    
-    .announcement-list {
-    display: inline-flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    }
-    
-    .announcement-list li {
-    display: inline-block;
-    margin-right: 50px;
-    }
-    
-    .announcement-list a {
-    text-decoration: none;
-    color: #f3dfc9;
-    display: flex;
-    align-items: center;
-    }
-    
-    .announcement-list img {
-    vertical-align: middle;
-    }
-    
-    @keyframes marquee {
-    from {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Urbanist" !important;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: Urbanist;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Outfit", serif;
+}
+
+/*marque-start*/
+
+/*dropdown-start*/
+.box_contentmenu
+  .tab_content_menu_mobile
+  .tab-content
+  #tab_menu_mobile
+  .menu-horizon-list
+  .toggle-menumobile
+  i {
+  color: #f3dfc9;
+}
+#header .menu ul .nav-item .list-woman.page {
+  padding-top: 0;
+}
+
+#header .menu ul .nav-item .list-woman.page {
+  padding-top: 0;
+  background: #f3dfc9;
+}
+
+body #header .menu ul .nav-item .list-woman .list-clothing ul li a {
+  color: #085848;
+  font-family: Urbanist !important;
+  font-weight: 500;
+}
+
+body #header .menu ul .nav-item .list-woman .list-clothing ul li a:hover {
+  color: #085848;
+}
+
+#header .menu ul .nav-item .list-woman .list-clothing ul li a:after {
+  border-bottom: 1px solid #085848;
+}
+
+header .dropdown-menu.list-woman.page.show {
+  max-height: 300px;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  display: block !important;
+}
+
+header .dropdown-menu.list-woman.page.show::-webkit-scrollbar {
+  width: 8px;
+}
+
+header .dropdown-menu.list-woman.page.show::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+header .dropdown-menu.list-woman.page.show::-webkit-scrollbar-track {
+  background-color: #f9f9f9;
+}
+
+header .dropdown-menu.list-woman.page.show {
+  background-color: rgba(255, 0, 0, 0.2);
+  height: 300px;
+  overflow-y: scroll;
+}
+
+/*dropdown-end*/
+
+.marquee_container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0.2rem 0;
+}
+
+.marquee {
+  display: inline-block;
+  animation: marquee 35s linear infinite;
+}
+
+.announcement-list {
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.announcement-list li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.announcement-list a {
+  text-decoration: none;
+  color: #f3dfc9;
+  display: flex;
+  align-items: center;
+}
+
+.announcement-list img {
+  vertical-align: middle;
+}
+
+@keyframes marquee {
+  from {
     transform: translate3d(0, 0, 0);
-    }
-    
-    to {
+  }
+
+  to {
     transform: translate3d(-100%, 0, 0);
-    }
-    }
-    
-    /*marque-end*/
-    #header .menu ul .nav-item .nav-link.active {
-    text-decoration: underline;
-    }
-    #header .menu ul .nav-item .nav-link.active,
-    #header .menu ul .nav-item .nav-link:focus,
-    #header .menu ul .nav-item .nav-link:hover {
-    color: #f3dfc9 !important;
-    }
-    
-    #header .container-v1 {
-    max-width: 100%;
-    padding: 0 40px;
-    margin-top: 13px;
-    }
-    
-    #header .cart-login-search ul.list-inline {
-    display: flex;
-    }
-    
-    #header .currencies-login .cart-login-search ul li a svg {
-    fill: #f3dfc9 !important;
-    }
-    
-    #header .currencies-login .cart-login-search ul li a svg:hover {
-    fill: #f3dfc9;
-    }
-    
-    #header .currencies-login .cart-login-search ul li:last-child:hover {
-    color: #f3dfc9;
-    }
-    
-    .dropdown-menu.list-woman.shop.show {
-    display: none !important;
-    }
-    
-    #header .menu ul.navbar-nav {
-    align-items: baseline;
-    }
-    
-    .center.logo.delay05 a {
-    width: 100%;
-    max-width: 100%;
-    display: block;
-    }
-    
-    .center.logo.delay05 a img {
-      width: 100%;
-      height: 60px;
-      object-fit: contain;
-    }
-    
-    .cst-home-marquee.marquee {
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
-    background: #f3dfc9;
-    }
-    
-    body .cst-home-marquee .track span {
-    color: #085848 !important;
-    font-size: 14px !important;
-    font-family: Urbanist !important;
-    font-weight: 600 !important;
-    position: relative !important;
-    z-index: 1 !important;
-    display: flex !important;
-    align-items: center !important;
-    }
-    
-    body .cst-home-marquee .content {
-    justify-content: space-between;
-    }
-    
-    .cst-home-marquee a {
-    display: flex;
-    }
-    
-    .cst-home-marquee a img {
-    max-width: 30px;
-    }
-    
-    .announcement-bar ul.announcement-list {
-    display: flex;
-    gap: 25px;
-    margin: 0;
-    justify-content: space-between;
-    }
-    
-    .announcement-bar ul.announcement-list li {
-    color: #085848;
-    font-size: 14px;
-    font-family: Urbanist;
-    font-weight: 600;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    }
-    
-    .announcement-bar {
-    padding-top: 5px !important;
-    padding-bottom: 0 !important;
-    background: #085848;
-    border-bottom: 1px solid #f3dfc9;
-    }
-    
-    .announcement-bar img {
-    max-width: 20px;
-    margin: 0 7px;
-    }
-    
-    body #header {
-    padding: 0;
-    }
-    
-    #header .logo .center {
-    text-align: center;
-    }
-    .cst-book-consult a {
-    color: #085848;
-    }
-    .cst-book-consult a:hover {
-    color: #085848;
-    }
-    .cst-book-consult {
-    background: #f3dfc9;
-    color: #085848;
-    transition: 0.3s;
-    border-radius: 0;
-    padding: 10px 9px;
-    font-size: 13px;
-    font-family: "Urbanist";
-    font-weight: 700;
-    white-space: nowrap;
-    }
-    
-    .cst-book-consult:hover {
-    border-top-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    }
-    
-    .cart-login-search.align-items-center {
-    display: flex;
-    gap: 15px;
-    justify-content: space-between;
-    }
-    
-    header#header {
-    background: #085848 !important;
-    padding-top: 0;
-    padding-bottom: 13px;
-    }
-    
-    #header .menu ul .nav-item .nav-link {
-    font-family: Urbanist;
-    color: #f3dfc9;
-    letter-spacing: 1px;
-    font-size: 16px;
-    font-weight: 500;
-    }
-    
-    body #header .menu ul .nav-item {
-    margin-left: 0;
-    }
-    
-    .logosvg {
-    max-width: 100px !important;
-    }
-    
-    .cst-banner-btn a {
-    display: inline-block;
-    background: #085848;
-    color: #f3dfc9;
-    padding: 12px 45px;
-    font-family: Urbanist;
-    font-size: 16px;
-    font-weight: 500;
-    border: 1px solid #085848;
-    transition: 0.3s;
-    text-transform: capitalize;
-    margin-top: 20px;
-    }
-    
-    .cst-banner-btn a:hover {
-    background: #085848;
-    color: #f3dfc9;
-    border-top-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    }
-    
-    .contact-form input.shop-button {
-    background: #085848 !important;
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    letter-spacing: 0 !important;
-    color: #f3dfc9 !important;
-    font-family: "Urbanist" !important;
-    border: 1px solid #085848 !important;
-    }
-    
-    .contact-form input.shop-button:hover {
-    background: #085848 !important;
-    color: #f3dfc9 !important;
-    border-top-left-radius: 16px !important;
-    border-bottom-right-radius: 16px !important;
-    }
-    
-    /* .cst-home-banner .picture-slideshow {
-    position: relative;
-    } */
-    
-    /* .cst-home-banner .picture-slideshow:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #00000012;
-    height: 100%;
-    width: 100%;
-    z-index: 0;
-    } */
-    
-    .cst-first-bannerSlide .box-content-center h3.titlebig.mb-0 {
-    color: #085848 !important;
-    text-align: left;
-    }
-    
-    body .cst-first-bannerSlide .box-content-center h3.title-small.mb-0 {
-    color: #085848 !important;
-    text-align: left;
-    }
-    
-    body .cst-home-banner video.cst-video {
-    height: calc(100vh - 100px);
-    object-fit: cover;
-    display: block;
-    width: 100%;
-    }
-    
-    body .section-slideshow-v1 {
-    margin: 0 !important;
-    }
-    
-    .section-slideshow-v1 .slick-active .info-sideh1 .picture-slideshow img {
-    transform: none;
-    }
-    
-    /* .picture-slideshow {
-    position: relative;
-    }
-    */
-    /* .picture-slideshow::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #00000057;
-    height: auto;
-    width: 100%;
-    z-index: 0;
-    display: block;
-    } */
-    
-    .section-slideshow-v1 .info-sideh1 .picture-slideshow {
-    height: 100% !important;
-    }
-    
-    body .cst-home-banner .box-content-center h3.titlebig {
-    font-family: "Outfit", serif !important;
-    font-size: 64px !important;
-    text-transform: uppercase;
-    color: #f3dfc9 !important;
-    font-weight: 500 !important;
-    max-width: 900px;
-    }
-    
-    body .cst-home-banner .box-content-center .box-title2 .title-small {
-    color: #085848 !important;
-    font-size: 24px !important;
-    line-height: 36px;
-    font-weight: 400 !important;
-    }
-    
-    body .cst-about-banner .box-content-center h3.titlebig {
-    font-size: 64px !important;
-    font-family: Outfit, serif !important;
-    text-transform: capitalize;
-    font-weight: 500 !important;
-    margin: 0 auto;
-    color: #085a48 !important;
-    max-width: 100%;
-    text-align: left;
-    }
-    
-    .cst-home-imgText .text-container p {
-    font-size: 18px;
-    font-weight: 400;
-    color: #000;
-    line-height: 28px;
-    }
-    
-    body .cst-home-banner .box-content-center .box-title2 {
-    font-family: "Outfit", serif !important;
-    font-weight: 500 !important;
-    }
-    
-    body .cst-comman-bannerSlides .box-content-center .box-title2 .title-small {
-    color: #f3dfc9 !important;
-    max-width: 730px;
-    }
-    
-    .box-content-center .box-title2 .title-small {
-    font-weight: 500 !important;
-    color: #f3dfc9 !important;
-    max-width: 625px;
-    font-family: "Urbanist" !important;
-    }
-    
-    body .cst-home-banner .button-shop-slideshow_MLeWhm {
-    background: #085848 !important;
-    font-size: 15px;
-    border-radius: 14px;
-    height: 47px;
-    max-width: 189px;
-    width: 100%;
-    display: inline-block;
-    line-height: 44px;
-    color: #f3dfc9 !important;
-    }
-    
-    body .cst-home-banner .button-shop-slideshow_MLeWhm:hover {
-    background: #f3dfc9 !important;
-    color: #085848 !important;
-    }
-    
-    body .cst-home-banner .btn-animation-slideshow_F3nHV8.animated {
-    font-size: 15px;
-    border-radius: 14px;
-    height: 47px;
-    max-width: 189px;
-    width: 100%;
-    display: inline-block;
-    line-height: 44px;
-    }
-    
-    .section-slideshow-v1
-    .slick-active
-    .info-sideh1
-    .box-info-slideshow_MLeWhm
-    .btn-animation-slideshow_MLeWhm
-    .button-main2:hover {
-    background: #085848 !important;
-    color: #f3dfc9 !important;
-    border-top-left-radius: 16px !important;
-    border-bottom-right-radius: 16px !important;
-    }
-    
-    body
-    .section-slideshow-v1
-    .slick-active
-    .info-sideh1
-    .box-content-center
-    .button-shop-slideshow_F3nHV8:hover {
-    background: #085848 !important;
-    color: #f3dfc9 !important;
-    border-top-left-radius: 16px !important;
-    border-bottom-right-radius: 16px !important;
-    }
-    
-    body .cst-home-banner .button-shop-slideshow_F3nHV8:hover {
-    background: #f3dfc9 !important;
-    color: #085848 !important;
-    }
-    
-    body .cst-home-banner .button-main2 {
-    background: #085848 !important;
-    color: #f3dfc9 !important;
-    font-size: 16px;
-    height: 47px;
-    max-width: 189px;
-    width: 100%;
-    display: inline-block;
-    line-height: 44px;
-    font-weight: 500;
-    border-radius: 0;
-    }
-    
-    body .cst-home-banner .box-content-center h3 {
-    opacity: 1 !important;
-    }
-    
-    .cst-home-treatment .text-block {
-    font-size: 19px;
-    color: #000;
-    text-transform: capitalize;
-    margin: 0;
-    }
-    
-    .cst-home-treatment .owl-nav span {
-    font-size: 50px;
-    color: #f3dfc9;
-    line-height: 30px;
-    }
-    
-    .cst-home-treatment .owl-carousel .owl-nav button.owl-prev {
-    border: 1px solid #085848;
-    background: #085848 !important;
-    border-radius: 30px;
-    height: 40px;
-    width: 40px;
-    }
-    
-    .cst-home-treatment .owl-carousel .owl-nav button.owl-next {
-    border: 1px solid #085848;
-    background: #085848 !important;
-    border-radius: 30px;
-    height: 40px;
-    width: 40px;
-    }
-    
-    .cst-home-treatment .owl-carousel .owl-nav button {
-    background: transparent !important;
-    }
-    
-    .cst-home-treatment .text-block p {
-    margin: 0;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: normal;
-    text-align: left;
-    }
-    
-    .cst-home-treatment span.cst-color-text {
-    color: #b7482b;
-    }
-    
-    .cst-home-treatment .owl-nav {
-    margin-top: 50px !important;
-    }
-    
-    body .cst-home-grid .column {
-    display: grid;
-    grid-template-columns: 1fr 1fr !important;
-    padding: 7px 20px;
-    height: 150px;
-    }
-    
-    body .cst-home-grid {
-    padding-left: 60px !important;
-    padding-right: 60px !important;
-    }
-    
-    .cst-home-treatment .image-block img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    background: #f3dfc9;
-    margin-left: auto;
-    margin-right: 0;
-    }
-    
-    .cst-home-treatment .column {
-    display: flex;
-    justify-content: space-between;
-    background: #f3dfc9;
-    border-radius: 0;
-    padding: 13px 0 0 20px;
-    }
-    
-    .cst-home-treatment .column-container {
-    gap: 18px;
-    }
-    
-    .cst-home-treatment h2 {
-    color: #085848;
-    font-size: 40px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 50px;
-    }
-    
-    body .cst-home-treatment {
-    padding: 80px 0;
-    background: #f9efe4;
-    border: solid #79757540;
-    border-width: 1px 0;
-    }
-    
-    .cst-home-treatment .cst-slider-wrapper {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    padding-left: 60px;
-    }
-    
-    .cst-home-imgText .cst-main-content-sec {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 60px;
-    }
-    
-    .cst-home-imgText .container {
-    max-width: 100%;
-    padding: 0;
-    }
-    
-    .cst-home-imgText.custom-banner {
-    border-bottom: 1px solid #79757540;
-    }
-    
-    .cst-home-imgText .custom-banner-right img {
-    height: 100%;
-    max-width: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: 50% 1%;
-    }
-    
-    .cst-home-imgText .custom-banner-right {
-    position: relative;
-    }
-    
-    .cst-home-imgText .cst-image-content {
-    padding: 12px 21px;
-    background: #fcf8f4;
-    position: absolute;
-    right: 0;
-    left: auto;
-    bottom: 0;
-    }
-    
-    .cst-home-imgText .custom-banner-main {
-    padding-top: 0;
-    padding-bottom: 0;
-    gap: 70px;
-    }
-    
-    .cst-home-imgText .custom-banner-content.page-width {
-    max-width: 1440px;
-    padding: 0 20px 30px;
-    }
-    
-    .cst-home-imgText .custom-banner-content h2 {
-    color: #085848;
-    font-size: 32px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    }
-    
-    .cst-home-imgText .custom-banner-content .custom-banner-left h3 {
-    color: #085a48;
-    font-size: 40px;
-    margin-bottom: 50px;
-    font-weight: 500;
-    line-height: 44px;
-    font-family: "Outfit", serif;
-    }
-    
-    .cst-home-imgText .custom-banner-content p {
-    color: #b7482b;
-    font-size: 15px;
-    line-height: 18px;
-    font-weight: 500;
-    }
-    
-    .cst-home-imgText .custom-banner-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    
-    .cst-home-imgText .custom-banner-left li {
-    font-size: 16px;
-    color: #085848;
-    background: #f3dfc9;
-    margin: 24px 0;
-    padding: 15px;
-    border-radius: 0;
-    list-style: none;
-    position: relative;
-    font-family: "Urbanist";
-    }
-    
-    .cst-home-imgText .custom-banner-left li::before {
-    position: absolute;
-    content: "";
-    background-image: url(/cdn/shop/files/star.svg?v=1734096051);
-    height: 40px;
-    width: 40px;
-    left: -51px;
-    top: 12px;
-    z-index: 99;
-    background-repeat: no-repeat;
-    background-size: contain;
-    filter: invert(1);
-    }
-    
-    .cst-home-imgText .custom-banner-left p {
-    font-size: 18px;
-    color: #085848;
-    line-height: 27px;
-    border-radius: 0;
-    padding-bottom: 40px;
-    list-style: none;
-    position: relative;
-    }
-    
-    .cst-main-bannercnt .cst-banner-btn a {
-    margin-top: 50px;
-    }
-    
-    .cst-maincontnet-wra {
-    max-width: 684px;
-    margin-right: 0;
-    margin-left: auto;
-    }
-    
-    .cst-home-imgText .text-container p:last-child {
-    padding-top: 24px;
-    }
-    
-    .cst-home-team .custom-section {
-    padding: 80px 0;
-    }
-    
-    .cst-home-team button.slick-prev.slick-arrow::before {
-    content: "";
-    display: block;
-    height: 40px;
-    width: 40px;
-    background-image: url(https://cdn.shopify.com/s/files/1/0673/9230/7385/files/CaretLeft.svg?v=1734695815);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
-    z-index: 1;
-    opacity: 1;
-    }
-    
-    .cst-home-team button.slick-next.slick-arrow::before {
-    content: "";
-    display: block;
-    height: 40px;
-    width: 40px;
-    background-image: url(https://cdn.shopify.com/s/files/1/0673/9230/7385/files/CaretRight.svg?v=1734695865);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 50%;
-    right: 5px;
-    transform: translateY(-50%);
-    z-index: 1;
-    opacity: 1;
-    }
-    
-    .cst-home-team button.slick-arrow {
-    background: #f7eadb;
-    width: 50px;
-    height: 50px;
-    border-radius: 30px;
-    z-index: 3;
-    top: 43%;
-    border: 1px dashed #085848;
-    }
-    
-    .cst-home-team button.slick-arrow::before {
-    font-size: 0;
-    }
-    
-    .cst-home-team button.slick-prev.slick-arrow {
-    left: 0;
-    }
-    
-    .cst-home-team button.slick-next.slick-arrow {
-    right: 0;
-    }
-    
-    .cst-home-team.custom-section {
-    padding: 80px 0 0;
-    background: #f3dfc9a8;
-    }
-    
-    .cst-home-team .container {
-    max-width: 1440px;
-    padding: 0 20px 80px;
-    }
-    
-    .cst-home-team.custom-section .cst-right-content {
-    position: relative;
-    }
-    
-    .cst-home-team .section-content {
-    display: flex;
-    gap: 28px;
-    }
-    
-    .cst-home-team .left-div {
-    width: 40%;
-    }
-    
-    .cst-home-team .right-div {
-    width: 60%;
-    }
-    
-    .cst-home-team .left-wrapper .cst-svg {
-    width: 40px;
-    height: 40px;
-    background: #085848;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    }
-    
-    .cst-home-team .left-wrapper .cst-svg svg {
-    fill: #fff;
-    }
-    
-    .cst-home-team .left-wrapper img {
-    max-width: 40px;
-    height: 40px;
-    object-fit: cover;
-    filter: hue-rotate(45deg);
-    }
-    
-    .cst-home-team .card-content {
-    margin: 15px;
-    border: 0;
-    }
-    
-    .cst-home-team .card {
-    border: 0;
-    }
-    
-    .cst-home-team .card-content img {
-    border-radius: 0;
-    }
-    
-    .cst-home-team .left-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin: 25px 0;
-    padding: 30px 0;
-    border-bottom: 1px solid #c9c9c987;
-    }
-    
-    .cst-home-team .cst-left-content p {
-    margin: 0;
-    font-weight: 600;
-    font-size: 20px;
-    color: #085848;
-    }
-    
-    .cst-home-team h2 {
-    color: #085848;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 40px;
-    }
-    
-    .cst-home-team .cst-left-content p strong {
-    font-size: 40px;
-    font-family: "Urbanist";
-    color: #085848;
-    }
-    
-    .cst-home-team .card-content h3 {
-    font-size: 28px;
-    color: #085848;
-    font-weight: 600;
-    margin-top: 20px;
-    }
-    
-    .cst-home-team p {
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0;
-    color: gray;
-    font-weight: 400;
-    }
-    
-    .cst-home-ourapproch {
-    background: #f0f5f4;
-    }
-    
-    /* .cst-issues-approch {
-    padding-bottom: 120px;
-    } */
-    .cst-issues-imgText .container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 80px 60px;
-    }
-    
-    .cst-issues-imgText .text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0;
-    }
-    
-    .cst-home-ourapproch .custom-left-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    
-    .cst-home-ourapproch .cst-wrapper span:nth-child(2) {
-    background: #b7482b;
-    }
-    
-    .cst-main-bannercnt .container {
-    padding: 0 60px;
-    }
-    
-    .cst-home-ourapproch .container {
-    max-width: 100%;
-    padding: 120px 60px;
-    justify-content: space-between;
-    }
-    
-    .cst-home-ourapproch h2 {
-    color: #085848;
-    font-size: 40px;
-    font-weight: 500;
-    text-align: left;
-    }
-    
-    .cst-home-ourapproch .cst-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    height: calc(100% - -2px);
-    }
-    
-    .cst-home-ourapproch .cst-wrapper span {
-    color: #ffffff;
-    font-size: 26px;
-    font-weight: 600;
-    background: #b7482b;
-    border-radius: 30px;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    z-index: 1;
-    position: relative;
-    }
-    
-    .cst-home-ourapproch .custom-right-block h3 {
-    font-size: 24px;
-    color: #085848;
-    margin: 0;
-    font-weight: 500;
-    line-height: 30px;
-    padding-bottom: 10px;
-    }
-    
-    .cst-home-ourapproch .custom-right-block {
-    margin-bottom: 0;
-    padding-bottom: 40px;
-    font-family: "Urbanist";
-    font-weight: 500;
-    }
-    
-    .cst-home-ourapproch p {
-    color: #085848;
-    font-size: 18px;
-    }
-    
-    .cst-home-ourapproch .custom-left-column p {
-    display: none;
-    }
-    
-    .cst-home-banner .text-center.box-info {
-    text-align: left !important;
-    }
-    
-    .cst-home-ourapproch .cst-wrapper::after {
-    z-index: 0;
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 3px;
-    background: #b7482b;
-    top: 0;
-    }
-    
-    .cst-home-imgText .image-with-text-block {
-    flex-wrap: wrap;
-    margin: 0;
-    }
-    
-    .cst-home-imgText .image-with-text-block.cst-odd-sec {
-    background: #f3f7f6;
-    }
-    
-    .cst-home-imgText .image-with-text-block.cst-even-sec {
-    background: #fdf9f4;
-    }
-    
-    .cst-home-imgText .image-with-text-block.cst-odd-sec.cst-last-block {
-    background: #fdf9f4;
-    }
-    
-    .cst-home-imgText .image-with-text-block .image-container {
-    width: 50%;
-    }
-    
-    .cst-home-imgText .image-with-text-block .text-container {
-    width: 50%;
-    }
-    
-    .cst-home-imgText .image-with-text-block .image-container {
-    background: #fff;
-    }
-    
-    .cst-home-imgText .mainheading h2 {
-    color: #085848;
-    font-size: 40px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight: 500;
-    }
-    
-    .cst-about-drSec {
-    padding: 120px 0 !important;
-    background: #f0f5f4;
-    }
-    
-    .cst-home-imgText .maincontent p {
-    color: #085848;
-    font-size: 18px;
-    font-family: Urbanist;
-    text-align: left;
-    max-width: 930px;
-    margin: 0 auto 50px;
-    }
-    .cst-about-imgTexted {
-    padding: 70px 0 !important;
-    }
-    .cst-about-imgTexted h2 {
-    margin-bottom: 50px !important;
-    }
-    .cst-home-imgText .maincontent2 p:last-child {
-    margin-bottom: 0;
-    margin-top: 50px;
-    }
-    
-    .cst-home-imgText .text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 40px 60px;
-    }
-    
-    .cst-home-imgText .text-container p.count {
-    font-size: 30px;
-    color: #fff;
-    font-family: Urbanist;
-    width: 40px;
-    background: #b7482b;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 15px;
-    }
-    
-    body .cst-main-bannercnt.container {
-    padding: 0 60px;
-    }
-    
-    .cst-home-imgText .text-container h3 {
-    font-size:40px;
-    color: #085848;
-    font-weight: 500;
-    margin: 0;
-    text-align: left;
-    text-transform: none;
-    }
-    
-    .cst-home-imgText .image-container img {
-    height: 700px;
-    object-fit: cover;
-    border-radius: 0;
-    }
-    
-    .cst-home-imgText p.cst-content {
-    font-size: 18px;
-    color: #085848;
-    margin: 11px 0;
-    }
-    
-    .cst-home-reviews {
-    padding: 120px 0;
-    margin: 0;
-    background: #fdf9f4;
-    }
-    
-    .cst-home-reviews .container-v1 {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 60px;
-    }
-    
-    .cst-home-reviews .review__card {
-    border: 1px solid #085848;
-    }
-    
-    .cst-home-reviews h1.title--decorated {
-    color: #085848;
-    font-weight: 500;
-    }
-    
-    .cst-home-reviews h2.review__name.h3 {
-    color: #b7482b;
-    font-size: 14px;
-    font-family: Urbanist;
-    }
-    
-    section.cst-home-faq {
-    padding: 120px 50px 120px;
-    }
-    
-    .cst-faqPage-Faq .asked {
-    padding-top: 40px !important;
-    }
-    
-    .cst-home-faq .asked {
-    margin: 0 !important;
-    }
-    
-    .cst-home-faq p {
-    text-align: center;
-    line-height: normal;
-    }
-    
-    body .cst-home-faq a.title_question {
-    font-size: 20px !important;
-    color: #111 !important;
-    font-family: Urbanist !important;
-    }
-    
-    .cst-home-faq .col-lg-12.top_asked {
-    padding: 0 !important;
-    }
-    
-    body .cst-home-faq h3 {
-    text-align: center;
-    font-size: 40px !important;
-    font-weight: 500 !important;
-    color: #085848;
-    }
-    
-    #cst-home-contact {
-    background: #f3dfc9;
-    }
-    
-    .contact-page .contact-form .contact_title {
-    font-weight: 500 !important;
-    font-size: 40px;
-    color: #085a48;
-    position: relative;
-    }
-    .contact-page .contact-form .contact_title::after {
-    position: absolute;
-    content: "";
-    height: 2px;
-    width: 100px;
-    background: #b7482b;
-    bottom: 0;
-    left: 50%;
-    right: 0;
-    transform: translateX(-50%);
-    }
-    .contact-page .contact-form .contact_title:before {
-    display: none;
-    }
-    
-    body .cst-home-faq .row.content_askeds {
-    max-width: 850px;
-    margin: 0 auto;
-    border: 0 !important;
-    padding: 30px 0 0 !important;
-    }
-    
-    body .cst-home-faq .box_content_question {
-    border-bottom: 1px solid #c9c9c987;
-    padding: 24px 0 !important;
-    font-size: 18px;
-    color: #000;
-    }
-    
-    .content-page.contact-page {
-    background: #3f755b0d;
-    padding: 80px 0;
-    }
-    
-    .contact-page .contact-form input {
-    border: 1px solid #c9c9c987 !important;
-    }
-    
-    .contact-message textarea {
-    border: 1px solid #c9c9c987 !important;
-    }
-    
-    .contact-page label {
-    margin-left: 0 !important;
-    font-family: Urbanist;
-    font-size: 18px !important;
-    }
-    
-    body .contact-page .contact-form .contact_bottom {
-    margin-top: 0;
-    }
-    
-    .footer_v5 .list-icon ul li a:hover {
-    background: none;
-    border-color: #f3dfc9;
-    }
-    
-    .footer_v5 .top-footer .container {
-    padding: 0 60px;
-    max-width: 100%;
-    }
-    
-    .footer_v5 .logo-footer .logosvg {
-    background: none !important;
-    }
-    
-    footer.footer_v5 {
-    background-color: #085848 !important;
-    }
-    
-    footer .copyright {
-    display: none;
-    }
-    
-    footer .list-icon svg {
-    height: 15px;
-    }
-    
-    footer.footer_v5 {
-    background-color: #085848 !important;
-    }
-    
-    .footer_v5 .menu_footer li a {
-    color: #f3dfc9 !important;
-    font-family: Urbanist;
-    }
-    
-    .footer_v5 .menu_footer li a:hover {
-    text-decoration: underline !important;
-    }
-    
-    .footer_v5 .border-center {
-    border-color: #f3dfc99e;
-    }
-    
-    .footer_v5 .title_menu {
-    font-family: Urbanist;
-    color: #f3dfc9 !important;
-    font-size: 20px;
-    text-transform: uppercase;
-    }
-    
-    .footer_v5 {
-    color: #f3dfc9 !important;
-    }
-    
-    .footer_v5 .content-footer {
-    color: #f3dfc9 !important;
-    font-family: "Urbanist";
-    }
-    
-    .footer_v5 .list-icon ul li a {
-    border: 1px solid #f3dfc9;
-    }
-    
-    .footer_v5 .top-footer {
-    padding: 40px 0;
-    }
-    .footer_v5 .top-footer .newletter_email form .btn:hover {
-    background-color: #000;
-    }
-    .footer_v5 .footer-center {
-    height: auto;
-    }
-    
-    .footer-center i {
-    color: #f3dfc9 !important;
-    }
-    
-    .footer_v5 .copyright {
-    border-top: 1px solid#f3dfc9;
-    }
-    .cst-home-table.custom-table-section p {
-    font-size: 18px;
-    }
-    .cst-home-table.custom-table-section {
-    max-width: 1200px;
-    margin: 0 auto;
-    border-radius: 30px;
-    padding-bottom: 90px;
-    padding-top: 90px;
-    }
-    
-    .cst-home-table.custom-table-section h2 {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    text-align: center;
-    margin-bottom: 40px;
-    }
-    
-    .cst-home-table.custom-table-section th:nth-child(1) {
-    background: transparent;
-    border: 0;
-    font-family: "Outfit";
-    font-weight: 500;
-    }
-    
-    .cst-home-table.custom-table-section th:nth-child(2) {
-    background: transparent;
-    text-align: center;
-    font-family: "Outfit";
-    font-weight: 500;
-    }
-    
-    .cst-home-table.custom-table-section td:nth-child(2) {
-    padding: 23px 50px;
-    }
-    
-    .cst-home-table.custom-table-section td:nth-child(2) {
-    padding: 23px 50px;
-    }
-    
-    .cst-home-table.custom-table-section td:last-child {
-    padding: 23px 50px;
-    }
-    
-    .cst-home-table.custom-table-section th:last-child {
-    background: transparent;
-    border: 0;
-    text-align: center;
-    }
-    
-    .cst-home-table.custom-table-section td {
-    font-size: 16px;
-    color: #000;
-    font-family: "Urbanist";
-    font-weight: 600;
-    padding: 20px;
-    border: 2px solid #ddd;
-    }
-    
-    .cst-home-table svg {
-    height: 28px;
-    }
-    
-    /*About-Css-start*/
-    
-    .remove-bg-home .image-with-text-block.reverse.cst-odd-sec.cst-last-block {
-    background: transparent;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    }
-    
-    .remove-bg-home .image-container {
-    padding-right: 60px;
-    }
-    .cst-about-richtext {
-    margin-bottom: 0;
-    }
-    
-    .cst-about-richtextcontainer h2 {
-    color: #085848;
-    text-transform: uppercase;
-    font-weight: 500;
-    }
-    
-    .cst-about-purpose .mission-content h2 {
-    font-size: 40px;
-    font-weight: 400;
-    color: #085848;
-    text-align: left;
-    padding-bottom: 30px;
-    margin-bottom: 0;
-    }
-    
-    .cst-about-purpose .mission-content p {
-    color: #000;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    }
-    
-    .cst-about-purpose .mission-content p em {
-    font-style: normal;
-    }
-    
-    .cst-about-purpose .mission-container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding-right: 60px;
-    padding-left: 60px;
-    }
-    
-    .cst-about-purpose .mission-image {
-    width: 40%;
-    height: 100%;
-    }
-    
-    .cst-about-purpose .mission-content {
-    width: 60%;
-    }
-    
-    .cst-about-purpose .mission-main-content {
-    margin-bottom: 0;
-    }
-    
-    .cst-about-purpose .mission-image img {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    }
-    
-    .cst-about-purpose.mission-section:nth-child(1) {
-    padding-bottom: 0;
-    }
-    
-    .cst-about-vision {
-    padding-top: 0;
-    padding-bottom: 0;
-    }
-    
-    .cst-about-vision .mission-main-content {
-    margin-bottom: 0;
-    }
-    
-    .cst-about-vision .mission-content h2 {
-    font-size: 40px;
-    font-weight: 400;
-    color: #085848;
-    text-align: left;
-    padding-bottom: 30px;
-    margin-bottom: 0;
-    }
-    
-    .cst-about-vision .mission-content p {
-    color: #000000;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 400;
-    }
-    
-    .cst-about-vision .mission-container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding-right: 60px;
-    padding-left: 60px;
-    padding-top: 0;
-    padding-bottom: 0;
-    }
-    
-    body .cst-issues-symptoms a {
-    margin-top: 5px !important;
-    }
-    
-    .cst-about-vision .mission-image {
-    width: 40%;
-    }
-    
-    .cst-about-vision .mission-content {
-    width: 60%;
-    }
-    
-    .cst-about-vision .mission-image img {
-    max-width: 100%;
-    width: 100%;
-    object-fit: cover;
-    }
-    
-    .cst-about-accordiansText .cst-mcontent {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-    }
-    
-    body .cst-about-imageText1 {
-    background: transparent;
-    padding-bottom: 0;
-    padding-top: 0;
-    }
-    
-    .cst-about-imageText1 h3 {
-    padding-bottom: 30px;
-    }
-    
-    .cst-about-imageText1 p {
-    padding-bottom: 30px;
-    }
-    
-    .cst-about-imageText .text-container p.count {
-    display: none;
-    }
-    
-    .cst-about-mission {
-    overflow: hidden;
-    }
-    
-    .cst-about-mission .mission-container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 40px 50px;
-    }
-    
-    .cst-about-mission h2 {
-    padding-bottom: 0;
-    text-align: end;
-    font-size: 40px;
-    font-weight: 600;
-    color: #085848;
-    }
-    
-    .cst-about-mission .mission-image {
-    width: 50%;
-    }
-    
-    .cst-about-mission .mission-content {
-    width: 50%;
-    }
-    
-    .cst-about-mission .mission-image img {
-    width: 100%;
-    max-width: 500px;
-    }
-    
-    .cst-about-mission .mission-content p {
-    font-size: 19px;
-    line-height: 31px;
-    text-align: end;
-    }
-    
-    .cst-about-mission .block-content-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    }
-    
-    .cst-about-mission .block-image img {
-    width: 100%;
-    height: 300px;
-    object-fit: contain;
-    max-width: 100%;
-    }
-    
-    .cst-about-mission .block-content {
-    width: 100%;
-    max-width: 450px;
-    }
-    
-    .cst-about-mission .mission-block {
-    display: inherit;
-    }
-    
-    .cst-about-mission .block-content-wrapper h3 {
-    font-size: 35px;
-    color: #085848;
-    font-weight: 500;
-    }
-    
-    .cst-about-mission .mission-section {
-    padding-bottom: 0;
-    }
-    
-    section.cst-about-purpose.mission-section {
-    padding-bottom: 0;
-    }
-    
-    body .cst-about-missions1 {
-    padding-top: 0 !important;
-    padding-bottom: 60px !important;
-    }
-    
-    .cst-about-missions1 .mission-container {
-    padding-top: 0;
-    padding-bottom: 0;
-    }
-    
-    .cst-about-accordiansText .cst-heading p {
-    font-size: 40px;
-    font-family: "Outfit", serif;
-    color: #085848;
-    line-height: normal;
-    }
-    
-    .cst-about-accordiansText .cst-mcontent p {
-    font-size: 16px;
-    color: #000;
-    }
-    
-    .cst-about-richtextcontainer {
-    margin: 0 auto;
-    padding: 80px 0 50px;
-    }
-    
-    .cst-about-accordiansText {
-    max-width: 100%;
-    padding: 60px 40px;
-    background: #fff;
-    }
-    
-    .cst-about-accordiansText button.accordion-header {
-    background: none;
-    color: #085848;
-    font-size: 17px;
-    padding-bottom: 0;
-    padding-top: 0;
-    line-height: 28px;
-    font-family: Urbanist;
-    font-weight: 600;
-    }
-    
-    .cst-about-accordiansText .accordion-item {
-    margin: 0;
-    padding: 15px 0;
-    border-bottom: 1px solid #e9dddd;
-    }
-    
-    .cst-about-accordiansText .accordion-section {
-    background: #f0f5f4;
-    padding: 20px;
-    border-radius: 20px;
-    }
-    
-    .cst-about-accordiansText .accordion-body {
-    background: transparent;
-    margin: 0;
-    padding-bottom: 0;
-    }
-    
-    .cst-about-accordiansText .accordion-body p {
-    font-family: Urbanist;
-    font-weight: 600;
-    font-size: 14px;
-    }
-    
-    .cst-about-accordiansText .accordion-item:nth-child(3) {
-    border: 0;
-    }
-    
-    .cst-about-accordiansText span.accordion-icon {
-    background: #085848;
-    height: 20px;
-    width: 20px;
-    line-height: 18px;
-    text-align: center;
-    border-radius: 30px;
-    }
-    
-    .cst-about-accordiansText svg {
-    color: #fbf4ed;
-    line-height: 16px;
-    height: 8px;
-    }
-    
-    /*About-Css-end*/
-    
-    /*our-services-offerings-Css-start*/
-    .cst-custom-our-approach-heath-issues .container.cst-flex {
-    background: #f3dfc933;
-    justify-content: unset;
-    }
-    .cst-issues-AyurvedicPerspective .text-container h3 {
-    line-height: 50px;
-    font-weight: 500;
-    color: #085a48;
-    text-align: left;
-    font-size: 40px;
-    }
-    
-    .cst-issues-AyurvedicPerspective .text-container .cst-content p {
-    font-size: 18px;
-    color: #085848;
-    line-height: 28px;
-    font-weight: 400;
-    }
-    
-    .cst-issues-AyurvedicPerspective .text-container li {
-    font-size: 18px;
-    color: #085848;
-    line-height: 28px;
-    font-weight: 400;
-    list-style: disc;
-    }
-    .cst-issues-AyurvedicPerspective .image-container img {
-    height: 342px;
-    margin-right: auto;
-    margin-left: 0;
-    object-fit: cover;
-    max-width: 100%;
-    width: 100% !important;
-    border-radius: 0;
-    }
-    .cst-issues-AyurvedicPerspective .maincontent.maincontent2 p {
-    font-size: 18px;
-    color: #085848;
-    line-height: 21px;
-    font-weight: 400;
-    }
-    .cst-home-ourapproch .custom-right-block .cst-block_content {
-    font-size: 18px;
-    }
-    .cst-custom-our-approach-heath-issues .custom-left-column {
-    width: 30%;
-    }
-    
-    .cst-custom-our-approach-heath-issues .custom-right-column {
-    width: 40%;
-    }
-    
-    .cst-custom-our-approach-heath-issues .cst-wrapper {
-    margin-right: 45px;
-    }
-    .cst-issues-AyurvedicPerspective .container {
-    max-width: 100%;
-    padding: 60px 60px 0;
-    }
-    .cst-issues-AyurvedicPerspective .text-container {
-      padding-left: 0;
-      display: flex
-    ;
-      flex-direction: column;
-      justify-content: center;
-    }
-    
-    .cst-custom-grid-heath-issues .image-block img {
-    width: 100%;
-    height: 309px;
-    object-fit: cover;
-    }
-    
-    .cst-custom-grid-heath-issues .column {
-    width: 100%;
-    max-width: 100%;
-    display: block;
-    }
-    .cst-issues-AyurvedicPerspective.image-with-text-section {
-    padding-bottom: 0;
-    }
-    .cst-custom-grid-heath-issues .text-block p {
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 600;
-    text-align: left;
-    margin-top: 12px;
-    }
-    
-    .cst-custom-table-section-only {
-    background: #fdf9f4;
-    margin-top: 120px 0 0 0;
-    }
-    
-    .cst-custom-table-section-only .cst-home-table.custom-table-section {
-    padding-top: 70px;
-    padding-bottom: 46px;
-    }
-    .cst-symptoms-heath-issues .column .text-block {
-    margin: 0;
-    }
-    
-    .cst-symptoms-heath-issues .column .text-block p {
-    font-size: 22px;
-    line-height: 26px;
-    color: #787878;
-    font-weight: 500;
-    font-family: "Urbanist";
-    }
-    body .cst-symptoms-heath-issues h2 {
-    font-size: 40px;
-    line-height: 50px;
-    font-weight: 500;
-    color: #085a48;
-    text-align: left;
-    }
-    
-    body .cst-symptoms-heath-issues.custom-multi-column {
-    padding: 80px 60px;
-    background: #085a4814;
-    }
-    
-    .cst-symptoms-heath-issues .column {
-    background: #ffffff80;
-    padding: 30px;
-    border: 1px solid #085a4880;
-    align-items: start;
-    }
-    
-    .cst-symptoms-heath-issues .column .image-block img {
-    max-width: 58px;
-    height: 47px;
-    object-fit: cover;
-    margin-bottom: 16px;
-    }
-    .cst-symptoms-heath-issues .column-container {
-    gap: 40px;
-    }
-    body .cst-text-health-issue {
-    align-items: unset;
-    padding: 80px 60px;
-    }
-    body .cst-text-health-issue .image-row img {
-    width: 100%;
-    object-fit: fill;
-    }
-    body .cst-text-health-issue .image-row {
-    height: 100%;
-    }
-    body .cst-text-health-issue .left-div {
-    width: 49%;
-    max-width: 846px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    body .cst-text-health-issue .right-div {
-    width: 45%;
-    }
-    body .cst-text-health-issue h2 {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    margin-bottom: 20px;
-    max-width: 638px;
-    }
-    .cst-custom-issues-Ayurvedic {
-    padding: 70px 60px;
-    max-width: 1300px;
-    margin: 0 auto;
-    }
-    
-    .cst-custom-issues-Ayurvedic h2 {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    text-align: center;
-    margin-bottom: 40px;
-    }
-    
-    .cst-custom-issues-Ayurvedic .cst-bottom p {
-    text-align: left;
-    }
-    .cst-issues-AyurvedicPerspective.image-with-text-section ul {
-    padding-left: 35px;
-    margin-bottom: 0;
-    }
-    body .cst-custom-grid-heath-issues {
-    padding: 0 60px 80px;
-    }
-    body .cst-custom-grid-heath-issues p.cst-custom-read-more {
-    text-align: justify;
-    font-size: 18px;
-    }
-    
-    body .cst-custom-grid-heath-issues p.cst-custom-read-more a {
-    color: #b7482b;
-    font-size: 18px;
-    }
-    .cst-custom-image-with-text-therapies .image-container img {
-    border-radius: 0;
-    }
-    .cst-custom-image-with-text-therapies .cst-content li {
-    font-size: 20px;
-    color: #000000;
-    font-weight: 400;
-    line-height: 160%;
-    list-style: disc;
-    }
-    .cst-custom-image-with-text-therapies {
-    background: #ebf2f0;
-    padding: 0;
-    }
-    .cst-custom-wich-text-with-images h2.heading-title {
-    line-height: 50px;
-    font-weight: 500;
-    color: #085a48;
-    text-align: left;
-    font-size: 40px;
-    }
-    .cst-custom-wich-text-with-images.container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 80px 60px;
-    }
-    .cst-custom-wich-text-with-images .rich-text__content {
-    text-align: left;
-    max-width: 843px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    .cst-custom-wich-text-with-images .grid {
-    display: flex;
-    justify-content: space-between;
-    }
-    
-    .cst-custom-wich-text-with-images .rich-text-with-image-icons img {
-    display: flex;
-    justify-content: end;
-    margin-left: auto;
-    }
-    
-    .cst-custom-banner-v2-therapies-page
-    a.button-shop.button-shop-template--17663614976185__section_banner_v2_Jz6FbG {
-    transition: 0.3s;
-    text-transform: capitalize;
-    padding: 12px 45px;
-    font-family: Urbanist;
-    font-size: 16px;
-    font-weight: 500;
-    }
-    .cst-custom-banner-v2-therapies-page
-    .section-banner-v2
-    .banner-box
-    .banner-info
-    .button-shop-template--17663614976185__section_banner_v2_Jz6FbG:hover {
-    border-top-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    }
-    .cst-custom-banner-v2-therapies-page h3 {
-    font-size: 40px !important;
-    font-weight: 400 !important;
-    font-family: "Outfit" !important;
-    }
-    .cst-custom-banner-v2-therapies-page
-    .section-banner-v2
-    .banner-box
-    .banner-info.content-left {
-    left: 0;
-    padding: 0 60px;
-    }
-    .cst-custom-banner-v2-therapies-page p.sub-title {
-    max-width: 850px;
-    line-height: 140%;
-    }
-    .cst-custom-wich-text-with-images .rich-text__content p:nth-child(4) {
-    margin-top: 10px;
-    }
-    .cst-custom-wich-text-with-images .rich-text__content p {
-    font-size: 18px;
-    color: #085848;
-    line-height: 28px;
-    font-weight: 400;
-    margin-bottom: 0;
-    margin-top: 10px;
-    max-width: 843px;
-    }
-    
-    .cst-custom-wich-text-with-images .rich-text__content ul {
-    padding-left: 35px;
-    margin-bottom: 10px;
-    }
-    .cst-custom-image-with-text-2-therapies-page .cst-main-content-sec {
-    flex-direction: column;
-    text-align: left;
-    align-items: start;
-    }
-    .cst-custom-wich-text-with-images .rich-text__content li {
-    font-size: 18px;
-    color: #085848;
-    line-height: 28px;
-    font-weight: 400;
-    list-style: disc;
-    }
-    
-    .cst-custom-wich-text-with-images .rich-text__content a {
-    color: #b7482b;
-    font-size: 18px;
-    text-decoration: underline;
-    }
-    .cst-custom-image-with-text-therapies .cst-odd-sec.cst-last-block {
-    margin: 0;
-    }
-    .cst-custom-image-with-text-therapies .cst-content {
-    margin-top: 30px;
-    }
-    
-    .cst-custom-image-with-text-therapies .cst-content ul {
-    padding-left: 43px;
-    }
-    .cst-custom-issues-Ayurvedic li {
-    font-size: 16px;
-    color: #085848;
-    font-weight: 500;
-    line-height: 25px;
-    margin: 15px 0;
-    }
-    
-    .cst-therapies-Benefits h2 {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    margin-bottom: 50px;
-    }
-    
-    .cst-therapies-Benefits.custom-multi-column {
-    padding: 50px 0;
-    }
-    
-    .cst-therapies-Benefits .image-block {
-    max-width: 75px;
-    }
-    
-    .cst-therapies-Benefits .item.column {
-    flex-direction: column-reverse;
-    }
-    .cst-therapies-Benefits .item.column p{
-    font-size: 18px;
-    }
-    .cst-issues-ayurvedic.container .rich-text__content p {
-    font-size: 18px;
-    }
-    .cst-therapies-therapy .custom-banner-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    
-    .cst-therapies-Benefitscontainer {
-    margin: 0 auto;
-    padding-bottom: 80px;
-    }
-    
-    .cst-therapies-Benefitscontainer h2.heading-title {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    text-align: center;
-    margin-bottom: 20px;
-    }
-    
-    .cst-therapies-Benefitscontainer .rich-text__content li {
-    font-family: Urbanist;
-    font-size: 16px;
-    color: #085848;
-    }
-    
-    body .m-cst-issues-time {
-    padding: 120px 0;
-    }
-    
-    body .m-cst-issues-time h2.m-section-heading {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    text-align: center;
-    margin-bottom: 40px;
-    }
-    
-    .m-cst-issues-time .m-column-container {
-    margin-top: 39px;
-    position: relative;
-    }
-    .m-column-container::after {
-    position: absolute;
-    height: 0;
-    content: "";
-    width: 60%;
-    border-top-style: dashed;
-    border-color: #b7482b;
-    top: 36%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    }
-    .m-cst-issues-time .m-time-block {
-    background: #b7482b;
-    max-width: 256px;
-    margin: 0 auto;
-    height: 128px;
-    padding: 9px 27px;
-    border: 2px solid #b7482b;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    
-    .m-cst-issues-time .m-time-block p {
-    color: #fff;
-    font-size: 30px;
-    line-height: 35px;
-    font-weight: 500;
-    }
-    .m-cst-issues-time .cst-weeek-month p {
-    color: #f3dfc9 !important;
-    font-size: 20px;
-    line-height: normal;
-    }
-    body .cst-issues-symptoms {
-    padding: 80px 0;
-    }
-    
-    body .cst-issues-symptoms .custom-banner-right img {
-    height: 100%;
-    object-fit: cover;
-    }
-    
-    .cst-issues-symptoms li {
-    font-family: Urbanist;
-    font-size: 18px;
-    color: #085848;
-    }
-    
-    .cst-issues-symptoms h2.custom-banner-heading {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    text-align: center;
-    margin-bottom: 40px;
-    }
-    
-    .cst-issues-symptoms .custom-banner-left h3 {
-    font-size: 28px;
-    font-weight: 500;
-    color: #085848;
-    }
-    
-    .m-cst-issues-time .m-text-block p {
-    font-weight: bold;
-    color: #085848;
-    margin-top: 18px;
-    }
-    
-    .cst-issues-ayurvediccontainer {
-    margin: 0;
-    padding: 120px 0;
-    max-width: 100%;
-    }
-    
-    .cst-issues-ayurvediccontainer h2.heading-title {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    margin-bottom: 40px;
-    }
-    
-    .cst-issues-ayurvediccontainer p {
-    max-width: 800px;
-    margin: 0 auto;
-    color: #085848;
-    margin-top: 10px;
-    }
-    
-    .cst-issues-ayurvediccontainer li {
-    font-size: 16px;
-    color: #085848;
-    }
-    
-    .cst-issues-imgText .text-container h3 {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    padding-top: 30px;
-    }
-    
-    .cst-issues-imgText .cst-content p {
-    font-size: 18px;
-    color: #085848;
-    line-height: 24px;
-    text-align: left;
-    max-width: 638px;
-    }
-    .cst-issues-imgText .cst-banner-btn {
-    text-align: left;
-    }
-    .cst-issues-imgText .image-container img {
-    height: 100%;
-    object-fit: cover;
-    }
-    .cst-therapies-imgText {
-    padding-bottom: 0;
-    }
-    .cst-therapies-Benefits h2.heading-title {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    }
-    .cst-custom-banner-therapies-page .left-div p {
-    text-align: left;
-    }
-    .cst-custom-banner-therapies-page .cst-banner-btn {
-    display: flex;
-    justify-content: start;
-    }
-    .cst-issues-ayurvedic h2 {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    }
-    
-    .cst-issues-ayurvedic li {
-    font-size: 16px;
-    color: #085848;
-    font-weight: 500;
-    line-height: 25px;
-    }
-    
-    .cst-issues-ayurvedic.container {
-    margin-bottom: 0;
-    padding: 50px;
-    }
-    
-    .cst-therapies-Benefits .cst-issues-ayurvedic {
-    margin-bottom: 0;
-    }
-    
-    .cst-therapies-Benefits .rich-text__content li,
-    p {
-    font-size: 16px;
-    color: #085848;
-    font-weight: 500;
-    line-height: 25px;
-    }
-    .cst-issues-AyurvedicPerspective .maincontent.maincontent2 p {
-    font-size: 18px;
-    line-height: 28px;
-    }
-    .cst-custom-wich-text-with-images .rich-text-with-image-icons img {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    object-fit: contain;
-    margin: 0 auto;
-    }
-    /*our-services-offerings-css-end*/
-    
-    /*quiz-page-css-start*/
-    .page-quiz-result header#header{
-    z-index: 3;
-    position: relative;
-    }   
-    .page-quiz-result .col-lg-8.col-xl-9 {
-    padding: 10px;
-    }
-    .page-quiz-result .container.container-v2 {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 80px 120px;
-    }
-    .cst-custom-info-quiz-result-page .container {
-    padding: 0 !important;
-    }
-    .cst-custom-info-quiz-result-page .section-info-v1 p {
-    text-align: left;
-    font-size: 18px;
-    font-weight: 500;
-    color: #000000a6;
-    line-height: 27px;
-    }
-    .cst-custom-info-quiz-result-page .section-info-v1 ul {
-    padding-left: 48px;
-    }
-    .cst-custom-info-quiz-result-page .section-info-v1 li {
-    text-align: left;
-    font-size: 18px;
-    font-weight: 500;
-    color: #000000a6;
-    line-height: 27px;
-    list-style: disc;
-    }
-    
-    .cst-custom-info-quiz-result-page .section-info-v1 {
-    margin: 40px 0 0;
-    }
-    .cst-custom-info-quiz-result-page .d-flex {
-    justify-content: start !important;
-    }
-    .article_sidebar.cst-mainArticle {
-    background: #f0f5f4;
-    padding: 24px;
-    max-width: 304px;
-    position: sticky;
-    top: 20px;
-    right: 20px;
-    }
-    .cst-custom-info-quiz-result-page .title_heading {
-    font-size: 24px;
-    color: #b7482b;
-    text-align: left;
-    text-transform: capitalize;
-    font-weight: 500;
-    font-family: Outfit, serif;
-    margin-bottom: 10px !important;
-    }
-    .cst-custom-richtext-image-quiz-result-page h2 {
-    font-size: 24px;
-    line-height: normal;
-    color: #b7482b;
-    text-align: left;
-    text-transform: capitalize;
-    font-weight: 500;
-    font-family: Outfit, serif;
-    }
-    
-    .cst-custom-richtext-image-quiz-result-page .grid {
-    text-align: left;
-    }
-    .cst-custom-info-quiz-result-page p.content_info {
-    display: none;
-    }
-    .cst-custom-richtext-image-quiz-result-page .grid p {
-    color: #000000a6;
-    margin-bottom: 10px;
-    }
-    .cst-custom-richtext-image-quiz-result-page .grid p strong {
-    color: #085A48;
-    margin-bottom: 0;
-    }
-    .cst-custom-info-quiz-result-page .title_heading::before {
-    display: none;
-    }
-    #shopify-section-cst-video video {
-    width: 100%;
-    max-width: 800px;
-    }
-    .cst-custom-richtext-quiz-result-page {
-    padding: 45px 0 0;
-    margin-bottom: 40px;
-    }
-    .cst-custom-image-quiz-result-page img {
-    width: 100%;
-    object-fit: cover;
-    max-width: 800px !important;
-    display: block;
-    }
-    .cst-custom-richtext-quiz-result-page h2.heading-title {
-    font-size: 24px;
-    font-weight: 500;
-    color: #B7482B;
-    text-align: left;
-    }
-    
-    .cst-custom-richtext-quiz-result-page .rich-text__content p {
-    text-align: left;
-    font-size: 16px;
-    font-weight: 500;
-    color: #000000a6;
-    line-height: 27px;
-    }
-    .custom-banner-red-btn a span {
-    margin-left: 10px;
-    }
-    .custom-banner-red-btn a:hover {
-    background: transparent;
-    border: 0;
-    color: #b7482b;
-    }
-    .custom-banner-red-btn {
-    position: relative;
-    }
-    .custom-banner-red-btn a {
-    background: transparent;
-    border: 0;
-    color: #b7482b;
-    font-weight: 500;
-    padding: 0;
-    position: absolute;
-    top: 125px;
-    }
-    .cst-custom-banner-quiz-result-page .image-row {
-    justify-content: center;
-    }
-    
-    .cst-custom-banner-quiz-result-page .image-row img {
-    width: 100%;
-    object-fit: cover;
-    max-width: 644px;
-    height: 100%;
-    }
-    
-    .cst-custom-banner-quiz-result-page .left-div {
-    width: 100%;
-    }
-    
-    .cst-custom-banner-quiz-result-page .right-div {
-    width: 100%;
-    }
-    .cst-custom-banner-quiz-result-page {
-    background: #f5f0eb;
-    padding-left: 120px !important;
-    padding-bottom: 90px !important;
-    }
-    .cst-custom-banner-quiz-result-page .cst-content {
-    font-size: 26px;
-    font-weight: 500;
-    font-family: 'Outfit';
-    color: #085A48;
-    }
-    .cst-custom-banner-quiz-result-page .left-div h2 {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085A48;
-    }
-    .cst-custom-banner-quiz-result-page .left-div p {
-    font-size: 18px;
-    max-width: 420px;
-    color: #085A48;
-    font-weight: 400;
-    margin-top: 24px;
-    }
-    
-    .cst-knowBody-quiz .result-button {
-    text-align: end;
-    }
-    .cst-knowBody-quiz .quix-wrap-content {
-    padding: 40px;
-    background: #fbf5ef;
-    margin-bottom: 24px;
-    position: relative;
-    z-index: 1;
-    }
-    .cst-knowBody-quiz .quix-wrap-content::after {
-    position: absolute;
-    top: 15%;
-    bottom: 0;
-    right: 0;
-    left: auto;
-    background-image: url(/cdn/shop/files/Group_3_1.png?v=1737712781);
-    content: "";
-    height: 644px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: right center;
-    object-fit: cover;
-    background-size: contain;
-    margin-right: 0;
-    margin-left: auto;
-    z-index: -1;
-    }
-    .cst-custom-banner-v2-quiz-page .banner-info.content-left {
-    left: 0 !important;
-    padding-left: 60px !important;
-    }
-    
-    .cst-custom-banner-v2-quiz-page
-    .section-banner-v2
-    .banner-box
-    .banner-info
-    .title {
-    font-size: 40px;
-    font-weight: 500;
-    font-family: "Outfit";
-    }
-    
-    .cst-custom-banner-v2-quiz-page p.sub-title {
-    max-width: 700px;
-    line-height: 150%;
-    font-size: 18px;
-    }
-    
-    .cst-custom-banner-v2-quiz-page .section-banner-v2 {
-    margin-top: 0px;
-    }
-    .cst-knowBody-quiz {
-    padding: 40px 220px;
-    max-width: 100%;
-    margin: 0 auto;
-    }
-    
-    .cst-knowBody-quiz h1 {
-    color: #085848;
-    font-size: 40px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    text-align: left;
-    }
-    
-    .cst-knowBody-quiz .question label {
-    font-size: 18px;
-    color: #085848;
-    line-height: 31px;
-    border-radius: 0;
-    font-weight: 500;
-    margin: 0;
-    font-family: Outfit, serif;
-    }
-    
-    .cst-knowBody-quiz .answers {
-    font-size: 16px;
-    line-height: 38px;
-    font-family: Urbanist;
-    display: flex;
-    justify-content: start;
-    gap: 32px;
-    margin-bottom: 20px;
-    flex-direction: column;
-    row-gap: 10px;
-    }
-    
-    .cst-knowBody-quiz .answers span {
-    font-size: 16px;
-    font-weight: 500;
-    color: #085a48;
-    }
-    
-    .cst-knowBody-quiz button {
-    display: inline-block;
-    background: #085848;
-    color: #f3dfc9;
-    padding: 12px 45px;
-    font-family: Urbanist;
-    font-size: 16px;
-    font-weight: 500;
-    border: 1px solid #085848;
-    transition: 0.3s;
-    text-transform: capitalize;
-    margin-top: 20px;
-    }
-    
-    .cst-knowBody-quiz button:hover {
-    background: #085848;
-    color: #f3dfc9;
-    border-top-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border: 1px solid #085848;
-    }
-    
-    div#quiz-kit-question-wrapper-145749 {
-    background: #f3dfc9;
-    }
-    
-    .review__content p {
-    font-size: 18px !important;
-    }
-    
-    .review__image__wrapper .review__title {
-    font-size: 14px !important;
-    }
-    
-    #quiz-kit-container h1 {
-    font-size: 40px !important;
-    color: #085848 !important;
-    margin-bottom: 30px !important;
-    text-align: center !important;
-    font-weight: 700 !important;
-    }
-    
-    div#quiz-kit-question-radio-buttons-145749 button:hover {
-    background: #085848 !important;
-    border-color: #085848 !important;
-    border-top-left-radius: 16px !important;
-    border-bottom-right-radius: 16px !important;
-    }
-    
-    .sc-fzoydu.jlKaKs {
-    display: none !important;
-    }
-    
-    div#quiz-kit-question-radio-buttons-145749 button {
-    font-family: Urbanist !important;
-    }
-    
-    div#quiz-kit-question-radio-buttons-145750 button {
-    font-family: Urbanist !important;
-    }
-    
-    div#quiz-kit-question-radio-buttons-145751 button {
-    font-family: Urbanist !important;
-    }
-    
-    div#quiz-kit-question-radio-buttons-145752 button {
-    font-family: Urbanist !important;
-    }
-    
-    .cst-home-faq .card-body {
-    font-size: 16px !important;
-    font-family: "Urbanist";
-    }
-    
-    .page_aboutus_v1.page_FQA
-    .asked
-    .content_askeds
-    .box_content_question
-    .card-body {
-    font-size: 16px !important;
-    color: #111 !important;
-    }
-    
-    button#quiz-kit-question-next-button {
-    font-family: Urbanist !important;
-    }
-    
-    div#quiz-kit-question-grid-145749 button {
-    border-radius: 0 !important;
-    padding: 10px !important;
-    background: transparent !important;
-    }
-    
-    body
-    .contact-page
-    .contact-form
-    .contact-form-page
-    .contact-form
-    .contact-message
-    textarea {
-    height: 180px;
-    }
-    
-    body
-    .contact-page
-    .contact-form
-    .contact-form-page
-    .contact-form
-    .contact-email
-    input,
-    body
-    .contact-page
-    .contact-form
-    .contact-form-page
-    .contact-form
-    .contact-name
-    input,
-    body
-    .contact-page
-    .contact-form
-    .contact-form-page
-    .contact-form
-    .contact-subject
-    input {
-    height: 45px;
-    }
-    
-    .cst-home-ourapproch .custom-right-block:last-child {
-    padding: 0;
-    }
-    
-    div#quiz-kit-question-wrapper-145750 {
-    background: #f3dfc9;
-    }
-    
-    div#quiz-kit-question-wrapper-145750 button {
-    border-radius: 0 !important;
-    padding: 10px !important;
-    background: transparent !important;
-    }
-    
-    div#quiz-kit-question-wrapper-145750 button:hover {
-    background: #085848 !important;
-    border-color: #085848 !important;
-    border-top-left-radius: 16px !important;
-    border-bottom-right-radius: 16px !important;
-    }
-    
-    div#quiz-kit-question-wrapper-145751 {
-    background: #f3dfc9;
-    }
-    
-    div#quiz-kit-question-wrapper-145751 button {
-    border-radius: 0 !important;
-    padding: 10px !important;
-    background: transparent !important;
-    }
-    
-    div#quiz-kit-question-wrapper-145751 button:hover {
-    background: #085848 !important;
-    border-color: #085848 !important;
-    border-top-left-radius: 16px !important;
-    border-bottom-right-radius: 16px !important;
-    }
-    
-    div#quiz-kit-question-wrapper-145752 {
-    background: #f3dfc9;
-    }
-    
-    div#quiz-kit-question-wrapper-145752 button {
-    border-radius: 0 !important;
-    padding: 10px !important;
-    background: transparent !important;
-    }
-    
-    div#quiz-kit-question-wrapper-145752 button:hover {
-    background: #085848 !important;
-    border-color: #085848 !important;
-    border-top-left-radius: 16px !important;
-    border-bottom-right-radius: 16px !important;
-    }
-    
-    div#shopify-block-AOFM0OFdva0hZNHZZV__quiz_kit_smart_product_finder_quiz_hCqcHg {
-    width: 100% !important;
-    }
-    
-    body .box_contentmenu {
-    background-color: #085848;
-    }
-    
-    body
-    .box_contentmenu
-    .tab_content_menu_mobile
-    .tab-content
-    #tab_menu_mobile
-    .menu-horizon-list
-    .nammenu {
-    color: #f3dfc9;
-    font-family: "Urbanist";
-    }
-    
-    body
-    .box_contentmenu
-    .tab_content_menu_mobile
-    .tab-content
-    #tab_menu_mobile
-    .menu-horizon-list {
-    border-bottom: 1px solid #f3dfc9;
-    }
-    
-    body .box_contentmenu .tab_content_menu_mobile .close-menu-mobile {
-    background-color: #f3dfc9;
-    color: #085848;
-    font-family: "Urbanist";
-    font-weight: 500;
-    }
-    
-    body .cst-about-imageText1 .image-container img {
-    height: 100%;
-    object-fit: cover;
-    }
-    
-    /*quiz-page-css-end*/
-    
-    /* page-pitta-css-start */
-    .page-pitta .cst-bodyType-messagecontainer {
-    text-align: left;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 20px;
-    max-width: 100%;
-    background: #08584875;
-    }
-    
-    .page-pitta .cst-bodyType-messagecontainer .grid {
-    max-width: 1200px;
-    margin: 0 auto;
-    }
-    
-    .page-pitta .cst-bodyType-messagecontainer h1 {
-    font-size: 24px;
-    }
-    
-    .page-pitta .cst-bodyType-Video {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    }
-    
-    .page-pitta .cst-bodyType-AboutAyurvedacontainer {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 20px;
-    }
-    
-    .page-pitta .cst-bodyType-richtext2container {
-    margin: 0 auto;
-    padding: 40px 20px;
-    max-width: 1200px;
-    }
-    
-    .page-pitta .cst-bodyType-image1 {
-    max-width: 1160px;
-    margin: 0 auto;
-    padding: 0 20px 0;
-    }
-    
-    .page-pitta .cst-bodyType-image1 img {
-    max-width: 100%;
-    height: 653px;
-    width: 100%;
-    object-fit: cover;
-    }
-    
-    .page-pitta .cst-main-bannercnt.container {
-    padding: 0 60px;
-    max-width: 100%;
-    margin: 0 auto;
-    }
-    
-    .page-pitta .cst-maincontnet-wrapp .custom-banner-heading {
-    text-align: center;
-    margin: 0 0 40px;
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    }
-    
-    .page-pitta .custom-banner-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    
-    .page-pitta .custom-banner-left p {
-    font-size: 16px;
-    color: #085848;
-    font-weight: 500;
-    line-height: 24px;
-    }
-    
-    .page-pitta .custom-banner-right img {
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    }
-    
-    .page-pitta .cst-bodyType-richtext h2.heading-title {
-    font-size: 40px;
-    font-weight: 500;
-    color: #085848;
-    margin: 0;
-    }
-    
-    .page-pitta .cst-bodyType-richtext .rich-text__content {
-    padding: 20px;
-    }
-    
-    .page-pitta .cst-bodyType-richtext .rich-text__content p {
-    font-size: 16px;
-    color: #085848;
-    font-weight: 500;
-    line-height: 25px;
-    }
-    
-    .page-pitta .cst-bodyType-richtext.container-v1 {
-    padding: 60px 0;
-    margin: 0 auto;
-    }
-    
-    /* page-pitta-css-end */
-    
-    /* faq-css-start */
-    .breadcrumb_collection2 .bg-breadcrumb {
-    position: relative;
-    }
-    
-    .breadcrumb_collection2 .bg-breadcrumb::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    background: #1a1818b3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    }
-    
-    .cst-faqPage-Faq .breadcrumb_collection2 .bg-breadcrumb .title-page h2 {
-    font-size: 40px;
-    font-weight: 500;
-    color: #f3dfc9;
-    padding-top: 30px;
-    font-family: "Outfit";
-    z-index: 1;
-    }
-    
-    .cst-about-richtext .rich-text__heading-- h2 {
-    font-size: 40px;
-    font-weight: 500;
-    padding-top: 50px;
-    font-family: "Outfit";
-    color: #085848;
-    }
-    
-    .cst-faqPage-Faq .wrap-bread-crumb .bread-crumb a {
-    font-size: 18px;
-    color: #f3dfc9;
-    font-family: "Urbanist";
-    z-index: 1;
-    position: relative;
-    }
-    
-    .cst-faqPage-Faq .wrap-bread-crumb .bread-crumb a:hover {
-    color: #fff;
-    }
-    
-    .cst-faqPage-Faq .breadcrumb_collection2 .bg-breadcrumb .bread-crumb strong {
-    font-size: 18px;
-    color: #f3dfc9;
-    font-family: "Urbanist";
-    z-index: 1;
-    position: relative;
-    }
-    
-    .cst-faqPage-Faq .newsletter .box-content h3 {
-    font-size: 40px !important;
-    font-weight: 500 !important;
-    color: #085848;
-    line-height: normal !important;
-    text-align: center;
-    }
-    
-    body .cst-faqPage-Faq .top_asked p.mb-0 {
-    font-size: 18px;
-    color: #000;
-    }
-    
-    .cst-faqPage-Faq.page_FQA .asked .top_asked h3 {
-    color: #085848;
-    font-size:40px;
-    }
-    
-    body .cst-faqPage-Faq .card-body {
-    font-size: 18px;
-    color: #000;
-    font-family: "Urbanist";
-    }
-    
-    .page_aboutus_v1.page_FQA
-    .asked
-    .content_askeds
-    .box_content_question
-    .title_question {
-    font-size: 24px;
-    font-weight: 500;
-    color: #085848;
-    text-align: left;
-    font-family: "Urbanist";
-    }
-    
-    .cst-faqPage-Faq .newsletter .box-email .btn-primary {
-    display: inline-block;
-    background: #085848;
-    color: #f3dfc9;
-    padding: 12px 45px;
-    font-family: Urbanist;
-    font-size: 16px;
-    font-weight: 500;
-    transition: 0.3s;
-    text-transform: capitalize;
-    margin-top: 20px;
-    }
-    
-    .cst-faqPage-Faq .newsletter .box-email .btn-primary:hover {
-    background: #085848;
-    color: #f3dfc9;
-    border-top-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    }
-    
-    /* faq-css-end */
-    
-    /* Blog-css-start */
-    .cst-mainBlogs p.description.text-center {
-    color: #000 !important;
-    }
-    .cst-mainBlogs .section-blog-v2 .info_blog .content {
-    color: #085848;
-    }
-    .cst-mainBlogs .section-blog-v2 .info_blog .date .day {
-    color: #085848;
-    }
-    .cst-mainBlogs .section-blog-v2 .info_blog .date .day:after{
-    display: none;
-    }
-    .cst-mainBlogs h3.title-section-blog {
-    text-align: center;
-    display: block;
-    color: #085848 !important;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: normal;
-    margin-bottom: 0;
-    font-family: "Outfit";
-    letter-spacing: 0;
-    }
-    
-    .cst-mainBlogs h3.title-section-blog::before {
-    display: none;
-    }
-    
-    .cst-mainBlogs .section-blog-v2 .info_blog .title-blog a:hover {
-    color: #085848;
-    }
-    .cst-mainArticle .cst-custom-blog-info-right-side {
-    display: flex;
-    align-items: end;
-    gap: 67px;
-    justify-content: center;
-    }
-    .cst-mainArticle .cst-custom-blog-info-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    }
-    .cst-mainArticle .container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 80px 120px;
-    }
-    .cst-mainArticle .cst-custom-blog-info-right-side h2 {
-    font-size: 40px;
-    color: #085a48;
-    font-weight: 500;
-    font-family: Outfit;
-    max-width: 533px;
-    margin-top: 20px;
-    margin-bottom: 0;
-    line-height: 50.4px;
-    }
-    .cst-mainArticle .cst-custom-blog-info-right-side p {
-    font-size: 18px;
-    max-width: 658px;
-    }
-    
-    .cst-mainArticle .cst-custom-blog-info-left-side p {
-    font-size: 16px;
-    display: flex;
-    justify-content: start;
-    max-width: 1250px;
-    margin: 0 auto;
-    color: #085A48B2;
-    }
-    .cst-mainArticle .content-post-default h3 {
-    color: #b7482b;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 150%;
-    padding-top: 20px;
-    }
-    .cst-mainArticle .breadcrumb-noheading strong {
-    color: #085848;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Outfit";
-    }
-    .cst-mainArticle .cst-custom-blog-book-consultants h4 {
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: 600;
-    }
-    
-    .cst-mainArticle .cst-custom-blog-book-consultants p {
-    color: #000;
-    line-height: 24px;
-    max-width: 256px;
-    }
-    .cst-mainArticle .article-page .content-single-blog .post-details {
-    border: 0;
-    }
-    .article header#header {
-    z-index: 3;
-    position: relative;
-    }
-    .cst-mainArticle .article_sidebar {
-    background: #f0f5f4;
-    padding: 24px;
-    max-width: 304px;
-    position: sticky;
-    top: 20px;
-    right: 20px;
-    }
-    .cst-mainArticle .content-post-default strong {
-    font-size: 18px;
-    color: #085848;
-    font-weight: 700;
-    }
-    .cst-mainArticle .single-post-thumb img {
-    height: 600px;
-    object-fit: cover;
-    width: 100%;
-    }
-    .cst-mainArticle .content-post-default ul {
-    margin: 20px 0;
-    }
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .post-details
-    .article_title {
-    font-size: 40px;
-    font-weight: 500;
-    color: #f3dfc9;
-    }
-    
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .post-details
-    .cmt-author
-    .date-post
-    i
-    a {
-    color: #f3dfc9;
-    }
-    
-    .cst-mainArticle ol.blog-list-items {
-    padding-top: 7px !important;
-    }
-    .cst-mainArticle .blog-list-items li {
-    margin-bottom: 17px !important;
-    }
-    .cst-mainArticle .blog-list-items li:last-child {
-    margin-bottom: 0;
-    }
-    .cst-mainArticle .row.next_prev_post {
-    display: none;
-    }
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .post-details
-    .content-post-default
-    p {
-    font-size: 18px;
-    color: #000;
-    line-height: 150%;
-    }
-    .cst-mainArticle .row.cate-tags {
-    display: none;
-    }
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .post-details
-    .content-post-default
-    li {
-    font-size: 18px;
-    color: #000;
-    line-height: 27px;
-    margin: 5px 0;
-    position: relative;
-    }
-    .cst-mainArticle .article-page .content-single-blog .post-details .content-post-default li::before {
-    position: absolute;
-    background: #085848;
-    height: 4px;
-    width: 4px;
-    content: '';
-    left: -9px;
-    border-radius: 30px;
-    top: 12px;
-    }
-    .cst-mainArticle .article-page .content-single-blog .post-details .content-post-default ul {
-    padding-left: 15px;
-    }
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .post-details
-    .content-post-default
-    ol {
-    padding: 0;
-    padding-left: 15px;
-    margin-bottom: 0;
-    }
-    
-    .cst-mainArticle .content-post-default p strong {
-    color: #085848;
-    font-size: 18px;
-    font-weight: 600;
-    }
-    
-    .cst-mainArticle h3::before {
-    display: none !important;
-    }
-    .cst-mainArticle p.blog-iframe-video {
-    padding-top: 30px;
-    }
-    .cst-mainArticle p.blog-iframe-video img {
-    width: 100%;
-    object-fit: cover;
-    height: 600px;
-    padding-bottom: 20px;
-    }
-    .cst-mainArticle .article-page .content-single-blog .next_prev_post a {
-    color: #085848;
-    border-bottom: 1px solid;
-    }
-    
-    .cst-mainArticle h2.title-single-related-post {
-    font-size: 40px !important;
-    color: #085848 !important;
-    font-weight: 500 !important;
-    margin-bottom: 20px;
-    }
-    .cst-mainArticle .single-post-date {
-    display: none;
-    }
-    .cst-mainArticle .post-info h4 {
-    color: #b7482b;
-    font-size: 12px;
-    line-height: 15px;
-    text-transform: uppercase;
-    padding: 20px 0 10px;
-    }
-    .cst-mainArticle .post-info a.btn_readmore {
-    display: none;
-    }
-    .cst-mainArticle .post-info h3.post-title {
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 500;
-    }
-    .cst-mainArticle .post-info h3 a:hover {
-    color: #085848;
-    }
-    .cst-mainArticle .blog_grid .post-thumb img {
-    height: 350px;
-    width: 100%;
-    object-fit: cover;
-    margin: 0 auto;
-    }
-    .cst-mainArticle h2.title-single-related-post:before {
-    display: none;
-    }
-    
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .single-related-post
-    .blog_grid
-    .post-info
-    .blog-title {
-    color: #085848;
-    font-size: 16px;
-    }
-    
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .single-related-post
-    .blog_grid
-    .post-info
-    .post-title
-    a:after {
-    color: #085848;
-    font-weight: 500;
-    }
-    .article-page
-    .content-single-blog
-    .single-related-post
-    .blog_grid
-    .post-info
-    .post-title
-    a {
-    font-family: Urbanist;
-    }
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .single-related-post
-    .blog_grid
-    .post-info
-    .btn_readmore
-    span {
-    display: inline-block;
-    background: #085848;
-    color: #f3dfc9;
-    padding: 12px 45px;
-    font-family: Urbanist;
-    font-size: 16px;
-    font-weight: 500;
-    border: 1px solid;
-    transition: 0.3s;
-    text-transform: capitalize;
-    }
-    
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .single-related-post
-    .blog_grid
-    .post-info
-    .btn_readmore
-    span:after {
-    display: none;
-    }
-    
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .single-related-post
-    .blog_grid
-    .post-info
-    .btn_readmore
-    span:hover {
-    background: #085848;
-    color: #f3dfc9;
-    border-top-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    }
-    
-    .cst-mainArticle
-    .article-page
-    .content-single-blog
-    .post-details
-    .single-post-thumb
-    img {
-    height: 550px;
-    object-fit: cover;
-    }
-    
-    /* Blog-css-end */
-    
-    /* tab css-start */
-    .cst-custom-tab-section-therapies-page .tab-lists {
-    min-height: 357px;
-    }
-    .cst-custom-tab-section-only .tabs {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    }
-    .cst-custom-tab-section-only {
-    padding: 60px;
-    background: #fdf9f4;
-    margin-bottom: 50px;
-    }
-    .cst-custom-tab-section-only .tab-flex {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 38px;
-    padding: 0;
-    }
-    
-    .cst-custom-tab-section-only .tabs-nav {
-    position: relative;
-    display: flex;
-    gap: 0;
-    border-radius: 30px;
-    margin-bottom: 10px;
-    isolation: isolate;
-    justify-content: space-between;
-    }
-    
-    .cst-custom-tab-section-only .tab-button {
-    width: 100% !important;
-    flex: 1;
-    all: unset;
-    position: relative;
-    padding: 8px 148px;
-    font-size: 20px;
-    font-family: "Urbanist";
-    font-weight: 500;
-    border-radius: 0;
-    cursor: pointer;
-    transition: color var(--transition-duration) var(--transition-timing);
-    text-align: center;
-    white-space: nowrap;
-    z-index: 1;
-    color: #085848;
-    background: #ccd9d2;
-    }
-    
-    .cst-custom-tab-section-only .tab-button:hover {
-    color: #fff;
-    }
-    
-    .tab-button:hover,
-    .tab-button[aria-selected="true"] {
-    color: #f3dfc9;
-    background: #085a48;
-    }
-    .cst-custom-tab-section-only .tabs-indicator {
-    position: absolute;
-    border-radius: calc(var(--tab-border-radius) - 2px);
-    transition: transform var(--transition-duration) var(--transition-timing),
+  }
+}
+
+/*marque-end*/
+#header .menu ul .nav-item .nav-link.active {
+  text-decoration: underline;
+}
+#header .menu ul .nav-item .nav-link.active,
+#header .menu ul .nav-item .nav-link:focus,
+#header .menu ul .nav-item .nav-link:hover {
+  color: #f3dfc9 !important;
+}
+
+#header .container-v1 {
+  max-width: 100%;
+  padding: 0 40px;
+  margin-top: 13px;
+}
+
+#header .cart-login-search ul.list-inline {
+  display: flex;
+}
+
+#header .currencies-login .cart-login-search ul li a svg {
+  fill: #f3dfc9 !important;
+}
+
+#header .currencies-login .cart-login-search ul li a svg:hover {
+  fill: #f3dfc9;
+}
+
+#header .currencies-login .cart-login-search ul li:last-child:hover {
+  color: #f3dfc9;
+}
+
+.dropdown-menu.list-woman.shop.show {
+  display: none !important;
+}
+
+#header .menu ul.navbar-nav {
+  align-items: baseline;
+}
+
+.center.logo.delay05 a {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.center.logo.delay05 a img {
+  width: 100%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.cst-home-marquee.marquee {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  background: #f3dfc9;
+}
+
+body .cst-home-marquee .track span {
+  color: #085848 !important;
+  font-size: 14px !important;
+  font-family: Urbanist !important;
+  font-weight: 600 !important;
+  position: relative !important;
+  z-index: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+body .cst-home-marquee .content {
+  justify-content: space-between;
+}
+
+.cst-home-marquee a {
+  display: flex;
+}
+
+.cst-home-marquee a img {
+  max-width: 30px;
+}
+
+.announcement-bar ul.announcement-list {
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.announcement-bar ul.announcement-list li {
+  color: #085848;
+  font-size: 14px;
+  font-family: Urbanist;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.announcement-bar {
+  padding-top: 5px !important;
+  padding-bottom: 0 !important;
+  background: #085848;
+  border-bottom: 1px solid #f3dfc9;
+}
+
+.announcement-bar img {
+  max-width: 20px;
+  margin: 0 7px;
+}
+
+body #header {
+  padding: 0;
+}
+
+#header .logo .center {
+  text-align: center;
+}
+.cst-book-consult a {
+  color: #085848;
+}
+.cst-book-consult a:hover {
+  color: #085848;
+}
+.cst-book-consult {
+  background: #f3dfc9;
+  color: #085848;
+  transition: 0.3s;
+  border-radius: 0;
+  padding: 10px 9px;
+  font-size: 13px;
+  font-family: "Urbanist";
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.cst-book-consult:hover {
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.cart-login-search.align-items-center {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+header#header {
+  background: #085848 !important;
+  padding-top: 0;
+  padding-bottom: 13px;
+}
+
+#header .menu ul .nav-item .nav-link {
+  font-family: Urbanist;
+  color: #f3dfc9;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+body #header .menu ul .nav-item {
+  margin-left: 0;
+}
+
+.logosvg {
+  max-width: 100px !important;
+}
+
+.cst-banner-btn a {
+  display: inline-block;
+  background: #085848;
+  color: #f3dfc9;
+  padding: 12px 45px;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #085848;
+  transition: 0.3s;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.cst-banner-btn a:hover {
+  background: #085848;
+  color: #f3dfc9;
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.contact-form input.shop-button {
+  background: #085848 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  color: #f3dfc9 !important;
+  font-family: "Urbanist" !important;
+  border: 1px solid #085848 !important;
+}
+
+.contact-form input.shop-button:hover {
+  background: #085848 !important;
+  color: #f3dfc9 !important;
+  border-top-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+}
+
+/* .cst-home-banner .picture-slideshow {
+position: relative;
+} */
+
+/* .cst-home-banner .picture-slideshow:before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+background: #00000012;
+height: 100%;
+width: 100%;
+z-index: 0;
+} */
+
+.cst-first-bannerSlide .box-content-center h3.titlebig.mb-0 {
+  color: #085848 !important;
+  text-align: left;
+}
+
+body .cst-first-bannerSlide .box-content-center h3.title-small.mb-0 {
+  color: #085848 !important;
+  text-align: left;
+}
+
+body .cst-home-banner video.cst-video {
+  height: calc(100vh - 100px);
+  object-fit: cover;
+  display: block;
+  width: 100%;
+}
+
+body .section-slideshow-v1 {
+  margin: 0 !important;
+}
+
+.section-slideshow-v1 .slick-active .info-sideh1 .picture-slideshow img {
+  transform: none;
+}
+
+/* .picture-slideshow {
+position: relative;
+}
+*/
+/* .picture-slideshow::after {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+background: #00000057;
+height: auto;
+width: 100%;
+z-index: 0;
+display: block;
+} */
+
+.section-slideshow-v1 .info-sideh1 .picture-slideshow {
+  height: 100% !important;
+}
+
+body .cst-home-banner .box-content-center h3.titlebig {
+  font-family: "Outfit", serif !important;
+  font-size: 64px !important;
+  text-transform: uppercase;
+  color: #f3dfc9 !important;
+  font-weight: 500 !important;
+  max-width: 900px;
+}
+
+body .cst-home-banner .box-content-center .box-title2 .title-small {
+  color: #085848 !important;
+  font-size: 24px !important;
+  line-height: 36px;
+  font-weight: 400 !important;
+}
+.cst-home-imgText {
+  padding-top: 70px !important;
+}
+body .cst-about-banner .box-content-center h3.titlebig {
+  font-size: 64px !important;
+  font-family: Outfit, serif !important;
+  text-transform: capitalize;
+  font-weight: 500 !important;
+  margin: 0 auto;
+  color: #085a48 !important;
+  max-width: 100%;
+  text-align: left;
+}
+
+.cst-home-imgText .text-container p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  line-height: 28px;
+}
+
+body .cst-home-banner .box-content-center .box-title2 {
+  font-family: "Outfit", serif !important;
+  font-weight: 500 !important;
+}
+
+body .cst-comman-bannerSlides .box-content-center .box-title2 .title-small {
+  color: #f3dfc9 !important;
+  max-width: 730px;
+}
+
+.box-content-center .box-title2 .title-small {
+  font-weight: 500 !important;
+  color: #f3dfc9 !important;
+  max-width: 625px;
+  font-family: "Urbanist" !important;
+}
+
+body .cst-home-banner .button-shop-slideshow_MLeWhm {
+  background: #085848 !important;
+  font-size: 15px;
+  border-radius: 14px;
+  height: 47px;
+  max-width: 189px;
+  width: 100%;
+  display: inline-block;
+  line-height: 44px;
+  color: #f3dfc9 !important;
+}
+
+body .cst-home-banner .button-shop-slideshow_MLeWhm:hover {
+  background: #f3dfc9 !important;
+  color: #085848 !important;
+}
+
+body .cst-home-banner .btn-animation-slideshow_F3nHV8.animated {
+  font-size: 15px;
+  border-radius: 14px;
+  height: 47px;
+  max-width: 189px;
+  width: 100%;
+  display: inline-block;
+  line-height: 44px;
+}
+
+.section-slideshow-v1
+  .slick-active
+  .info-sideh1
+  .box-info-slideshow_MLeWhm
+  .btn-animation-slideshow_MLeWhm
+  .button-main2:hover {
+  background: #085848 !important;
+  color: #f3dfc9 !important;
+  border-top-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+}
+
+body
+  .section-slideshow-v1
+  .slick-active
+  .info-sideh1
+  .box-content-center
+  .button-shop-slideshow_F3nHV8:hover {
+  background: #085848 !important;
+  color: #f3dfc9 !important;
+  border-top-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+}
+
+body .cst-home-banner .button-shop-slideshow_F3nHV8:hover {
+  background: #f3dfc9 !important;
+  color: #085848 !important;
+}
+
+body .cst-home-banner .button-main2 {
+  background: #085848 !important;
+  color: #f3dfc9 !important;
+  font-size: 16px;
+  height: 47px;
+  max-width: 189px;
+  width: 100%;
+  display: inline-block;
+  line-height: 44px;
+  font-weight: 500;
+  border-radius: 0;
+}
+
+body .cst-home-banner .box-content-center h3 {
+  opacity: 1 !important;
+}
+
+.cst-home-treatment .text-block {
+  font-size: 19px;
+  color: #000;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.cst-home-treatment .owl-nav span {
+  font-size: 50px;
+  color: #f3dfc9;
+  line-height: 30px;
+}
+
+.cst-home-treatment .owl-carousel .owl-nav button.owl-prev {
+  border: 1px solid #085848;
+  background: #085848 !important;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+.cst-home-treatment .owl-carousel .owl-nav button.owl-next {
+  border: 1px solid #085848;
+  background: #085848 !important;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+.cst-home-treatment .owl-carousel .owl-nav button {
+  background: transparent !important;
+}
+
+.cst-home-treatment .text-block p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: normal;
+  text-align: left;
+}
+
+.cst-home-treatment span.cst-color-text {
+  color: #b7482b;
+}
+
+.cst-home-treatment .owl-nav {
+  margin-top: 50px !important;
+}
+
+body .cst-home-grid .column {
+  display: grid;
+  grid-template-columns: 1fr 1fr !important;
+  padding: 7px 20px;
+  height: 150px;
+}
+
+body .cst-home-grid {
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+
+.cst-home-treatment .image-block img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  background: #f3dfc9;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.cst-home-treatment .column {
+  display: flex;
+  justify-content: space-between;
+  background: #f3dfc9;
+  border-radius: 0;
+  padding: 13px 0 0 20px;
+}
+
+.cst-home-treatment .column-container {
+  gap: 18px;
+}
+
+.cst-home-treatment h2 {
+  color: #085848;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+body .cst-home-treatment {
+  padding: 80px 0;
+  background: #f9efe4;
+  border: solid #79757540;
+  border-width: 1px 0;
+}
+
+.cst-home-treatment .cst-slider-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  padding-left: 60px;
+}
+
+.cst-home-imgText .cst-main-content-sec {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.cst-home-imgText .container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.cst-home-imgText.custom-banner {
+  border-bottom: 1px solid #79757540;
+}
+
+.cst-home-imgText .custom-banner-right img {
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 1%;
+}
+
+.cst-home-imgText .custom-banner-right {
+  position: relative;
+}
+
+.cst-home-imgText .cst-image-content {
+  padding: 12px 21px;
+  background: #fcf8f4;
+  position: absolute;
+  right: 0;
+  left: auto;
+  bottom: 0;
+}
+
+.cst-home-imgText .custom-banner-main {
+  padding-top: 0;
+  padding-bottom: 0;
+  gap: 70px;
+}
+
+.cst-home-imgText .custom-banner-content.page-width {
+  max-width: 1440px;
+  padding: 0 20px 30px;
+}
+
+.cst-home-imgText .custom-banner-content h2 {
+  color: #085848;
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.cst-home-imgText .custom-banner-content .custom-banner-left h3 {
+  color: #085a48;
+  font-size: 40px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  line-height: 44px;
+  font-family: "Outfit", serif;
+}
+
+.cst-home-imgText .custom-banner-content p {
+  color: #b7482b;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.cst-home-imgText .custom-banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cst-home-imgText .custom-banner-left li {
+  font-size: 16px;
+  color: #085848;
+  background: #f3dfc9;
+  margin: 24px 0;
+  padding: 15px;
+  border-radius: 0;
+  list-style: none;
+  position: relative;
+  font-family: "Urbanist";
+}
+
+.cst-home-imgText .custom-banner-left li::before {
+  position: absolute;
+  content: "";
+  background-image: url(/cdn/shop/files/star.svg?v=1734096051);
+  height: 40px;
+  width: 40px;
+  left: -51px;
+  top: 12px;
+  z-index: 99;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: invert(1);
+}
+
+.cst-home-imgText .custom-banner-left p {
+  font-size: 18px;
+  color: #085848;
+  line-height: 27px;
+  border-radius: 0;
+  padding-bottom: 40px;
+  list-style: none;
+  position: relative;
+}
+
+.cst-main-bannercnt .cst-banner-btn a {
+  margin-top: 50px;
+}
+
+.cst-maincontnet-wra {
+  max-width: 684px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.cst-home-imgText .text-container p:last-child {
+  padding-top: 24px;
+}
+
+.cst-home-team .custom-section {
+  padding: 80px 0;
+}
+
+.cst-home-team button.slick-prev.slick-arrow::before {
+  content: "";
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0673/9230/7385/files/CaretLeft.svg?v=1734695815);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  z-index: 1;
+  opacity: 1;
+}
+
+.cst-home-team button.slick-next.slick-arrow::before {
+  content: "";
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0673/9230/7385/files/CaretRight.svg?v=1734695865);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  z-index: 1;
+  opacity: 1;
+}
+
+.cst-home-team button.slick-arrow {
+  background: #f7eadb;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  z-index: 3;
+  top: 43%;
+  border: 1px dashed #085848;
+}
+
+.cst-home-team button.slick-arrow::before {
+  font-size: 0;
+}
+
+.cst-home-team button.slick-prev.slick-arrow {
+  left: 0;
+}
+
+.cst-home-team button.slick-next.slick-arrow {
+  right: 0;
+}
+
+.cst-home-team.custom-section {
+  padding: 80px 0 0;
+  background: #f3dfc9a8;
+}
+
+.cst-home-team .container {
+  max-width: 1440px;
+  padding: 0 20px 80px;
+}
+
+.cst-home-team.custom-section .cst-right-content {
+  position: relative;
+}
+
+.cst-home-team .section-content {
+  display: flex;
+  gap: 28px;
+}
+
+.cst-home-team .left-div {
+  width: 40%;
+}
+
+.cst-home-team .right-div {
+  width: 60%;
+}
+
+.cst-home-team .left-wrapper .cst-svg {
+  width: 40px;
+  height: 40px;
+  background: #085848;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.cst-home-team .left-wrapper .cst-svg svg {
+  fill: #fff;
+}
+
+.cst-home-team .left-wrapper img {
+  max-width: 40px;
+  height: 40px;
+  object-fit: cover;
+  filter: hue-rotate(45deg);
+}
+
+.cst-home-team .card-content {
+  margin: 15px;
+  border: 0;
+}
+
+.cst-home-team .card {
+  border: 0;
+}
+
+.cst-home-team .card-content img {
+  border-radius: 0;
+}
+
+.cst-home-team .left-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 25px 0;
+  padding: 30px 0;
+  border-bottom: 1px solid #c9c9c987;
+}
+
+.cst-home-team .cst-left-content p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #085848;
+}
+
+.cst-home-team h2 {
+  color: #085848;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cst-home-team .cst-left-content p strong {
+  font-size: 40px;
+  font-family: "Urbanist";
+  color: #085848;
+}
+
+.cst-home-team .card-content h3 {
+  font-size: 28px;
+  color: #085848;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.cst-home-team p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: gray;
+  font-weight: 400;
+}
+
+.cst-home-ourapproch {
+  background: #f0f5f4;
+}
+
+/* .cst-issues-approch {
+padding-bottom: 120px;
+} */
+.cst-issues-imgText .container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px 60px;
+}
+
+.cst-issues-imgText .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+.cst-home-ourapproch .custom-left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cst-home-ourapproch .cst-wrapper span:nth-child(2) {
+  background: #b7482b;
+}
+
+.cst-main-bannercnt .container {
+  padding: 0 60px;
+}
+
+.cst-home-ourapproch .container {
+  max-width: 100%;
+  padding: 120px 60px;
+  justify-content: space-between;
+}
+
+.cst-home-ourapproch h2 {
+  color: #085848;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.cst-home-ourapproch .cst-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: calc(100% - -2px);
+}
+
+.cst-home-ourapproch .cst-wrapper span {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 600;
+  background: #b7482b;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+.cst-home-ourapproch .custom-right-block h3 {
+  font-size: 24px;
+  color: #085848;
+  margin: 0;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+.cst-home-ourapproch .custom-right-block {
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  font-family: "Urbanist";
+  font-weight: 500;
+}
+
+.cst-home-ourapproch p {
+  color: #085848;
+  font-size: 18px;
+}
+
+.cst-home-ourapproch .custom-left-column p {
+  display: none;
+}
+
+.cst-home-banner .text-center.box-info {
+  text-align: left !important;
+}
+
+.cst-home-ourapproch .cst-wrapper::after {
+  z-index: 0;
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 3px;
+  background: #b7482b;
+  top: 0;
+}
+
+.cst-home-imgText .image-with-text-block {
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.cst-home-imgText .image-with-text-block.cst-odd-sec {
+  background: #f3f7f6;
+}
+
+.cst-home-imgText .image-with-text-block.cst-even-sec {
+  background: #fdf9f4;
+}
+
+.cst-home-imgText .image-with-text-block.cst-odd-sec.cst-last-block {
+  background: #fdf9f4;
+}
+
+.cst-home-imgText .image-with-text-block .image-container {
+  width: 50%;
+}
+
+.cst-home-imgText .image-with-text-block .text-container {
+  width: 50%;
+}
+
+.cst-home-imgText .image-with-text-block .image-container {
+  background: #fff;
+}
+
+.cst-home-imgText .mainheading h2 {
+  color: #085848;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.cst-about-drSec {
+  padding: 120px 0 !important;
+  background: #f0f5f4;
+}
+
+.cst-home-imgText .maincontent p {
+  color: #085848;
+  font-size: 18px;
+  font-family: Urbanist;
+  text-align: left;
+  max-width: 930px;
+  margin: 0 auto 50px;
+}
+.cst-about-imgTexted {
+  padding: 70px 0 !important;
+}
+.cst-about-imgTexted h2 {
+  margin-bottom: 50px !important;
+}
+.cst-home-imgText .maincontent2 p:last-child {
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+.cst-home-imgText .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 60px;
+}
+
+.cst-home-imgText .text-container p.count {
+  font-size: 30px;
+  color: #fff;
+  font-family: Urbanist;
+  width: 40px;
+  background: #b7482b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 15px;
+}
+
+body .cst-main-bannercnt.container {
+  padding: 0 60px;
+}
+
+.cst-home-imgText .text-container h3 {
+  font-size: 40px;
+  color: #085848;
+  font-weight: 500;
+  margin: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.cst-home-imgText .image-container img {
+  height: 700px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.cst-home-imgText p.cst-content {
+  font-size: 18px;
+  color: #085848;
+  margin: 11px 0;
+}
+
+.cst-home-reviews {
+  padding: 120px 0;
+  margin: 0;
+  background: #fdf9f4;
+}
+
+.cst-home-reviews .container-v1 {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.cst-home-reviews .review__card {
+  border: 1px solid #085848;
+}
+
+.cst-home-reviews h1.title--decorated {
+  color: #085848;
+  font-weight: 500;
+}
+
+.cst-home-reviews h2.review__name.h3 {
+  color: #b7482b;
+  font-size: 14px;
+  font-family: Urbanist;
+}
+
+section.cst-home-faq {
+  padding: 120px 50px 120px;
+}
+
+.cst-faqPage-Faq .asked {
+  padding-top: 40px !important;
+}
+
+.cst-home-faq .asked {
+  margin: 0 !important;
+}
+
+.cst-home-faq p {
+  text-align: center;
+  line-height: normal;
+}
+
+body .cst-home-faq a.title_question {
+  font-size: 20px !important;
+  color: #111 !important;
+  font-family: Urbanist !important;
+}
+
+.cst-home-faq .col-lg-12.top_asked {
+  padding: 0 !important;
+}
+
+body .cst-home-faq h3 {
+  text-align: center;
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  color: #085848;
+}
+
+#cst-home-contact {
+  background: #f3dfc9;
+}
+
+.contact-page .contact-form .contact_title {
+  font-weight: 500 !important;
+  font-size: 40px;
+  color: #085a48;
+  position: relative;
+}
+.contact-page .contact-form .contact_title::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100px;
+  background: #b7482b;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  transform: translateX(-50%);
+}
+.contact-page .contact-form .contact_title:before {
+  display: none;
+}
+
+body .cst-home-faq .row.content_askeds {
+  max-width: 850px;
+  margin: 0 auto;
+  border: 0 !important;
+  padding: 30px 0 0 !important;
+}
+
+body .cst-home-faq .box_content_question {
+  border-bottom: 1px solid #c9c9c987;
+  padding: 24px 0 !important;
+  font-size: 18px;
+  color: #000;
+}
+
+.content-page.contact-page {
+  background: #3f755b0d;
+  padding: 80px 0;
+}
+
+.contact-page .contact-form input {
+  border: 1px solid #c9c9c987 !important;
+}
+
+.contact-message textarea {
+  border: 1px solid #c9c9c987 !important;
+}
+
+.contact-page label {
+  margin-left: 0 !important;
+  font-family: Urbanist;
+  font-size: 18px !important;
+}
+
+body .contact-page .contact-form .contact_bottom {
+  margin-top: 0;
+}
+
+.footer_v5 .list-icon ul li a:hover {
+  background: none;
+  border-color: #f3dfc9;
+}
+
+.footer_v5 .top-footer .container {
+  padding: 0 60px;
+  max-width: 100%;
+}
+
+.footer_v5 .logo-footer .logosvg {
+  background: none !important;
+}
+
+footer.footer_v5 {
+  background-color: #085848 !important;
+}
+
+footer .copyright {
+  display: none;
+}
+
+footer .list-icon svg {
+  height: 15px;
+}
+
+footer.footer_v5 {
+  background-color: #085848 !important;
+}
+
+.footer_v5 .menu_footer li a {
+  color: #f3dfc9 !important;
+  font-family: Urbanist;
+}
+
+.footer_v5 .menu_footer li a:hover {
+  text-decoration: underline !important;
+}
+
+.footer_v5 .border-center {
+  border-color: #f3dfc99e;
+}
+
+.footer_v5 .title_menu {
+  font-family: Urbanist;
+  color: #f3dfc9 !important;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer_v5 {
+  color: #f3dfc9 !important;
+}
+
+.footer_v5 .content-footer {
+  color: #f3dfc9 !important;
+  font-family: "Urbanist";
+}
+
+.footer_v5 .list-icon ul li a {
+  border: 1px solid #f3dfc9;
+}
+
+.footer_v5 .top-footer {
+  padding: 40px 0;
+}
+.footer_v5 .top-footer .newletter_email form .btn:hover {
+  background-color: #000;
+}
+.footer_v5 .footer-center {
+  height: auto;
+}
+
+.footer-center i {
+  color: #f3dfc9 !important;
+}
+
+.footer_v5 .copyright {
+  border-top: 1px solid#f3dfc9;
+}
+.cst-home-table.custom-table-section p {
+  font-size: 18px;
+}
+.cst-home-table.custom-table-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+
+.cst-home-table.custom-table-section h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cst-home-table.custom-table-section th:nth-child(1) {
+  background: transparent;
+  border: 0;
+  font-family: "Outfit";
+  font-weight: 500;
+}
+
+.cst-home-table.custom-table-section th:nth-child(2) {
+  background: transparent;
+  text-align: center;
+  font-family: "Outfit";
+  font-weight: 500;
+}
+
+.cst-home-table.custom-table-section td:nth-child(2) {
+  padding: 23px 50px;
+}
+
+.cst-home-table.custom-table-section td:nth-child(2) {
+  padding: 23px 50px;
+}
+
+.cst-home-table.custom-table-section td:last-child {
+  padding: 23px 50px;
+}
+
+.cst-home-table.custom-table-section th:last-child {
+  background: transparent;
+  border: 0;
+  text-align: center;
+}
+
+.cst-home-table.custom-table-section td {
+  font-size: 16px;
+  color: #000;
+  font-family: "Urbanist";
+  font-weight: 600;
+  padding: 20px;
+  border: 2px solid #ddd;
+}
+
+.cst-home-table svg {
+  height: 28px;
+}
+
+/*About-Css-start*/
+
+.remove-bg-home .image-with-text-block.reverse.cst-odd-sec.cst-last-block {
+  background: transparent;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.remove-bg-home .image-container {
+  padding-right: 60px;
+}
+.cst-about-richtext {
+  margin-bottom: 0;
+}
+
+.cst-about-richtextcontainer h2 {
+  color: #085848;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.cst-about-purpose .mission-content h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #085848;
+  text-align: left;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+.cst-about-purpose .mission-content p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.cst-about-purpose .mission-content p em {
+  font-style: normal;
+}
+
+.cst-about-purpose .mission-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.cst-about-purpose .mission-image {
+  width: 40%;
+  height: 100%;
+}
+
+.cst-about-purpose .mission-content {
+  width: 60%;
+}
+
+.cst-about-purpose .mission-main-content {
+  margin-bottom: 0;
+}
+
+.cst-about-purpose .mission-image img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.cst-about-purpose.mission-section:nth-child(1) {
+  padding-bottom: 0;
+}
+
+.cst-about-vision {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.cst-about-vision .mission-main-content {
+  margin-bottom: 0;
+}
+
+.cst-about-vision .mission-content h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #085848;
+  text-align: left;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+.cst-about-vision .mission-content p {
+  color: #000000;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.cst-about-vision .mission-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+body .cst-issues-symptoms a {
+  margin-top: 5px !important;
+}
+
+.cst-about-vision .mission-image {
+  width: 40%;
+}
+
+.cst-about-vision .mission-content {
+  width: 60%;
+}
+
+.cst-about-vision .mission-image img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cst-about-accordiansText .cst-mcontent {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+body .cst-about-imageText1 {
+  background: transparent;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.cst-about-imageText1 h3 {
+  padding-bottom: 30px;
+}
+
+.cst-about-imageText1 p {
+  padding-bottom: 30px;
+}
+
+.cst-about-imageText .text-container p.count {
+  display: none;
+}
+
+.cst-about-mission {
+  overflow: hidden;
+}
+
+.cst-about-mission .mission-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 40px 50px;
+}
+
+.cst-about-mission h2 {
+  padding-bottom: 0;
+  text-align: end;
+  font-size: 40px;
+  font-weight: 600;
+  color: #085848;
+}
+
+.cst-about-mission .mission-image {
+  width: 50%;
+}
+
+.cst-about-mission .mission-content {
+  width: 50%;
+}
+
+.cst-about-mission .mission-image img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.cst-about-mission .mission-content p {
+  font-size: 19px;
+  line-height: 31px;
+  text-align: end;
+}
+
+.cst-about-mission .block-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.cst-about-mission .block-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.cst-about-mission .block-content {
+  width: 100%;
+  max-width: 450px;
+}
+
+.cst-about-mission .mission-block {
+  display: inherit;
+}
+
+.cst-about-mission .block-content-wrapper h3 {
+  font-size: 35px;
+  color: #085848;
+  font-weight: 500;
+}
+
+.cst-about-mission .mission-section {
+  padding-bottom: 0;
+}
+
+section.cst-about-purpose.mission-section {
+  padding-bottom: 0;
+}
+
+body .cst-about-missions1 {
+  padding-top: 0 !important;
+  padding-bottom: 60px !important;
+}
+
+.cst-about-missions1 .mission-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.cst-about-accordiansText .cst-heading p {
+  font-size: 40px;
+  font-family: "Outfit", serif;
+  color: #085848;
+  line-height: normal;
+}
+
+.cst-about-accordiansText .cst-mcontent p {
+  font-size: 16px;
+  color: #000;
+}
+
+.cst-about-richtextcontainer {
+  margin: 0 auto;
+  padding: 80px 0 50px;
+}
+
+.cst-about-accordiansText {
+  max-width: 100%;
+  padding: 60px 40px;
+  background: #fff;
+}
+
+.cst-about-accordiansText button.accordion-header {
+  background: none;
+  color: #085848;
+  font-size: 17px;
+  padding-bottom: 0;
+  padding-top: 0;
+  line-height: 28px;
+  font-family: Urbanist;
+  font-weight: 600;
+}
+
+.cst-about-accordiansText .accordion-item {
+  margin: 0;
+  padding: 15px 0;
+  border-bottom: 1px solid #e9dddd;
+}
+
+.cst-about-accordiansText .accordion-section {
+  background: #f0f5f4;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.cst-about-accordiansText .accordion-body {
+  background: transparent;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.cst-about-accordiansText .accordion-body p {
+  font-family: Urbanist;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cst-about-accordiansText .accordion-item:nth-child(3) {
+  border: 0;
+}
+
+.cst-about-accordiansText span.accordion-icon {
+  background: #085848;
+  height: 20px;
+  width: 20px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.cst-about-accordiansText svg {
+  color: #fbf4ed;
+  line-height: 16px;
+  height: 8px;
+}
+
+/*About-Css-end*/
+
+/*our-services-offerings-Css-start*/
+.cst-custom-our-approach-heath-issues .container.cst-flex {
+  background: #f3dfc933;
+  justify-content: unset;
+}
+.cst-issues-AyurvedicPerspective .text-container h3 {
+  line-height: 50px;
+  font-weight: 500;
+  color: #085a48;
+  text-align: left;
+  font-size: 40px;
+}
+
+.cst-issues-AyurvedicPerspective .text-container .cst-content p {
+  font-size: 18px;
+  color: #085848;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.cst-issues-AyurvedicPerspective .text-container li {
+  font-size: 18px;
+  color: #085848;
+  line-height: 28px;
+  font-weight: 400;
+  list-style: disc;
+}
+.cst-issues-AyurvedicPerspective .image-container img {
+  height: 342px;
+  margin-right: auto;
+  margin-left: 0;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100% !important;
+  border-radius: 0;
+}
+.cst-issues-AyurvedicPerspective .maincontent.maincontent2 p {
+  font-size: 18px;
+  color: #085848;
+  line-height: 21px;
+  font-weight: 400;
+}
+.cst-home-ourapproch .custom-right-block .cst-block_content {
+  font-size: 18px;
+}
+.cst-custom-our-approach-heath-issues .custom-left-column {
+  width: 30%;
+}
+
+.cst-custom-our-approach-heath-issues .custom-right-column {
+  width: 40%;
+}
+
+.cst-custom-our-approach-heath-issues .cst-wrapper {
+  margin-right: 45px;
+}
+.cst-issues-AyurvedicPerspective .container {
+  max-width: 100%;
+  padding: 60px 60px 0;
+}
+.cst-issues-AyurvedicPerspective .text-container {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cst-custom-grid-heath-issues .image-block img {
+  width: 100%;
+  height: 309px;
+  object-fit: cover;
+}
+
+.cst-custom-grid-heath-issues .column {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+.cst-issues-AyurvedicPerspective.image-with-text-section {
+  padding-bottom: 0;
+}
+.cst-custom-grid-heath-issues .text-block p {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 12px;
+}
+
+.cst-custom-table-section-only {
+  background: #fdf9f4;
+  margin-top: 120px 0 0 0;
+}
+
+.cst-custom-table-section-only .cst-home-table.custom-table-section {
+  padding-top: 70px;
+  padding-bottom: 46px;
+}
+.cst-symptoms-heath-issues .column .text-block {
+  margin: 0;
+}
+
+.cst-symptoms-heath-issues .column .text-block p {
+  font-size: 22px;
+  line-height: 26px;
+  color: #787878;
+  font-weight: 500;
+  font-family: "Urbanist";
+}
+body .cst-symptoms-heath-issues h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #085a48;
+  text-align: left;
+}
+
+body .cst-symptoms-heath-issues.custom-multi-column {
+  padding: 80px 60px;
+  background: #085a4814;
+}
+
+.cst-symptoms-heath-issues .column {
+  background: #ffffff80;
+  padding: 30px;
+  border: 1px solid #085a4880;
+  align-items: start;
+}
+
+.cst-symptoms-heath-issues .column .image-block img {
+  max-width: 58px;
+  height: 47px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+.cst-symptoms-heath-issues .column-container {
+  gap: 40px;
+}
+body .cst-text-health-issue {
+  align-items: unset;
+  padding: 80px 60px;
+}
+body .cst-text-health-issue .image-row img {
+  width: 100%;
+  object-fit: fill;
+}
+body .cst-text-health-issue .image-row {
+  height: 100%;
+}
+body .cst-text-health-issue .left-div {
+  width: 49%;
+  max-width: 846px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .cst-text-health-issue .right-div {
+  width: 45%;
+}
+body .cst-text-health-issue h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+  margin-bottom: 20px;
+  max-width: 638px;
+}
+.cst-custom-issues-Ayurvedic {
+  padding: 70px 60px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.cst-custom-issues-Ayurvedic h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cst-custom-issues-Ayurvedic .cst-bottom p {
+  text-align: left;
+}
+.cst-issues-AyurvedicPerspective.image-with-text-section ul {
+  padding-left: 35px;
+  margin-bottom: 0;
+}
+body .cst-custom-grid-heath-issues {
+  padding: 0 60px 80px;
+}
+body .cst-custom-grid-heath-issues p.cst-custom-read-more {
+  text-align: justify;
+  font-size: 18px;
+}
+
+body .cst-custom-grid-heath-issues p.cst-custom-read-more a {
+  color: #b7482b;
+  font-size: 18px;
+}
+.cst-custom-image-with-text-therapies .image-container img {
+  border-radius: 0;
+}
+.cst-custom-image-with-text-therapies .cst-content li {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 160%;
+  list-style: disc;
+}
+.cst-custom-image-with-text-therapies {
+  background: #ebf2f0;
+  padding: 0;
+}
+.cst-custom-wich-text-with-images h2.heading-title {
+  line-height: 50px;
+  font-weight: 500;
+  color: #085a48;
+  text-align: left;
+  font-size: 40px;
+}
+.cst-custom-wich-text-with-images.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px 60px;
+}
+.cst-custom-wich-text-with-images .rich-text__content {
+  text-align: left;
+  max-width: 843px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cst-custom-wich-text-with-images .grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cst-custom-wich-text-with-images .rich-text-with-image-icons img {
+  display: flex;
+  justify-content: end;
+  margin-left: auto;
+}
+
+.cst-custom-banner-v2-therapies-page
+  a.button-shop.button-shop-template--17663614976185__section_banner_v2_Jz6FbG {
+  transition: 0.3s;
+  text-transform: capitalize;
+  padding: 12px 45px;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cst-custom-banner-v2-therapies-page
+  .section-banner-v2
+  .banner-box
+  .banner-info
+  .button-shop-template--17663614976185__section_banner_v2_Jz6FbG:hover {
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.cst-custom-banner-v2-therapies-page h3 {
+  font-size: 40px !important;
+  font-weight: 400 !important;
+  font-family: "Outfit" !important;
+}
+.cst-custom-banner-v2-therapies-page
+  .section-banner-v2
+  .banner-box
+  .banner-info.content-left {
+  left: 0;
+  padding: 0 60px;
+}
+.cst-custom-banner-v2-therapies-page p.sub-title {
+  max-width: 850px;
+  line-height: 140%;
+}
+.cst-custom-wich-text-with-images .rich-text__content p:nth-child(4) {
+  margin-top: 10px;
+}
+.cst-custom-wich-text-with-images .rich-text__content p {
+  font-size: 18px;
+  color: #085848;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 10px;
+  max-width: 843px;
+}
+
+.cst-custom-wich-text-with-images .rich-text__content ul {
+  padding-left: 35px;
+  margin-bottom: 10px;
+}
+.cst-custom-image-with-text-2-therapies-page .cst-main-content-sec {
+  flex-direction: column;
+  text-align: left;
+  align-items: start;
+}
+.cst-custom-wich-text-with-images .rich-text__content li {
+  font-size: 18px;
+  color: #085848;
+  line-height: 28px;
+  font-weight: 400;
+  list-style: disc;
+}
+
+.cst-custom-wich-text-with-images .rich-text__content a {
+  color: #b7482b;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.cst-custom-image-with-text-therapies .cst-odd-sec.cst-last-block {
+  margin: 0;
+}
+.cst-custom-image-with-text-therapies .cst-content {
+  margin-top: 30px;
+}
+
+.cst-custom-image-with-text-therapies .cst-content ul {
+  padding-left: 43px;
+}
+.cst-custom-issues-Ayurvedic li {
+  font-size: 16px;
+  color: #085848;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 15px 0;
+}
+
+.cst-therapies-Benefits h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+  margin-bottom: 50px;
+}
+
+.cst-therapies-Benefits.custom-multi-column {
+  padding: 50px 0;
+}
+
+.cst-therapies-Benefits .image-block {
+  max-width: 75px;
+}
+
+.cst-therapies-Benefits .item.column {
+  flex-direction: column-reverse;
+}
+.cst-therapies-Benefits .item.column p {
+  font-size: 18px;
+}
+.cst-issues-ayurvedic.container .rich-text__content p {
+  font-size: 18px;
+}
+.cst-therapies-therapy .custom-banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cst-therapies-Benefitscontainer {
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.cst-therapies-Benefitscontainer h2.heading-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cst-therapies-Benefitscontainer .rich-text__content li {
+  font-family: Urbanist;
+  font-size: 16px;
+  color: #085848;
+}
+
+body .m-cst-issues-time {
+  padding: 120px 0;
+}
+
+body .m-cst-issues-time h2.m-section-heading {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.m-cst-issues-time .m-column-container {
+  margin-top: 39px;
+  position: relative;
+}
+.m-column-container::after {
+  position: absolute;
+  height: 0;
+  content: "";
+  width: 60%;
+  border-top-style: dashed;
+  border-color: #b7482b;
+  top: 36%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.m-cst-issues-time .m-time-block {
+  background: #b7482b;
+  max-width: 256px;
+  margin: 0 auto;
+  height: 128px;
+  padding: 9px 27px;
+  border: 2px solid #b7482b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.m-cst-issues-time .m-time-block p {
+  color: #fff;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+}
+.m-cst-issues-time .cst-weeek-month p {
+  color: #f3dfc9 !important;
+  font-size: 20px;
+  line-height: normal;
+}
+body .cst-issues-symptoms {
+  padding: 80px 0;
+}
+
+body .cst-issues-symptoms .custom-banner-right img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.cst-issues-symptoms li {
+  font-family: Urbanist;
+  font-size: 18px;
+  color: #085848;
+}
+
+.cst-issues-symptoms h2.custom-banner-heading {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cst-issues-symptoms .custom-banner-left h3 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #085848;
+}
+
+.m-cst-issues-time .m-text-block p {
+  font-weight: bold;
+  color: #085848;
+  margin-top: 18px;
+}
+
+.cst-issues-ayurvediccontainer {
+  margin: 0;
+  padding: 120px 0;
+  max-width: 100%;
+}
+
+.cst-issues-ayurvediccontainer h2.heading-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+  margin-bottom: 40px;
+}
+
+.cst-issues-ayurvediccontainer p {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #085848;
+  margin-top: 10px;
+}
+
+.cst-issues-ayurvediccontainer li {
+  font-size: 16px;
+  color: #085848;
+}
+
+.cst-issues-imgText .text-container h3 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+  padding-top: 30px;
+}
+
+.cst-issues-imgText .cst-content p {
+  font-size: 18px;
+  color: #085848;
+  line-height: 24px;
+  text-align: left;
+  max-width: 638px;
+}
+.cst-issues-imgText .cst-banner-btn {
+  text-align: left;
+}
+.cst-issues-imgText .image-container img {
+  height: 100%;
+  object-fit: cover;
+}
+.cst-therapies-imgText {
+  padding-bottom: 0;
+}
+.cst-therapies-Benefits h2.heading-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+}
+.cst-custom-banner-therapies-page .left-div p {
+  text-align: left;
+}
+.cst-custom-banner-therapies-page .cst-banner-btn {
+  display: flex;
+  justify-content: start;
+}
+.cst-issues-ayurvedic h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+}
+
+.cst-issues-ayurvedic li {
+  font-size: 16px;
+  color: #085848;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.cst-issues-ayurvedic.container {
+  margin-bottom: 0;
+  padding: 50px;
+}
+
+.cst-therapies-Benefits .cst-issues-ayurvedic {
+  margin-bottom: 0;
+}
+
+.cst-therapies-Benefits .rich-text__content li,
+p {
+  font-size: 16px;
+  color: #085848;
+  font-weight: 500;
+  line-height: 25px;
+}
+.cst-issues-AyurvedicPerspective .maincontent.maincontent2 p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.cst-custom-wich-text-with-images .rich-text-with-image-icons img {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+}
+/*our-services-offerings-css-end*/
+
+/*quiz-page-css-start*/
+.page-quiz-result header#header {
+  z-index: 3;
+  position: relative;
+}
+.page-quiz-result .col-lg-8.col-xl-9 {
+  padding: 10px;
+}
+.page-quiz-result .container.container-v2 {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px 120px;
+}
+.cst-custom-info-quiz-result-page .container {
+  padding: 0 !important;
+}
+.cst-custom-info-quiz-result-page .section-info-v1 p {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000a6;
+  line-height: 27px;
+}
+.cst-custom-info-quiz-result-page .section-info-v1 ul {
+  padding-left: 48px;
+}
+.cst-custom-info-quiz-result-page .section-info-v1 li {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000a6;
+  line-height: 27px;
+  list-style: disc;
+}
+
+.cst-custom-info-quiz-result-page .section-info-v1 {
+  margin: 40px 0 0;
+}
+.cst-custom-info-quiz-result-page .d-flex {
+  justify-content: start !important;
+}
+.article_sidebar.cst-mainArticle {
+  background: #f0f5f4;
+  padding: 24px;
+  max-width: 304px;
+  position: sticky;
+  top: 20px;
+  right: 20px;
+}
+.cst-custom-info-quiz-result-page .title_heading {
+  font-size: 24px;
+  color: #b7482b;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: Outfit, serif;
+  margin-bottom: 10px !important;
+}
+.cst-custom-richtext-image-quiz-result-page h2 {
+  font-size: 24px;
+  line-height: normal;
+  color: #b7482b;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: Outfit, serif;
+}
+
+.cst-custom-richtext-image-quiz-result-page .grid {
+  text-align: left;
+}
+.cst-custom-info-quiz-result-page p.content_info {
+  display: none;
+}
+.cst-custom-richtext-image-quiz-result-page .grid p {
+  color: #000000a6;
+  margin-bottom: 10px;
+}
+.cst-custom-richtext-image-quiz-result-page .grid p strong {
+  color: #085a48;
+  margin-bottom: 0;
+}
+.cst-custom-info-quiz-result-page .title_heading::before {
+  display: none;
+}
+#shopify-section-cst-video video {
+  width: 100%;
+  max-width: 800px;
+}
+.cst-custom-richtext-quiz-result-page {
+  padding: 45px 0 0;
+  margin-bottom: 40px;
+}
+.cst-custom-image-quiz-result-page img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 800px !important;
+  display: block;
+}
+.cst-custom-richtext-quiz-result-page h2.heading-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #b7482b;
+  text-align: left;
+}
+
+.cst-custom-richtext-quiz-result-page .rich-text__content p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000a6;
+  line-height: 27px;
+}
+.custom-banner-red-btn a span {
+  margin-left: 10px;
+}
+.custom-banner-red-btn a:hover {
+  background: transparent;
+  border: 0;
+  color: #b7482b;
+}
+.custom-banner-red-btn {
+  position: relative;
+}
+.custom-banner-red-btn a {
+  background: transparent;
+  border: 0;
+  color: #b7482b;
+  font-weight: 500;
+  padding: 0;
+  position: absolute;
+  top: 125px;
+}
+.cst-custom-banner-quiz-result-page .image-row {
+  justify-content: center;
+}
+
+.cst-custom-banner-quiz-result-page .image-row img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 644px;
+  height: 100%;
+}
+
+.cst-custom-banner-quiz-result-page .left-div {
+  width: 100%;
+}
+
+.cst-custom-banner-quiz-result-page .right-div {
+  width: 100%;
+}
+.cst-custom-banner-quiz-result-page {
+  background: #f5f0eb;
+  padding-left: 120px !important;
+  padding-bottom: 90px !important;
+}
+.cst-custom-banner-quiz-result-page .cst-content {
+  font-size: 26px;
+  font-weight: 500;
+  font-family: "Outfit";
+  color: #085a48;
+}
+.cst-custom-banner-quiz-result-page .left-div h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085a48;
+}
+.cst-custom-banner-quiz-result-page .left-div p {
+  font-size: 18px;
+  max-width: 420px;
+  color: #085a48;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.cst-knowBody-quiz .result-button {
+  text-align: end;
+}
+.cst-knowBody-quiz .quix-wrap-content {
+  padding: 40px;
+  background: #fbf5ef;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+}
+.cst-knowBody-quiz .quix-wrap-content::after {
+  position: absolute;
+  top: 15%;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  background-image: url(/cdn/shop/files/Group_3_1.png?v=1737712781);
+  content: "";
+  height: 644px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  object-fit: cover;
+  background-size: contain;
+  margin-right: 0;
+  margin-left: auto;
+  z-index: -1;
+}
+.cst-custom-banner-v2-quiz-page .banner-info.content-left {
+  left: 0 !important;
+  padding-left: 60px !important;
+}
+
+.cst-custom-banner-v2-quiz-page
+  .section-banner-v2
+  .banner-box
+  .banner-info
+  .title {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Outfit";
+}
+
+.cst-custom-banner-v2-quiz-page p.sub-title {
+  max-width: 700px;
+  line-height: 150%;
+  font-size: 18px;
+}
+
+.cst-custom-banner-v2-quiz-page .section-banner-v2 {
+  margin-top: 0px;
+}
+.cst-knowBody-quiz {
+  padding: 40px 220px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.cst-knowBody-quiz h1 {
+  color: #085848;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.cst-knowBody-quiz .question label {
+  font-size: 18px;
+  color: #085848;
+  line-height: 31px;
+  border-radius: 0;
+  font-weight: 500;
+  margin: 0;
+  font-family: Outfit, serif;
+}
+
+.cst-knowBody-quiz .answers {
+  font-size: 16px;
+  line-height: 38px;
+  font-family: Urbanist;
+  display: flex;
+  justify-content: start;
+  gap: 32px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.cst-knowBody-quiz .answers span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #085a48;
+}
+
+.cst-knowBody-quiz button {
+  display: inline-block;
+  background: #085848;
+  color: #f3dfc9;
+  padding: 12px 45px;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #085848;
+  transition: 0.3s;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.cst-knowBody-quiz button:hover {
+  background: #085848;
+  color: #f3dfc9;
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border: 1px solid #085848;
+}
+
+div#quiz-kit-question-wrapper-145749 {
+  background: #f3dfc9;
+}
+
+.review__content p {
+  font-size: 18px !important;
+}
+
+.review__image__wrapper .review__title {
+  font-size: 14px !important;
+}
+
+#quiz-kit-container h1 {
+  font-size: 40px !important;
+  color: #085848 !important;
+  margin-bottom: 30px !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+}
+
+div#quiz-kit-question-radio-buttons-145749 button:hover {
+  background: #085848 !important;
+  border-color: #085848 !important;
+  border-top-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+}
+
+.sc-fzoydu.jlKaKs {
+  display: none !important;
+}
+
+div#quiz-kit-question-radio-buttons-145749 button {
+  font-family: Urbanist !important;
+}
+
+div#quiz-kit-question-radio-buttons-145750 button {
+  font-family: Urbanist !important;
+}
+
+div#quiz-kit-question-radio-buttons-145751 button {
+  font-family: Urbanist !important;
+}
+
+div#quiz-kit-question-radio-buttons-145752 button {
+  font-family: Urbanist !important;
+}
+
+.cst-home-faq .card-body {
+  font-size: 16px !important;
+  font-family: "Urbanist";
+}
+
+.page_aboutus_v1.page_FQA
+  .asked
+  .content_askeds
+  .box_content_question
+  .card-body {
+  font-size: 16px !important;
+  color: #111 !important;
+}
+
+button#quiz-kit-question-next-button {
+  font-family: Urbanist !important;
+}
+
+div#quiz-kit-question-grid-145749 button {
+  border-radius: 0 !important;
+  padding: 10px !important;
+  background: transparent !important;
+}
+
+body
+  .contact-page
+  .contact-form
+  .contact-form-page
+  .contact-form
+  .contact-message
+  textarea {
+  height: 180px;
+}
+
+body
+  .contact-page
+  .contact-form
+  .contact-form-page
+  .contact-form
+  .contact-email
+  input,
+body
+  .contact-page
+  .contact-form
+  .contact-form-page
+  .contact-form
+  .contact-name
+  input,
+body
+  .contact-page
+  .contact-form
+  .contact-form-page
+  .contact-form
+  .contact-subject
+  input {
+  height: 45px;
+}
+
+.cst-home-ourapproch .custom-right-block:last-child {
+  padding: 0;
+}
+
+div#quiz-kit-question-wrapper-145750 {
+  background: #f3dfc9;
+}
+
+div#quiz-kit-question-wrapper-145750 button {
+  border-radius: 0 !important;
+  padding: 10px !important;
+  background: transparent !important;
+}
+
+div#quiz-kit-question-wrapper-145750 button:hover {
+  background: #085848 !important;
+  border-color: #085848 !important;
+  border-top-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+}
+
+div#quiz-kit-question-wrapper-145751 {
+  background: #f3dfc9;
+}
+
+div#quiz-kit-question-wrapper-145751 button {
+  border-radius: 0 !important;
+  padding: 10px !important;
+  background: transparent !important;
+}
+
+div#quiz-kit-question-wrapper-145751 button:hover {
+  background: #085848 !important;
+  border-color: #085848 !important;
+  border-top-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+}
+
+div#quiz-kit-question-wrapper-145752 {
+  background: #f3dfc9;
+}
+
+div#quiz-kit-question-wrapper-145752 button {
+  border-radius: 0 !important;
+  padding: 10px !important;
+  background: transparent !important;
+}
+
+div#quiz-kit-question-wrapper-145752 button:hover {
+  background: #085848 !important;
+  border-color: #085848 !important;
+  border-top-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+}
+
+div#shopify-block-AOFM0OFdva0hZNHZZV__quiz_kit_smart_product_finder_quiz_hCqcHg {
+  width: 100% !important;
+}
+
+body .box_contentmenu {
+  background-color: #085848;
+}
+
+body
+  .box_contentmenu
+  .tab_content_menu_mobile
+  .tab-content
+  #tab_menu_mobile
+  .menu-horizon-list
+  .nammenu {
+  color: #f3dfc9;
+  font-family: "Urbanist";
+}
+
+body
+  .box_contentmenu
+  .tab_content_menu_mobile
+  .tab-content
+  #tab_menu_mobile
+  .menu-horizon-list {
+  border-bottom: 1px solid #f3dfc9;
+}
+
+body .box_contentmenu .tab_content_menu_mobile .close-menu-mobile {
+  background-color: #f3dfc9;
+  color: #085848;
+  font-family: "Urbanist";
+  font-weight: 500;
+}
+
+body .cst-about-imageText1 .image-container img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/*quiz-page-css-end*/
+
+/* page-pitta-css-start */
+.page-pitta .cst-bodyType-messagecontainer {
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 20px;
+  max-width: 100%;
+  background: #08584875;
+}
+
+.page-pitta .cst-bodyType-messagecontainer .grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-pitta .cst-bodyType-messagecontainer h1 {
+  font-size: 24px;
+}
+
+.page-pitta .cst-bodyType-Video {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.page-pitta .cst-bodyType-AboutAyurvedacontainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.page-pitta .cst-bodyType-richtext2container {
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 1200px;
+}
+
+.page-pitta .cst-bodyType-image1 {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px 0;
+}
+
+.page-pitta .cst-bodyType-image1 img {
+  max-width: 100%;
+  height: 653px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.page-pitta .cst-main-bannercnt.container {
+  padding: 0 60px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.page-pitta .cst-maincontnet-wrapp .custom-banner-heading {
+  text-align: center;
+  margin: 0 0 40px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+}
+
+.page-pitta .custom-banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-pitta .custom-banner-left p {
+  font-size: 16px;
+  color: #085848;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.page-pitta .custom-banner-right img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-pitta .cst-bodyType-richtext h2.heading-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #085848;
+  margin: 0;
+}
+
+.page-pitta .cst-bodyType-richtext .rich-text__content {
+  padding: 20px;
+}
+
+.page-pitta .cst-bodyType-richtext .rich-text__content p {
+  font-size: 16px;
+  color: #085848;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.page-pitta .cst-bodyType-richtext.container-v1 {
+  padding: 60px 0;
+  margin: 0 auto;
+}
+
+/* page-pitta-css-end */
+
+/* faq-css-start */
+.breadcrumb_collection2 .bg-breadcrumb {
+  position: relative;
+}
+
+.breadcrumb_collection2 .bg-breadcrumb::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  background: #1a1818b3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.cst-faqPage-Faq .breadcrumb_collection2 .bg-breadcrumb .title-page h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #f3dfc9;
+  padding-top: 30px;
+  font-family: "Outfit";
+  z-index: 1;
+}
+
+.cst-about-richtext .rich-text__heading-- h2 {
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 50px;
+  font-family: "Outfit";
+  color: #085848;
+}
+
+.cst-faqPage-Faq .wrap-bread-crumb .bread-crumb a {
+  font-size: 18px;
+  color: #f3dfc9;
+  font-family: "Urbanist";
+  z-index: 1;
+  position: relative;
+}
+
+.cst-faqPage-Faq .wrap-bread-crumb .bread-crumb a:hover {
+  color: #fff;
+}
+
+.cst-faqPage-Faq .breadcrumb_collection2 .bg-breadcrumb .bread-crumb strong {
+  font-size: 18px;
+  color: #f3dfc9;
+  font-family: "Urbanist";
+  z-index: 1;
+  position: relative;
+}
+
+.cst-faqPage-Faq .newsletter .box-content h3 {
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  color: #085848;
+  line-height: normal !important;
+  text-align: center;
+}
+
+body .cst-faqPage-Faq .top_asked p.mb-0 {
+  font-size: 18px;
+  color: #000;
+}
+
+.cst-faqPage-Faq.page_FQA .asked .top_asked h3 {
+  color: #085848;
+  font-size: 40px;
+}
+
+body .cst-faqPage-Faq .card-body {
+  font-size: 18px;
+  color: #000;
+  font-family: "Urbanist";
+}
+
+.page_aboutus_v1.page_FQA
+  .asked
+  .content_askeds
+  .box_content_question
+  .title_question {
+  font-size: 24px;
+  font-weight: 500;
+  color: #085848;
+  text-align: left;
+  font-family: "Urbanist";
+}
+
+.cst-faqPage-Faq .newsletter .box-email .btn-primary {
+  display: inline-block;
+  background: #085848;
+  color: #f3dfc9;
+  padding: 12px 45px;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.cst-faqPage-Faq .newsletter .box-email .btn-primary:hover {
+  background: #085848;
+  color: #f3dfc9;
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+/* faq-css-end */
+
+/* Blog-css-start */
+.cst-mainBlogs p.description.text-center {
+  color: #000 !important;
+}
+.cst-mainBlogs .section-blog-v2 .info_blog .content {
+  color: #085848;
+}
+.cst-mainBlogs .section-blog-v2 .info_blog .date .day {
+  color: #085848;
+}
+.cst-mainBlogs .section-blog-v2 .info_blog .date .day:after {
+  display: none;
+}
+.cst-mainBlogs h3.title-section-blog {
+  text-align: center;
+  display: block;
+  color: #085848 !important;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: normal;
+  margin-bottom: 0;
+  font-family: "Outfit";
+  letter-spacing: 0;
+}
+
+.cst-mainBlogs h3.title-section-blog::before {
+  display: none;
+}
+
+.cst-mainBlogs .section-blog-v2 .info_blog .title-blog a:hover {
+  color: #085848;
+}
+.cst-mainArticle .cst-custom-blog-info-right-side {
+  display: flex;
+  align-items: end;
+  gap: 67px;
+  justify-content: center;
+}
+.cst-mainArticle .cst-custom-blog-info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.cst-mainArticle .container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px 120px;
+}
+.cst-mainArticle .cst-custom-blog-info-right-side h2 {
+  font-size: 40px;
+  color: #085a48;
+  font-weight: 500;
+  font-family: Outfit;
+  max-width: 533px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 50.4px;
+}
+.cst-mainArticle .cst-custom-blog-info-right-side p {
+  font-size: 18px;
+  max-width: 658px;
+}
+
+.cst-mainArticle .cst-custom-blog-info-left-side p {
+  font-size: 16px;
+  display: flex;
+  justify-content: start;
+  max-width: 1250px;
+  margin: 0 auto;
+  color: #085a48b2;
+}
+.cst-mainArticle .content-post-default h3 {
+  color: #b7482b;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+  padding-top: 20px;
+}
+.cst-mainArticle .breadcrumb-noheading strong {
+  color: #085848;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Outfit";
+}
+.cst-mainArticle .cst-custom-blog-book-consultants h4 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.cst-mainArticle .cst-custom-blog-book-consultants p {
+  color: #000;
+  line-height: 24px;
+  max-width: 256px;
+}
+.cst-mainArticle .article-page .content-single-blog .post-details {
+  border: 0;
+}
+.article header#header {
+  z-index: 3;
+  position: relative;
+}
+.cst-mainArticle .article_sidebar {
+  background: #f0f5f4;
+  padding: 24px;
+  max-width: 304px;
+  position: sticky;
+  top: 20px;
+  right: 20px;
+}
+.cst-mainArticle .content-post-default strong {
+  font-size: 18px;
+  color: #085848;
+  font-weight: 700;
+}
+.cst-mainArticle .single-post-thumb img {
+  height: 600px;
+  object-fit: cover;
+  width: 100%;
+}
+.cst-mainArticle .content-post-default ul {
+  margin: 20px 0;
+}
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .post-details
+  .article_title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #f3dfc9;
+}
+
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .post-details
+  .cmt-author
+  .date-post
+  i
+  a {
+  color: #f3dfc9;
+}
+
+.cst-mainArticle ol.blog-list-items {
+  padding-top: 7px !important;
+}
+.cst-mainArticle .blog-list-items li {
+  margin-bottom: 17px !important;
+}
+.cst-mainArticle .blog-list-items li:last-child {
+  margin-bottom: 0;
+}
+.cst-mainArticle .row.next_prev_post {
+  display: none;
+}
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .post-details
+  .content-post-default
+  p {
+  font-size: 18px;
+  color: #000;
+  line-height: 150%;
+}
+.cst-mainArticle .row.cate-tags {
+  display: none;
+}
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .post-details
+  .content-post-default
+  li {
+  font-size: 18px;
+  color: #000;
+  line-height: 27px;
+  margin: 5px 0;
+  position: relative;
+}
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .post-details
+  .content-post-default
+  li::before {
+  position: absolute;
+  background: #085848;
+  height: 4px;
+  width: 4px;
+  content: "";
+  left: -9px;
+  border-radius: 30px;
+  top: 12px;
+}
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .post-details
+  .content-post-default
+  ul {
+  padding-left: 15px;
+}
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .post-details
+  .content-post-default
+  ol {
+  padding: 0;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.cst-mainArticle .content-post-default p strong {
+  color: #085848;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cst-mainArticle h3::before {
+  display: none !important;
+}
+.cst-mainArticle p.blog-iframe-video {
+  padding-top: 30px;
+}
+.cst-mainArticle p.blog-iframe-video img {
+  width: 100%;
+  object-fit: cover;
+  height: 600px;
+  padding-bottom: 20px;
+}
+.cst-mainArticle .article-page .content-single-blog .next_prev_post a {
+  color: #085848;
+  border-bottom: 1px solid;
+}
+
+.cst-mainArticle h2.title-single-related-post {
+  font-size: 40px !important;
+  color: #085848 !important;
+  font-weight: 500 !important;
+  margin-bottom: 20px;
+}
+.cst-mainArticle .single-post-date {
+  display: none;
+}
+.cst-mainArticle .post-info h4 {
+  color: #b7482b;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  padding: 20px 0 10px;
+}
+.cst-mainArticle .post-info a.btn_readmore {
+  display: none;
+}
+.cst-mainArticle .post-info h3.post-title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.cst-mainArticle .post-info h3 a:hover {
+  color: #085848;
+}
+.cst-mainArticle .blog_grid .post-thumb img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.cst-mainArticle h2.title-single-related-post:before {
+  display: none;
+}
+
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .single-related-post
+  .blog_grid
+  .post-info
+  .blog-title {
+  color: #085848;
+  font-size: 16px;
+}
+
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .single-related-post
+  .blog_grid
+  .post-info
+  .post-title
+  a:after {
+  color: #085848;
+  font-weight: 500;
+}
+.article-page
+  .content-single-blog
+  .single-related-post
+  .blog_grid
+  .post-info
+  .post-title
+  a {
+  font-family: Urbanist;
+}
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .single-related-post
+  .blog_grid
+  .post-info
+  .btn_readmore
+  span {
+  display: inline-block;
+  background: #085848;
+  color: #f3dfc9;
+  padding: 12px 45px;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .single-related-post
+  .blog_grid
+  .post-info
+  .btn_readmore
+  span:after {
+  display: none;
+}
+
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .single-related-post
+  .blog_grid
+  .post-info
+  .btn_readmore
+  span:hover {
+  background: #085848;
+  color: #f3dfc9;
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.cst-mainArticle
+  .article-page
+  .content-single-blog
+  .post-details
+  .single-post-thumb
+  img {
+  height: 550px;
+  object-fit: cover;
+}
+
+/* Blog-css-end */
+
+/* tab css-start */
+.cst-custom-tab-section-therapies-page .tab-lists {
+  min-height: 357px;
+}
+.cst-custom-tab-section-only .tabs {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.cst-custom-tab-section-only {
+  padding: 60px;
+  background: #fdf9f4;
+  margin-bottom: 50px;
+}
+.cst-custom-tab-section-only .tab-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 38px;
+  padding: 0;
+}
+
+.cst-custom-tab-section-only .tabs-nav {
+  position: relative;
+  display: flex;
+  gap: 0;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  isolation: isolate;
+  justify-content: space-between;
+}
+
+.cst-custom-tab-section-only .tab-button {
+  width: 100% !important;
+  flex: 1;
+  all: unset;
+  position: relative;
+  padding: 8px 148px;
+  font-size: 20px;
+  font-family: "Urbanist";
+  font-weight: 500;
+  border-radius: 0;
+  cursor: pointer;
+  transition: color var(--transition-duration) var(--transition-timing);
+  text-align: center;
+  white-space: nowrap;
+  z-index: 1;
+  color: #085848;
+  background: #ccd9d2;
+}
+
+.cst-custom-tab-section-only .tab-button:hover {
+  color: #fff;
+}
+
+.tab-button:hover,
+.tab-button[aria-selected="true"] {
+  color: #f3dfc9;
+  background: #085a48;
+}
+.cst-custom-tab-section-only .tabs-indicator {
+  position: absolute;
+  border-radius: calc(var(--tab-border-radius) - 2px);
+  transition: transform var(--transition-duration) var(--transition-timing),
     width var(--transition-duration) var(--transition-timing);
-    pointer-events: none;
-    z-index: 0;
-    box-shadow: 0 0 0 1px var(--border-color), 0 4px 12px rgba(0, 0, 0, 0.1);
-    will-change: transform, width;
-    }
-    .cst-custom-tab-section-only .tab-panel {
-    padding-top: 20px;
-    background: transparent;
-    border-radius: var(--tab-border-radius);
-    display: none;
-    transform-origin: top;
-    animation: slideIn var(--transition-duration) var(--transition-timing);
-    }
-    
-    .cst-custom-tab-section-only .tab-panel[aria-hidden="false"] {
-    display: block;
-    }
-    
-    @keyframes slideIn {
-    from {
+  pointer-events: none;
+  z-index: 0;
+  box-shadow: 0 0 0 1px var(--border-color), 0 4px 12px rgba(0, 0, 0, 0.1);
+  will-change: transform, width;
+}
+.cst-custom-tab-section-only .tab-panel {
+  padding-top: 20px;
+  background: transparent;
+  border-radius: var(--tab-border-radius);
+  display: none;
+  transform-origin: top;
+  animation: slideIn var(--transition-duration) var(--transition-timing);
+}
+
+.cst-custom-tab-section-only .tab-panel[aria-hidden="false"] {
+  display: block;
+}
+
+@keyframes slideIn {
+  from {
     opacity: 0;
     transform: translateY(-8px) scale(0.98);
-    }
-    to {
+  }
+  to {
     opacity: 1;
     transform: translateY(0) scale(1);
-    }
-    }
-    
-    .cst-custom-tab-section-only .tab-button:focus-visible {
-    outline-offset: 2px;
-    }
-    
-    .cst-custom-tab-section-only .tab-panel h2 {
-    margin-bottom: 15px;
-    font-size: 18px;
-    color: #333;
-    line-height: 28px;
-    font-weight: 500;
-    }
-    .cst-custom-tab-section-only .tab-panel p {
-    line-height: 1.6;
-    opacity: 0.9;
-    color: #000;
-    }
-    .cst-custom-tab-section-only .tab-lists li {
+  }
+}
+
+.cst-custom-tab-section-only .tab-button:focus-visible {
+  outline-offset: 2px;
+}
+
+.cst-custom-tab-section-only .tab-panel h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+  line-height: 28px;
+  font-weight: 500;
+}
+.cst-custom-tab-section-only .tab-panel p {
+  line-height: 1.6;
+  opacity: 0.9;
+  color: #000;
+}
+.cst-custom-tab-section-only .tab-lists li {
+  list-style: disc;
+  font-size: 18px;
+  color: #333;
+  line-height: 28px;
+}
+.cst-custom-tab-section-only .tab-lists ul {
+  padding-left: 35px;
+}
+.cst-custom-tab-section-only .tab-img img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cst-custom-tab-section-only .tab-img {
+  width: 100%;
+}
+.cst-custom-read-more {
+  display: none;
+}
+
+.cst-custom-grid-heath-issues .cst-custom-read-more {
+  display: block;
+}
+.cst-heading-two-column {
+  background: #f0f5f4;
+  padding-top: 120px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.homepage-two-column-only .container {
+  padding-top: 40px;
+}
+.homepage-two-column-only .custom-left-column {
+  justify-content: start;
+}
+.homepage-two-column-only.cst-home-ourapproch .custom-right-block {
+  padding-bottom: 60px;
+}
+.homepage-two-column-only.cst-home-ourapproch .cst-wrapper {
+  height: calc(70% + 2px);
+}
+.homepage-two-column-only.cst-home-ourapproch .custom-right-block h3 {
+  color: #b7482b;
+}
+.homepage-two-column-only .custom-left-column img {
+  height: 507px;
+  object-fit: cover;
+}
+.cst-heading-two-column h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #085a48;
+}
+.cst-heading-two-column p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  font-family: "Urbanist";
+  max-width: 1320px;
+}
+.bread-crumb {
+  padding: 22px 0;
+  background: #f5f0eb;
+  text-align: center;
+  border-top: 0.5px solid #085a4842;
+}
+
+.bread-crumb a {
+  color: #085848;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Outfit";
+}
+
+.bread-crumb strong {
+  color: #085848;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Outfit";
+}
+
+.bread-crumb i {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.therapy-virechana-page li {
     list-style: disc;
-    font-size: 18px;
-    color: #333;
-    line-height: 28px;
-    }
-    .cst-custom-tab-section-only .tab-lists ul {
-    padding-left: 35px;
-    }
-    .cst-custom-tab-section-only .tab-img img {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    }
-    
-    .cst-custom-tab-section-only .tab-img {
-    width: 100%;
-    }
-    .cst-custom-read-more {
-    display: none;
-    }
-    
-    .cst-custom-grid-heath-issues .cst-custom-read-more {
-    display: block;
-    }
-    .cst-heading-two-column {
-      background: #f0f5f4;
-      padding-top: 120px;
-      padding-left: 60px;
-      padding-right: 60px;
-    }
-    .homepage-two-column-only .container {
-      padding-top: 40px;
-    }
-    .homepage-two-column-only .custom-left-column{
-      justify-content: start;
-    }
-    .homepage-two-column-only.cst-home-ourapproch .custom-right-block{
-      padding-bottom: 60px;
-    }
-    .homepage-two-column-only.cst-home-ourapproch .cst-wrapper {
-        height: calc(70% + 2px);
-    }
-    .homepage-two-column-only.cst-home-ourapproch .custom-right-block h3 {
-      color: #B7482B;
-    }
-    .homepage-two-column-only .custom-left-column img {
-      height: 507px;
-      object-fit: cover;
-    }
-    .cst-heading-two-column h2 {
-      font-size: 40px;
-      line-height: 50px;
-      font-weight: 500;
-      color: #085A48;
-    }
-    .cst-heading-two-column p {
-      font-size: 18px;
-      font-weight: 500;
-      line-height: 25px;
-      font-family: 'Urbanist';
-      max-width: 1320px;
-    }
-    .bread-crumb {
-    padding: 22px 0;
-    background: #f5f0eb;
-    text-align: center;
-    border-top: 0.5px solid #085a4842;
-    }
-    
-    .bread-crumb a {
-    color: #085848;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: 'Outfit';
-    }
-    
-    .bread-crumb strong {
-    color: #085848;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: 'Outfit';
-    }
-    
-    .bread-crumb i {
-    margin-left: 15px;
-    margin-right: 15px;
-    }
-    /* Responsive-Css-Start */
-    
-    @media screen and (max-width: 1530px) {
-    header .justify-content-center {
+}
+.therapy-virechana-page ul {
+    padding-left: 25px;
+}
+.therapy-virechana-page .text-container h3 {
+    padding-bottom: 25px;
+}
+.therapy-virechana-page .text-container {
+    background: #fff;
+}
+.therapy-virechana-page .text-container .cst-content p {
+    color: #000 !important;
+}
+.therapy-virechana-page .container {
+  padding: 0 60px !important;
+}
+.therapy-virechana-page .cst-even-sec.cst-last-block .text-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Responsive-Css-Start */
+
+@media screen and (max-width: 1530px) {
+  header .justify-content-center {
     padding: 0;
-    }
-    
-    #header .menu ul .nav-item .nav-link {
+  }
+
+  #header .menu ul .nav-item .nav-link {
     font-size: 13px;
-    }
-    
-    .cst-knowBody-quiz .answers span {
+  }
+
+  .cst-knowBody-quiz .answers span {
     font-size: 16px;
     line-height: normal;
-    }
-    }
-    @media screen and (max-width: 1440px) {
-    .cst-mainArticle .container {
+  }
+}
+@media screen and (max-width: 1440px) {
+  .cst-mainArticle .container {
     padding: 80px;
-    }
-    .cst-mainArticle .cst-custom-blog-info-right-side{
+  }
+  .cst-mainArticle .cst-custom-blog-info-right-side {
     gap: 40px;
-    justify-content: space-around; 
-    }
-    .cst-issues-AyurvedicPerspective .image-container img {
+    justify-content: space-around;
+  }
+  .cst-issues-AyurvedicPerspective .image-container img {
     height: 100%;
-    }
-    }
-    @media screen and (max-width: 1390px) {
-    .custom-banner-red-btn a{
+  }
+}
+@media screen and (max-width: 1390px) {
+  .custom-banner-red-btn a {
     top: 80px;
     margin: 0;
-    }
-    .cst-custom-banner-quiz-result-page{
+  }
+  .cst-custom-banner-quiz-result-page {
     padding-left: 30px !important;
-    }
-    .cst-mainArticle .cst-banner-btn a{
+  }
+  .cst-mainArticle .cst-banner-btn a {
     padding: 12px 29px;
-    }
-    .page-quiz-result .container.container-v2 {
+  }
+  .page-quiz-result .container.container-v2 {
     padding: 70px 60px;
-    }
-    .page-quiz-result .container.container-v2{
+  }
+  .page-quiz-result .container.container-v2 {
     padding: 30px;
-    }
-    
-    .cst-custom-richtext-image-quiz-result-page.container {
+  }
+
+  .cst-custom-richtext-image-quiz-result-page.container {
     padding: 0;
-    }
-    .cst-mainArticle .container {
+  }
+  .cst-mainArticle .container {
     padding: 70px 60px;
-    }
-    .cst-about-purpose .mission-content p {
+  }
+  .cst-about-purpose .mission-content p {
     font-size: 16px;
-    }
-    
-    .cst-about-vision .mission-content p {
+  }
+
+  .cst-about-vision .mission-content p {
     font-size: 16px;
-    }
-    
-    body .menu_moblie {
+  }
+
+  body .menu_moblie {
     background: #085848;
-    }
-    
-    body .menu_moblie .menuleft .iconmenu span {
+  }
+
+  body .menu_moblie .menuleft .iconmenu span {
     background: #f3dfc9;
-    }
-    
-    .cst-home-imgText .cst-main-content-sec {
+  }
+
+  .cst-home-imgText .cst-main-content-sec {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    }
-    
-    .cst-home-imgText .maincontent p {
+  }
+
+  .cst-home-imgText .maincontent p {
     text-align: center;
-    }
-    }
-    
-    @media screen and (max-width: 1200px) {
-    .cst-mainArticle .container {
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cst-mainArticle .container {
     padding: 60px 50px;
-    }
-    .cst-mainArticle .cst-custom-blog-info-right-side h2{
+  }
+  .cst-mainArticle .cst-custom-blog-info-right-side h2 {
     font-size: 30px;
     line-height: 41.4px;
-    }
-    .cst-mainArticle .cst-custom-blog-info-right-side {
+  }
+  .cst-mainArticle .cst-custom-blog-info-right-side {
     gap: 30px;
-    }
-    .cst-knowBody-quiz {
+  }
+  .cst-knowBody-quiz {
     padding: 40px 100px;
-    }
-    .cst-custom-tab-section-only .tab-button {
+  }
+  .cst-custom-tab-section-only .tab-button {
     padding: 8px 133px;
-    }
-    .cst-home-imgText .custom-banner-main {
+  }
+  .cst-home-imgText .custom-banner-main {
     gap: 50px;
-    }
-    
-    .cst-about-purpose .mission-image {
+  }
+
+  .cst-about-purpose .mission-image {
     width: 40%;
     height: 540px;
-    }
-    
-    .cst-about-purpose .mission-image img {
+  }
+
+  .cst-about-purpose .mission-image img {
     object-fit: cover;
-    }
-    
-    .cst-about-purpose .mission-container {
+  }
+
+  .cst-about-purpose .mission-container {
     padding-left: 30px;
     padding-right: 30px;
-    }
-    
-    .cst-about-vision .mission-container {
+  }
+
+  .cst-about-vision .mission-container {
     padding-left: 30px;
     padding-right: 30px;
-    }
-    
-    .menuright span.pr-3.js-search-destop {
+  }
+
+  .menuright span.pr-3.js-search-destop {
     display: none;
-    }
-    
-    .cst-home-treatment .text-block p {
+  }
+
+  .cst-home-treatment .text-block p {
     font-size: 16px;
-    }
-    
-    .cst-home-imgText .custom-banner-right img {
+  }
+
+  .cst-home-imgText .custom-banner-right img {
     max-width: 100%;
     height: 100%;
-    }
-    
-    .cst-home-treatment .column {
+  }
+
+  .cst-home-treatment .column {
     padding: 30px 14px;
-    }
-    
-    .cst-home-imgText .custom-banner-left li:before {
+  }
+
+  .cst-home-imgText .custom-banner-left li:before {
     width: 30px;
     left: -36px;
     height: 30px;
-    }
-    
-    .cst-home-imgText .text-container {
+  }
+
+  .cst-home-imgText .text-container {
     padding: 40px 20px;
-    }
-    
-    .cst-home-imgText .text-container h3 {
+  }
+
+  .cst-home-imgText .text-container h3 {
     font-size: 24px;
-    }
-    
-    .cst-home-grid.custom-multi-column[data-columns="3"] .column-container {
+  }
+
+  .cst-home-grid.custom-multi-column[data-columns="3"] .column-container {
     grid-template-columns: repeat(2, 1fr);
-    }
-    }
-    
-    @media screen and (max-width: 1050px) {
-    .cst-mainArticle .cst-custom-blog-info-right-side {
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .therapy-virechana-page .container {
+    padding: 0 30px !important;
+}
+  .cst-mainArticle .cst-custom-blog-info-right-side {
     flex-direction: column;
     align-items: start;
-    }
-    .cst-mainArticle .cst-custom-blog-info-right-side {
+  }
+  .cst-mainArticle .cst-custom-blog-info-right-side {
     gap: 14px;
-    }
-    .cst-mainArticle .cst-custom-blog-info-right-side p{
+  }
+  .cst-mainArticle .cst-custom-blog-info-right-side p {
     max-width: 100%;
-    }
-    .cst-mainArticle .cst-custom-blog-info-right-side h2{
+  }
+  .cst-mainArticle .cst-custom-blog-info-right-side h2 {
     max-width: 100%;
-    }
-    .cst-custom-blog-book-consultants .cst-banner-btn a {
+  }
+  .cst-custom-blog-book-consultants .cst-banner-btn a {
     padding: 8px 39px;
-    }
-    .cst-mainArticle .article_sidebar {
+  }
+  .cst-mainArticle .article_sidebar {
     margin-top: 0;
     margin-bottom: 50px;
-    }
-    .cst-mainArticle .post-info h3.post-title.mb-0 {
+  }
+  .cst-mainArticle .post-info h3.post-title.mb-0 {
     font-size: 15px;
     line-height: 18px;
-    }
-    .cst-custom-banner-v2-therapies-page
+  }
+  .cst-custom-banner-v2-therapies-page
     .section-banner-v2
     .banner-box
     .banner-info.content-left {
     padding: 0 30px;
-    }
-    .cst-custom-image-with-text-therapies .container {
+  }
+  .cst-custom-image-with-text-therapies .container {
     padding-left: 30px;
     padding-right: 30px;
-    }
-    .cst-custom-image-with-text-therapies .cst-content li {
+  }
+  .cst-custom-image-with-text-therapies .cst-content li {
     font-size: 18px;
-    }
-    .cst-custom-wich-text-with-images.container {
+  }
+  .cst-custom-wich-text-with-images.container {
     padding: 50px 30px;
-    }
-    .cst-custom-tab-section-only {
+  }
+  .cst-custom-tab-section-only {
     padding: 50px 30px;
-    }
-    .cst-custom-banner-v2-therapies-page p.sub-title {
+  }
+  .cst-custom-banner-v2-therapies-page p.sub-title {
     max-width: 600px;
     line-height: 140%;
-    }
-    .cst-custom-tab-section-only .tab-button {
+  }
+  .cst-custom-tab-section-only .tab-button {
     padding: 8px 110px;
-    }
-    .cst-home-imgText .custom-banner-left p {
-    font-size:16px;
-    }
-    .cst-home-ourapproch .custom-right-block .cst-block_content {
-    font-size:16px;
-    }
-    .cst-issues-imgText .cst-content p{
-    font-size:16px;
-    }
-    .cst-issues-ayurvedic.container .rich-text__content p{
-    font-size:16px;
-    }
-    .cst-home-ourapproch p{
-    font-size:16px;
-    }
-    .cst-issues-symptoms li{
-    font-size:16px;
-    }
-    .cst-home-imgText .text-container p{
-    font-size:16px;
-    line-height: 23px;
-    }
-    body .cst-text-health-issue {
-    padding: 60px 20px;
-    }
-    body .cst-symptoms-heath-issues.custom-multi-column {
-    padding: 60px 20px;
-    }
-    .cst-issues-AyurvedicPerspective .container {
-    padding: 60px 20px 0;
-    }
-    body .cst-custom-grid-heath-issues {
-    padding: 0 20px 50px;
-    }
-    .cst-custom-our-approach-heath-issues .container.cst-flex {
-    padding: 60px 20px;
-    }
-    .cst-heading-two-column p{
-      font-size: 16px;
-    }
-    }
-    
-    @media screen and (max-width: 991px) {
-      .cst-heading-two-column{
-        padding: 60px 30px 0;
-      }
-      .homepage-two-column-only.cst-home-ourapproch .container{
-        padding: 50px 30px 60px;
-      }
-      .homepage-two-column-only .custom-left-column img {
-        height: 100%;
-    }
-      body .cst-main-bannercnt.container {
-        padding: 0 30px;
-    }
-      section.cst-about-purpose.mission-section{
-        padding-top:0;
-      }
-    .cst-mainArticle .content-post-default strong {
+  }
+  .cst-home-imgText .custom-banner-left p {
     font-size: 16px;
-    }
-    .cst-mainArticle
+  }
+  .cst-home-ourapproch .custom-right-block .cst-block_content {
+    font-size: 16px;
+  }
+  .cst-issues-imgText .cst-content p {
+    font-size: 16px;
+  }
+  .cst-issues-ayurvedic.container .rich-text__content p {
+    font-size: 16px;
+  }
+  .cst-home-ourapproch p {
+    font-size: 16px;
+  }
+  .cst-issues-symptoms li {
+    font-size: 16px;
+  }
+  .cst-home-imgText .text-container p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  body .cst-text-health-issue {
+    padding: 60px 20px;
+  }
+  body .cst-symptoms-heath-issues.custom-multi-column {
+    padding: 60px 20px;
+  }
+  .cst-issues-AyurvedicPerspective .container {
+    padding: 60px 20px 0;
+  }
+  body .cst-custom-grid-heath-issues {
+    padding: 0 20px 50px;
+  }
+  .cst-custom-our-approach-heath-issues .container.cst-flex {
+    padding: 60px 20px;
+  }
+  .cst-heading-two-column p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #shopify-section-template--17853082271929__rich_text_with_image_TtDiHg h2{
+    font-size:35px !important;
+    padding-top: 40px;
+  }
+  .cst-heading-two-column {
+    padding: 60px 30px 0;
+  }
+  .homepage-two-column-only.cst-home-ourapproch .container {
+    padding: 50px 30px 60px;
+  }
+  .homepage-two-column-only .custom-left-column img {
+    height: 100%;
+  }
+  body .cst-main-bannercnt.container {
+    padding: 0 30px;
+  }
+  section.cst-about-purpose.mission-section {
+    padding-top: 0;
+  }
+  .cst-mainArticle .content-post-default strong {
+    font-size: 16px;
+  }
+  .cst-mainArticle
     .article-page
     .content-single-blog
     .post-details
     .content-post-default
     li {
     font-size: 16px;
-    }
-    
-    .cst-mainArticle .article-page .content-single-blog .post-details .content-post-default p{
+  }
+
+  .cst-mainArticle
+    .article-page
+    .content-single-blog
+    .post-details
+    .content-post-default
+    p {
     font-size: 16px;
-    }
-    .cst-custom-info-quiz-result-page .section-info-v1 p {
+  }
+  .cst-custom-info-quiz-result-page .section-info-v1 p {
     font-size: 16px;
-    }
-    .cst-custom-info-quiz-result-page .section-info-v1 li {
+  }
+  .cst-custom-info-quiz-result-page .section-info-v1 li {
     font-size: 16px;
-    }
-    .cst-mainArticle .cst-custom-blog-info-right-side p{
+  }
+  .cst-mainArticle .cst-custom-blog-info-right-side p {
     font-size: 16px;
-    }
-    
-    .article_sidebar.cst-mainArticle{
+  }
+
+  .article_sidebar.cst-mainArticle {
     margin-bottom: 50px;
-    }
-    .cst-custom-richtext-quiz-result-page {
+  }
+  .cst-custom-richtext-quiz-result-page {
     padding: 0;
-    }
-    .cst-mainArticle .single-post-thumb img {
+  }
+  .cst-mainArticle .single-post-thumb img {
     height: 350px;
-    }
-    .cst-mainArticle p.blog-iframe-video img {
+  }
+  .cst-mainArticle p.blog-iframe-video img {
     height: unset;
-    }
-    .cst-mainArticle .blog_grid .post-thumb img {
+  }
+  .cst-mainArticle .blog_grid .post-thumb img {
     height: unset;
-    }
-    .cst-mainArticle .content-post-default h3 {
+  }
+  .cst-mainArticle .content-post-default h3 {
     line-height: 118%;
-    }
-    .cst-mainArticle .container {
+  }
+  .cst-mainArticle .container {
     padding: 30px;
-    }
-    .cst-custom-banner-v2-quiz-page .banner-info.content-left {
+  }
+  .cst-custom-banner-v2-quiz-page .banner-info.content-left {
     padding-left: 30px !important;
-    }
-    .cst-custom-wich-text-with-images .rich-text-with-image-icons img {
+  }
+  .cst-custom-wich-text-with-images .rich-text-with-image-icons img {
     margin: 0 auto;
-    }
-    .cst-custom-image-with-text-therapies .cst-content ul {
+    width: 100%;
+  }
+  .cst-custom-image-with-text-therapies .cst-content ul {
     padding-left: 25px;
-    }
-    .cst-custom-wich-text-with-images h2.heading-title {
+  }
+  .cst-custom-wich-text-with-images h2.heading-title {
     font-size: 35px;
-    }
-    .cst-faqPage-Faq.page_FQA .asked .top_asked h3{
+  }
+  .cst-faqPage-Faq.page_FQA .asked .top_asked h3 {
     font-size: 35px;
-    }
-    .cst-custom-banner-quiz-result-page .left-div h2{
+  }
+  .cst-custom-banner-quiz-result-page .left-div h2 {
     font-size: 35px;
-    }
-    .cst-custom-tab-section-only .tab-button {
+  }
+  .cst-custom-tab-section-only .tab-button {
     padding: 7px 82px;
-    }
-    .cst-custom-tab-section-only .tab-panel {
+  }
+  .cst-custom-tab-section-only .tab-panel {
     padding: 0;
-    }
-    .cst-issues-AyurvedicPerspective .image-with-text-block.reverse {
+  }
+  .cst-issues-AyurvedicPerspective .image-with-text-block.reverse {
     flex-direction: column;
-    }
-    .cst-issues-AyurvedicPerspective .image-container {
+  }
+  .cst-issues-AyurvedicPerspective .image-container {
     width: 100%;
     margin-bottom: 30px;
-    }
-    .cst-issues-AyurvedicPerspective .image-container img {
+  }
+  .cst-issues-AyurvedicPerspective .image-container img {
     height: 400px;
     object-position: 50% 10%;
-    }
-    .cst-issues-AyurvedicPerspective.image-with-text-section {
+  }
+  .cst-issues-AyurvedicPerspective.image-with-text-section {
     padding-top: 0;
-    }
-    .cst-issues-AyurvedicPerspective .text-container {
+  }
+  .cst-issues-AyurvedicPerspective .text-container {
     width: 100%;
-    }
-    .cst-custom-our-approach-heath-issues .custom-left-column {
+  }
+  .cst-custom-our-approach-heath-issues .custom-left-column {
     width: 45%;
-    }
-    .cst-custom-our-approach-heath-issues .custom-right-column {
+  }
+  .cst-custom-our-approach-heath-issues .custom-right-column {
     width: 45%;
-    }
-    body .cst-custom-grid-heath-issues .column-container {
+  }
+  body .cst-custom-grid-heath-issues .column-container {
     grid-template-columns: 1fr 1fr !important;
-    }
-    .cst-symptoms-heath-issues .column .text-block p {
+  }
+  .cst-symptoms-heath-issues .column .text-block p {
     font-size: 18px;
-    }
-    .cst-symptoms-heath-issues .column {
+  }
+  .cst-symptoms-heath-issues .column {
     padding: 24px;
-    }
-    .cst-heading-two-column h2{
-      font-size: 35px;
-    }
-    body .cst-text-health-issue h2 {
+  }
+  .cst-heading-two-column h2 {
+    font-size: 35px;
+  }
+  body .cst-text-health-issue h2 {
     font-size: 35px;
     text-align: left;
-    }
-    .cst-issues-AyurvedicPerspective .text-container h3 {
+  }
+  .cst-issues-AyurvedicPerspective .text-container h3 {
     font-size: 35px;
-    }
-    body .cst-symptoms-heath-issues h2 {
+  }
+  body .cst-symptoms-heath-issues h2 {
     font-size: 35px;
-    }
-    .cst-custom-issues-Ayurvedic h2 {
+  }
+  .cst-custom-issues-Ayurvedic h2 {
     font-size: 35px;
-    }
-    .contact-page .contact-form .contact_title {
+  }
+  .contact-page .contact-form .contact_title {
     font-size: 35px;
-    }
-    .cst-knowBody-quiz {
+  }
+  .cst-knowBody-quiz {
     padding: 40px 20px;
-    }
-    
-    .cst-knowBody-quiz .answers {
+  }
+
+  .cst-knowBody-quiz .answers {
     flex-direction: column;
-    }
-    
-    .cst-knowBody-quiz .answers span {
+  }
+
+  .cst-knowBody-quiz .answers span {
     width: 100%;
-    }
-    
-    .cst-knowBody-quiz h1 {
+  }
+
+  .cst-knowBody-quiz h1 {
     font-size: 30px;
     line-height: normal;
-    }
-    
-    .cst-issues-symptoms .custom-banner-right img {
+  }
+
+  .cst-issues-symptoms .custom-banner-right img {
     max-width: 100%;
-    }
-    
-    body .custom-banner-main.reverse-order {
+  }
+
+  body .custom-banner-main.reverse-order {
     flex-direction: column-reverse;
-    }
-    
-    .page-pitta .cst-bodyType-richtext.container-v1 {
+  }
+
+  .page-pitta .cst-bodyType-richtext.container-v1 {
     padding: 30px 0;
-    }
-    
-    .cst-about-richtext .rich-text__heading-- h2 {
+  }
+
+  .cst-about-richtext .rich-text__heading-- h2 {
     font-size: 35px;
-    }
-    
-    .cst-mainArticle
+  }
+
+  .cst-mainArticle
     .article-page
     .content-single-blog
     .post-details
     .article_title {
     font-size: 24px;
-    }
-    
-    .cst-mainArticle h2.title-single-related-post {
+  }
+
+  .cst-mainArticle h2.title-single-related-post {
     font-size: 35px !important;
-    }
-    
-    .cst-therapies-Benefits h2.heading-title,
-    .cst-issues-ayurvedic h2 {
+  }
+
+  .cst-therapies-Benefits h2.heading-title,
+  .cst-issues-ayurvedic h2 {
     font-size: 35px;
-    }
-    
-    .cst-faqPage-Faq .newsletter .box-content h3 {
+  }
+
+  .cst-faqPage-Faq .newsletter .box-content h3 {
     font-size: 35px !important;
-    }
-    
-    .cst-mainBlogs h3.title-section-blog {
+  }
+
+  .cst-mainBlogs h3.title-section-blog {
     font-size: 35px;
-    }
-    
-    .cst-therapies-Benefits h2 {
+  }
+
+  .cst-therapies-Benefits h2 {
     font-size: 35px;
-    }
-    
-    .page-pitta .cst-maincontnet-wrapp .custom-banner-heading {
+  }
+
+  .page-pitta .cst-maincontnet-wrapp .custom-banner-heading {
     font-size: 35px;
-    }
-    
-    .page-pitta .cst-bodyType-richtext h2.heading-title {
+  }
+
+  .page-pitta .cst-bodyType-richtext h2.heading-title {
     font-size: 35px;
-    }
-    
-    .cst-home-table.custom-table-section h2 {
+  }
+
+  .cst-home-table.custom-table-section h2 {
     font-size: 35px;
-    }
-    
-    .cst-about-vision .mission-content h2 {
+  }
+
+  .cst-about-vision .mission-content h2 {
     font-size: 35px;
-    }
-    
-    .cst-about-richtextcontainer h2 {
+  }
+
+  .cst-about-richtextcontainer h2 {
     font-size: 35px;
-    }
-    
-    .cst-about-purpose .mission-content h2 {
+  }
+
+  .cst-about-purpose .mission-content h2 {
     font-size: 35px;
-    }
-    
-    .cst-home-ourapproch h2 {
+  }
+
+  .cst-home-ourapproch h2 {
     font-size: 35px;
-      margin-bottom:0;
-    }
-    
-    .cst-issues-symptoms h2.custom-banner-heading {
+    margin-bottom: 0;
+  }
+
+  .cst-issues-symptoms h2.custom-banner-heading {
     font-size: 35px;
-    }
-    
-    .cst-issues-ayurvediccontainer h2.heading-title {
+  }
+
+  .cst-issues-ayurvediccontainer h2.heading-title {
     font-size: 35px;
-    }
-    
-    .cst-issues-imgText .text-container h3 {
+  }
+
+  .cst-issues-imgText .text-container h3 {
     font-size: 35px;
-    }
-    
-    .cst-about-purpose .mission-content p {
+  }
+
+  .cst-about-purpose .mission-content p {
     text-align: left !important;
-    }
-    
-    .cst-about-vision .mission-content p {
+  }
+
+  .cst-about-vision .mission-content p {
     text-align: left;
-    }
-    
-    body .m-cst-issues-time h2.m-section-heading {
+  }
+
+  body .m-cst-issues-time h2.m-section-heading {
     font-size: 35px;
-    }
-    
-    .cst-home-imgText .mainheading h2 {
+  }
+
+  .cst-home-imgText .mainheading h2 {
     font-size: 35px;
-    }
-    
-    #quiz-kit-container h1 {
+  }
+
+  #quiz-kit-container h1 {
     font-size: 35px !important;
-    }
-    
-    .cst-home-imgText .custom-banner-content .custom-banner-left h3 {
+  }
+
+  .cst-home-imgText .custom-banner-content .custom-banner-left h3 {
     font-size: 35px;
     margin-bottom: 20px;
-    }
-    
-    .cst-home-imgText .custom-banner-left p {
+  }
+
+  .cst-home-imgText .custom-banner-left p {
     padding-bottom: 30px;
-    }
-    
-    body .cst-home-banner .box-content-center h3.titlebig {
+  }
+
+  body .cst-home-banner .box-content-center h3.titlebig {
     font-size: 40px !important;
-    }
-    
-    h1#quiz-kit-question-title-145749 {
+  }
+
+  h1#quiz-kit-question-title-145749 {
     font-size: 35px !important;
-    }
-    
-    .cst-home-team .cst-left-content p strong {
+  }
+
+  .cst-home-team .cst-left-content p strong {
     font-size: 25px;
-    }
-    
-    .cst-home-ourapproch .custom-right-block h3 {
+  }
+
+  .cst-home-ourapproch .custom-right-block h3 {
     font-size: 20px;
-    }
-    
-    .cst-home-treatment h2 {
-    font-size: 35px;
-     margin-bottom: 30px;
-    }
-    
-    .cst-home-reviews h1.title--decorated {
+  }
+
+  .cst-home-treatment h2 {
     font-size: 35px;
     margin-bottom: 30px;
-    }
-    
-    .cst-home-imgText .maincontent p {
+  }
+
+  .cst-home-reviews h1.title--decorated {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .cst-home-imgText .maincontent p {
     font-size: 16px;
-    }
-    
-    body .cst-home-faq h3 {
+  }
+
+  body .cst-home-faq h3 {
     font-size: 35px !important;
-    }
-    
-    .cst-issues-imgText .image-with-text-block.reverse {
+  }
+
+  .cst-issues-imgText .image-with-text-block.reverse {
     flex-direction: column;
-    }
-    
-    .cst-issues-imgText .container {
+  }
+
+  .cst-issues-imgText .container {
     padding: 30px 60px;
-    }
-    
-    .cst-issues-imgText .image-container {
+  }
+
+  .cst-issues-imgText .image-container {
     width: 100%;
-    }
-    
-    .cst-issues-imgText .image-with-text-section {
+  }
+
+  .cst-issues-imgText .image-with-text-section {
     padding: 0;
-    }
-    
-    .cst-issues-imgText .text-container {
+  }
+
+  .cst-issues-imgText .text-container {
     width: 100%;
-    }
-    
-    .cst-about-purpose .mission-main-content {
+  }
+
+  .cst-about-purpose .mission-main-content {
     flex-direction: column !important;
-    }
-    
-    .cst-about-purpose .mission-image {
+  }
+
+  .cst-about-purpose .mission-image {
     width: 100%;
-    }
-    
-    .cst-about-purpose .mission-content {
+  }
+
+  .cst-about-purpose .mission-content {
     width: 100%;
-    }
-    
-    .cst-about-vision .mission-main-content {
+  }
+
+  .cst-about-vision .mission-main-content {
     flex-direction: column !important;
-    }
-    
-    .cst-about-vision .mission-image {
+  }
+
+  .cst-about-vision .mission-image {
     width: 100%;
-    }
-    
-    .cst-about-vision .mission-content {
+  }
+
+  .cst-about-vision .mission-content {
     width: 100%;
-    }
-    .cst-custom-wich-text-with-images .grid {
+  }
+  .cst-custom-wich-text-with-images .grid {
     flex-direction: column-reverse;
-    }
-    }
-    
-    @media screen and (max-width: 789px) {
-      .cst-home-imgText .text-container p:last-child {
-        padding-top: 16px;
-    }
-      .content-page.contact-page {
-        padding: 60px 0;
-    }
-    .homepage-two-column-only.cst-home-ourapproch .custom-right-block {
-      padding-bottom: 40px;
-    }
-    .cst-home-reviews{
-    padding:60px 0;
-    }
-    .cst-about-drSec .cst-banner-btn {
+  }
+}
+
+@media screen and (max-width: 789px) {
+
+  .therapy-virechana-page .text-container h3 {
+    padding-bottom:16px;
+}
+
+  .cst-home-imgText .text-container p:last-child {
+    padding-top: 16px;
+  }
+  .content-page.contact-page {
+    padding: 60px 0;
+  }
+  .homepage-two-column-only.cst-home-ourapproch .custom-right-block {
+    padding-bottom: 40px;
+  }
+  .cst-home-reviews {
+    padding: 60px 0;
+  }
+  .cst-about-drSec .cst-banner-btn {
     text-align: left;
-    }
-    .cst-main-bannercnt .cst-banner-btn a {
+  }
+  .cst-main-bannercnt .cst-banner-btn a {
     margin-top: 10px;
-    }
-    .cst-custom-banner-quiz-result-page .cst-content  , .cst-custom-banner-quiz-result-page .left-div h2 ,.cst-custom-banner-quiz-result-page .left-div p{
+  }
+  .cst-custom-banner-quiz-result-page .cst-content,
+  .cst-custom-banner-quiz-result-page .left-div h2,
+  .cst-custom-banner-quiz-result-page .left-div p {
     text-align: left;
-    }
-    .cst-custom-banner-quiz-result-page {
+  }
+  .cst-custom-banner-quiz-result-page {
     flex-direction: column-reverse !important;
-    }
-    .custom-banner-red-btn a {
+  }
+  .custom-banner-red-btn a {
     top: 20px;
     display: block;
-    }
-    
-    .cst-custom-banner-quiz-result-page .left-div p{
+  }
+
+  .cst-custom-banner-quiz-result-page .left-div p {
     max-width: 100%;
-    }
-    .cst-custom-banner-quiz-result-page .image-row img {
+  }
+  .cst-custom-banner-quiz-result-page .image-row img {
     width: 100%;
     max-width: 100%;
-    }
-    .cst-custom-banner-v2-quiz-page .banner-info.content-left{
+  }
+  .cst-custom-banner-v2-quiz-page .banner-info.content-left {
     max-width: 100% !important;
-    }
-    .cst-custom-banner-v2-quiz-page p.sub-title{
+  }
+  .cst-custom-banner-v2-quiz-page p.sub-title {
     margin-bottom: 0;
-    }
-    .cst-issues-ayurvedic.container {
+  }
+  .cst-issues-ayurvedic.container {
     padding: 40px 20px;
-    }
-    .remove-bg-home .image-with-text-block.reverse.cst-odd-sec.cst-last-block {
+  }
+  .remove-bg-home .image-with-text-block.reverse.cst-odd-sec.cst-last-block {
     padding: 0;
-    }
-    .remove-bg-home .image-container {
+  }
+  .remove-bg-home .image-container {
     padding-right: 0;
-    }
-    .remove-bg-home.cst-home-imgText .text-container {
+  }
+  .remove-bg-home.cst-home-imgText .text-container {
     padding: 20px 0 0;
-    }
-    body .m-cst-issues-time{
+  }
+  body .m-cst-issues-time {
     padding: 60px 0;
-    }
-    .cst-custom-tab-section-therapies-page .tab-lists {
+  }
+  .cst-custom-tab-section-therapies-page .tab-lists {
     min-height: unset;
-    }
-    .cst-custom-banner-v2-therapies-page .section-banner-v2 .box-img-banner img {
+  }
+  .cst-custom-banner-v2-therapies-page .section-banner-v2 .box-img-banner img {
     object-position: 75% 43%;
-    }
-    .cst-custom-tab-section-only {
+  }
+  .cst-custom-tab-section-only {
     margin-bottom: 0;
-    }
-    .cst-custom-banner-v2-therapies-page h3 {
+  }
+  .cst-custom-banner-v2-therapies-page h3 {
     font-size: 30px !important;
-    }
-    .cst-custom-banner-v2-quiz-page
+  }
+  .cst-custom-banner-v2-quiz-page
     .section-banner-v2
     .banner-box
     .banner-info
     .title {
     font-size: 35px;
-    }
-    
-    .cst-custom-tab-section-only .tab-flex {
+  }
+
+  .cst-custom-tab-section-only .tab-flex {
     display: flex;
     padding-left: 0;
     padding-right: 0;
     flex-direction: column-reverse;
-    }
-    .tabs {
+  }
+  .tabs {
     padding: 25px;
-    }
-    .cst-custom-tab-section-only .tab-img img {
+  }
+  .cst-custom-tab-section-only .tab-img img {
     max-width: 100%;
     width: 100%;
     height: 350px;
     object-fit: cover;
-    }
-    body .cst-text-health-issue h2 {
+  }
+  body .cst-text-health-issue h2 {
     padding-top: 0;
     font-size: 24px;
-    }
-    .cst-symptoms-heath-issues .column-container {
+  }
+  .cst-symptoms-heath-issues .column-container {
     gap: 40px;
     grid-template-columns: 1fr 1fr !important;
-    }
-    body .cst-text-health-issue .right-div {
+  }
+  body .cst-text-health-issue .right-div {
     width: 100%;
-    }
-    body .cst-text-health-issue .left-div {
+  }
+  body .cst-text-health-issue .left-div {
     width: 100%;
-    }
-    body .cst-text-health-issue,
-    body .cst-symptoms-heath-issues.custom-multi-column {
+  }
+  body .cst-text-health-issue,
+  body .cst-symptoms-heath-issues.custom-multi-column {
     flex-direction: column-reverse;
-    }
-    .page-pitta .cst-bodyType-richtext h2.heading-title {
+  }
+  .page-pitta .cst-bodyType-richtext h2.heading-title {
     font-size: 24px;
-    }
-    
-    .page-pitta .custom-banner-main {
+  }
+
+  .page-pitta .custom-banner-main {
     flex-direction: column-reverse;
-    }
-    
-    .cst-home-faq .col-lg-12.top_asked {
+  }
+
+  .cst-home-faq .col-lg-12.top_asked {
     padding-left: 20px !important;
     padding-right: 20px !important;
-    }
-    
-    .cst-about-accordiansText {
+  }
+
+  .cst-about-accordiansText {
     padding: 0 20px;
-    }
-    
-    .cst-custom-issues-Ayurvedic {
+  }
+
+  .cst-custom-issues-Ayurvedic {
     padding: 40px 20px;
-    }
-    
-    .cst-about-accordiansText .main-content {
+  }
+
+  .cst-about-accordiansText .main-content {
     margin-bottom: 0;
-    }
-    
-    .page_aboutus_v1.page_FQA
+  }
+
+  .page_aboutus_v1.page_FQA
     .asked
     .content_askeds
     .box_content_question
     .title_question {
     font-size: 18px;
-    }
-    
-    .cst-issues-imgText .text-container h3 {
+  }
+
+  .cst-issues-imgText .text-container h3 {
     font-size: 24px;
     text-align: left;
-    }
-    
-    .cst-issues-imgText .container {
+  }
+
+  .cst-issues-imgText .container {
     padding: 0 20px;
-    }
-    
-    body .cst-issues-symptoms {
+  }
+
+  body .cst-issues-symptoms {
     padding: 40px 0;
-    }
-    
-    .cst-about-accordiansText .accordion-section {
+  }
+
+  .cst-about-accordiansText .accordion-section {
     margin-bottom: 40px;
-    }
-    
-    .cst-about-accordiansText .cst-heading p {
+  }
+
+  .cst-about-accordiansText .cst-heading p {
     font-size: 30px;
-    }
-    
-    .cst-issues-ayurvediccontainer {
+  }
+
+  .cst-issues-ayurvediccontainer {
     padding: 40px 20px;
-    }
-    
-    .footer_v5 .top-footer .container {
+  }
+
+  .footer_v5 .top-footer .container {
     padding: 40px 20px;
-    }
-    
-    .cst-about-drSec {
+  }
+
+  .cst-about-drSec {
     padding: 60px 0 !important;
-    }
-    
-    body .cst-main-bannercnt.container {
+  }
+
+  body .cst-main-bannercnt.container {
     padding: 0 20px !important;
-    }
-    
-    .cst-home-imgText .container {
+  }
+
+  .cst-home-imgText .container {
     max-width: 100%;
     padding: 0 20px;
-    }
-    
-    .cst-home-imgText .image-container img {
+  }
+
+  .cst-home-imgText .image-container img {
     height: 500px;
-    }
-    
-    .cst-home-imgText .custom-banner-left {
+  }
+
+  .cst-home-imgText .custom-banner-left {
     padding: 40px 0 0;
-    }
-    
-    .cst-home-treatment .cst-slider-wrapper {
+  }
+
+  .cst-home-treatment .cst-slider-wrapper {
     padding: 0 20px;
-    }
-    
-    .cst-home-imgText .cst-main-content-sec {
+  }
+
+  .cst-home-imgText .cst-main-content-sec {
     padding: 0;
-    }
-    
-    .cst-home-reviews .container-v1 {
+  }
+
+  .cst-home-reviews .container-v1 {
     padding: 0 20px;
-    }
-    
-    .cst-home-team h2 {
+  }
+
+  .cst-home-team h2 {
     margin: 0;
-    }
-    
-    .cst-home-imgText .cst-custom-banner-wrapper {
+  }
+
+  .cst-home-imgText .cst-custom-banner-wrapper {
     text-align: center;
-    }
-    
-    section.cst-home-faq {
+  }
+
+  section.cst-home-faq {
     padding: 60px 0;
-    }
-    
-    .cst-home-table.custom-table-section {
+  }
+
+  .cst-home-table.custom-table-section {
     padding: 60px 20px;
-    }
-    
-    body .cst-home-faq .row.content_askeds {
+  }
+
+  body .cst-home-faq .row.content_askeds {
     padding: 0 !important;
-    }
-    
-    .cst-home-imgText {
+  }
+
+  .cst-home-imgText {
     padding: 60px 0 !important;
-    }
-    
-    body .cst-home-treatment {
+  }
+
+  body .cst-home-treatment {
     padding: 60px 20px !important;
-    }
-    
-    .cst-home-ourapproch .container {
+  }
+
+  .cst-home-ourapproch .container {
     padding: 60px 20px;
-    }
-    
-    .cst-home-team .left-wrapper {
+  }
+
+  .cst-home-team .left-wrapper {
     margin: 0;
-    }
-    
-    .cst-home-imgText .image-container {
+  }
+
+  .cst-home-imgText .image-container {
     width: 100% !important;
-    }
-    
-    .cst-home-imgText .image-with-text-block .text-container {
+  }
+
+  .cst-home-imgText .image-with-text-block .text-container {
     width: 100%;
-    }
-    
-    .cst-home-imgText .custom-banner-right {
+  }
+
+  .cst-home-imgText .custom-banner-right {
     position: relative !important;
-    }
-    
-    .cst-home-imgText .custom-banner-left li:before {
+  }
+
+  .cst-home-imgText .custom-banner-left li:before {
     width: 27px;
     left: -26px;
     height: 21px;
-    }
-    
-    .cst-home-imgText .custom-banner-left li {
+  }
+
+  .cst-home-imgText .custom-banner-left li {
     margin: 24px 14px;
-    }
-    
-    .cst-home-imgText .custom-banner-main {
+  }
+
+  .cst-home-imgText .custom-banner-main {
     gap: 0;
-    }
-    
-    .cst-home-team .section-content {
+  }
+
+  .cst-home-team .section-content {
     flex-direction: column;
-    }
-    
-    .cst-home-team .left-div {
+  }
+
+  .cst-home-team .left-div {
     width: 100%;
-    }
-    
-    .cst-home-team .right-div {
+  }
+
+  .cst-home-team .right-div {
     width: 100%;
-    }
-    
-    .cst-home-ourapproch .container {
+  }
+
+  .cst-home-ourapproch .container {
     flex-direction: column;
-    }
-    
-    .cst-home-ourapproch .cst-wrapper {
+  }
+
+  .cst-home-ourapproch .cst-wrapper {
     flex-direction: row;
     padding-bottom: 30px;
     margin-top: 30px;
-    }
-    
-    .cst-home-ourapproch .cst-wrapper:after {
+  }
+
+  .cst-home-ourapproch .cst-wrapper:after {
     height: 2px;
     width: 100%;
     top: 15px;
-    }
-    
-    .cst-home-ourapproch .custom-left-column {
+  }
+
+  .cst-home-ourapproch .custom-left-column {
     width: 100%;
-    }
-    
-    .cst-home-ourapproch .custom-right-column {
+  }
+
+  .cst-home-ourapproch .custom-right-column {
     width: 100%;
-    }
-    }
-    
-    @media screen and (max-width: 767px) {
-    .cst-custom-tab-section-only .tab-button {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cst-custom-tab-section-only .tab-button {
     padding: 5px 58px;
-    }
-    .cst-custom-tab-section-only .tabs-nav {
+  }
+  .cst-custom-tab-section-only .tabs-nav {
     justify-content: center;
     gap: 5px;
-    }
-    .cst-faqPage-Faq .asked {
+  }
+  .cst-faqPage-Faq .asked {
     margin-top: 50px !important;
-    }
-    .cst-home-table {
+  }
+  .cst-home-table {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    }
-    
-    .cst-home-table table {
+  }
+
+  .cst-home-table table {
     min-width: 600px;
     width: 100%;
-    }
-    
-    .cst-about-richtextcontainer {
+  }
+
+  .cst-about-richtextcontainer {
     padding: 40px 0 0;
-    }
-    
-    .cst-home-table.custom-table-section td {
+  }
+
+  .cst-home-table.custom-table-section td {
     padding: 10px;
-    }
-    
-    .cst-home-table.custom-table-section td:nth-child(2) {
+  }
+
+  .cst-home-table.custom-table-section td:nth-child(2) {
     padding: 8px 37px;
-    }
-    
-    .cst-home-table.custom-table-section td:last-child {
+  }
+
+  .cst-home-table.custom-table-section td:last-child {
     padding: 8px 37px;
-    }
-    
-    body .cst-home-banner .box-content-center h3.titlebig {
+  }
+
+  body .cst-home-banner .box-content-center h3.titlebig {
     font-size: 30px !important;
-    }
-    
-    .cst-home-imgText .image-with-text-block {
+  }
+
+  .cst-home-imgText .image-with-text-block {
     flex-direction: row;
-    }
-    
-    .cst-home-imgText .image-with-text-block .image-container,
-    .cst-home-imgText .image-with-text-block .text-container {
+  }
+
+  .cst-home-imgText .image-with-text-block .image-container,
+  .cst-home-imgText .image-with-text-block .text-container {
     width: 100%;
-    }
-    
-    .cst-custom-issues-Ayurvedic .column-container {
+  }
+
+  .cst-custom-issues-Ayurvedic .column-container {
     grid-template-columns: 1fr !important;
-    }
-    
-    .cst-custom-issues-Ayurvedic .cst-bottom p {
+  }
+
+  .cst-custom-issues-Ayurvedic .cst-bottom p {
     text-align: left;
-    }
-    
-    .page-pitta .custom-banner-main {
+  }
+
+  .page-pitta .custom-banner-main {
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    }
-    
-    .page-pitta .custom-banner-left {
+  }
+
+  .page-pitta .custom-banner-left {
     width: 100%;
     flex: inherit;
-    }
-    
-    .page-pitta .custom-banner-right img {
+  }
+
+  .page-pitta .custom-banner-right img {
     max-width: 100%;
-    }
-    
-    .page-pitta .custom-banner-heading {
+  }
+
+  .page-pitta .custom-banner-heading {
     font-size: 30px;
-    }
-    
-    .page-pitta .cst-bodyType-image1 img {
+  }
+
+  .page-pitta .cst-bodyType-image1 img {
     height: 450px;
-    }
-    }
-    
-    @media screen and (max-width: 575px) {
-    .cst-knowBody-quiz .quix-wrap-content {
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .cst-knowBody-quiz .quix-wrap-content {
     padding: 30px 20px;
-    }
-    .cst-custom-tab-section-only .tab-flex {
+  }
+  .cst-custom-tab-section-only .tab-flex {
     padding-top: 0;
-    }
-    .cst-custom-tab-section-only .tabs-nav {
+  }
+  .cst-custom-tab-section-only .tabs-nav {
     justify-content: center;
-    }
-    .cst-custom-tab-section-only .tab-button {
+  }
+  .cst-custom-tab-section-only .tab-button {
     padding: 7px 43px;
     font-size: 14px;
-    }
-    
-    .m-column-container:after {
+  }
+
+  .m-column-container:after {
     display: none;
-    }
-    .m-cst-issues-time .m-column-container {
+  }
+  .m-cst-issues-time .m-column-container {
     grid-template-columns: 1fr !important;
     margin-top: 39px;
-    }
-    .m-cst-issues-time .m-time-block {
+  }
+  .m-cst-issues-time .m-time-block {
     max-width: 400px;
-    }
-    body .cst-custom-grid-heath-issues .column-container {
+  }
+  body .cst-custom-grid-heath-issues .column-container {
     grid-template-columns: 1fr !important;
-    }
-    .cst-symptoms-heath-issues .column-container {
+  }
+  .cst-symptoms-heath-issues .column-container {
     grid-template-columns: 1fr !important;
-    }
-    body .cst-home-banner .box-content-center .box-title2 .title-small {
+  }
+  body .cst-home-banner .box-content-center .box-title2 .title-small {
     font-size: 18px !important;
     line-height: 24px;
-    }
-    
-    .cst-home-grid.custom-multi-column[data-columns="3"] .column-container {
+  }
+
+  .cst-home-grid.custom-multi-column[data-columns="3"] .column-container {
     grid-template-columns: 1fr;
-    }
-    
-    .section-slideshow-v1 .info-sideh1 .picture-slideshow {
+  }
+
+  .section-slideshow-v1 .info-sideh1 .picture-slideshow {
     height: 400px !important;
-    }
-    
-    .cst-home-treatment .text-block {
+  }
+
+  .cst-home-treatment .text-block {
     white-space: nowrap;
-    }
-    .cst-issues-AyurvedicPerspective .text-container h3 {
+  }
+  .cst-issues-AyurvedicPerspective .text-container h3 {
     line-height: 38px;
-    }
-    .cst-issues-AyurvedicPerspective .text-container .cst-content p {
+  }
+  .cst-issues-AyurvedicPerspective .text-container .cst-content p {
     line-height: 23px;
-    }
-    .cst-issues-AyurvedicPerspective .text-container li {
+  }
+  .cst-issues-AyurvedicPerspective .text-container li {
     line-height: 23px;
-    }
-    }
-    
-    @media screen and (max-width: 490px) {
-    .cst-custom-tab-section-only .tab-button {
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .cst-custom-tab-section-only .tab-button {
     padding: 7px 37px;
     font-size: 12px;
-    }
-    }
-    /* Responsive-Css-End */
-    
+  }
+}
+/* Responsive-Css-End */
