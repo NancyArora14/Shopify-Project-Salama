@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Urbanist" !important;
+  color: #000;
   }
   
   ul {
@@ -28,6 +29,11 @@ body {
   font-family: "Outfit", serif;
   }
   
+  
+  :root {
+    --beige: #FDF9F3;
+    --green: rgba(8, 90, 72, 0.08); /* 8% opacity */
+  }
   /*marque-start*/
   
   /*dropdown-start*/
@@ -100,7 +106,7 @@ body {
   
   .marquee {
   display: inline-block;
-  animation: marquee 35s linear infinite;
+  /*animation: marquee 35s linear infinite;*/
   }
   
   .announcement-list {
@@ -149,7 +155,7 @@ body {
   #header .container-v1 {
   max-width: 100%;
   padding: 0 40px;
-  margin-top: 13px;
+  margin-top: 0px;
   }
   
   #header .cart-login-search ul.list-inline {
@@ -167,7 +173,10 @@ body {
   #header .currencies-login .cart-login-search ul li:last-child:hover {
   color: #f3dfc9;
   }
-  
+  #header .currencies-login .cart-login-search ul li:last-child {
+      opacity: 0;
+      visibility: hidden;
+  }
   .dropdown-menu.list-woman.shop.show {
   display: none !important;
   }
@@ -240,6 +249,7 @@ body {
   padding-bottom: 0 !important;
   background: #085848;
   border-bottom: 1px solid #f3dfc9;
+  display:none!important;
   }
   
   .announcement-bar img {
@@ -266,7 +276,7 @@ body {
   transition: 0.3s;
   border-radius: 0;
   padding: 10px 9px;
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Urbanist";
   font-weight: 700;
   white-space: nowrap;
@@ -287,13 +297,14 @@ body {
   background: #085848 !important;
   padding-top: 0;
   padding-bottom: 13px;
+  padding-top:13px;
   }
   
   #header .menu ul .nav-item .nav-link {
   font-family: Urbanist;
   color: #f3dfc9;
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   }
   
@@ -413,7 +424,7 @@ body {
   }
   
   body .cst-home-banner .box-content-center .box-title2 .title-small {
-  color: #085848 !important;
+  color: #000 !important;
   font-size: 24px !important;
   line-height: 36px;
   font-weight: 400 !important;
@@ -565,7 +576,7 @@ body {
   .cst-home-treatment .text-block p {
   margin: 0;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 20px;
   line-height: normal;
   text-align: left;
   }
@@ -615,13 +626,13 @@ body {
   color: #085848;
   font-size: 40px;
   font-weight: 500;
-  text-transform: uppercase;
+      text-transform: capitalize;
   margin-bottom: 50px;
   }
   
   body .cst-home-treatment {
   padding: 80px 0;
-  background: #f9efe4;
+  background: var(--beige);
   border: solid #79757540;
   border-width: 1px 0;
   }
@@ -646,6 +657,7 @@ body {
   
   .cst-home-imgText.custom-banner {
   border-bottom: 1px solid #79757540;
+  background: #fff;
   }
   
   .cst-home-imgText .custom-banner-right img {
@@ -688,7 +700,7 @@ body {
   }
   
   .cst-home-imgText .custom-banner-content .custom-banner-left h3 {
-  color: #085a48;
+  color: #085848;
   font-size: 40px;
   margin-bottom: 50px;
   font-weight: 500;
@@ -737,7 +749,7 @@ body {
   
   .cst-home-imgText .custom-banner-left p {
   font-size: 18px;
-  color: #085848;
+  color: #000;
   line-height: 27px;
   border-radius: 0;
   padding-bottom: 40px;
@@ -926,7 +938,7 @@ body {
   }
   
   .cst-home-ourapproch {
-  background: #f0f5f4;
+  background: var(--green);
   }
   
   /* .cst-issues-approch {
@@ -1011,7 +1023,7 @@ body {
   }
   
   .cst-home-ourapproch p {
-  color: #085848;
+  color: #000;
   font-size: 18px;
   }
   
@@ -1039,15 +1051,15 @@ body {
   }
   
   .cst-home-imgText .image-with-text-block.cst-odd-sec {
-  background: #f3f7f6;
+  background: var(--green);
   }
   
   .cst-home-imgText .image-with-text-block.cst-even-sec {
-  background: #fdf9f4;
+  background: var(--beige);
   }
   
   .cst-home-imgText .image-with-text-block.cst-odd-sec.cst-last-block {
-  background: #fdf9f4;
+  background: var(--beige);
   }
   
   .cst-home-imgText .image-with-text-block .image-container {
@@ -1072,11 +1084,11 @@ body {
   
   .cst-about-drSec {
   padding: 120px 0 !important;
-  background: #f0f5f4;
+  background: var(--green);
   }
   
   .cst-home-imgText .maincontent p {
-  color: #085848;
+  color: #000;
   font-size: 18px;
   font-family: Urbanist;
   text-align: left;
@@ -1123,7 +1135,7 @@ body {
   font-weight: 500;
   margin: 0;
   text-align: left;
-  text-transform: none;
+  text-transform: capitalize;
   }
   
   .cst-home-imgText .image-container img {
@@ -1141,7 +1153,7 @@ body {
   .cst-home-reviews {
   padding: 120px 0;
   margin: 0;
-  background: #fdf9f4;
+  background: #fff;
   }
   
   .cst-home-reviews .container-v1 {
@@ -1206,7 +1218,7 @@ body {
   .contact-page .contact-form .contact_title {
   font-weight: 500 !important;
   font-size: 40px;
-  color: #085a48;
+  color: #085848;
   position: relative;
   }
   .contact-page .contact-form .contact_title::after {
@@ -1239,14 +1251,16 @@ body {
   }
   
   .content-page.contact-page {
-  background: #3f755b0d;
+  background: var(--green);
   padding: 80px 0;
   }
   
   .contact-page .contact-form input {
   border: 1px solid #c9c9c987 !important;
   }
-  
+  .page_aboutus_v1.page_FQA p {
+      font-size: 18px;
+  }
   .contact-message textarea {
   border: 1px solid #c9c9c987 !important;
   }
@@ -1427,12 +1441,13 @@ body {
   }
   
   .cst-about-purpose .mission-content h2 {
-  font-size: 40px;
-  font-weight: 400;
-  color: #085848;
-  text-align: left;
-  padding-bottom: 30px;
-  margin-bottom: 0;
+      font-size: 40px;
+      font-weight: 400;
+      color: #085848;
+      text-align: left;
+      padding-bottom: 30px;
+      margin-bottom: 0;
+      text-transform: capitalize;
   }
   
   .cst-about-purpose .mission-content p {
@@ -1644,7 +1659,7 @@ body {
   }
   
   .cst-about-accordiansText .cst-mcontent p {
-  font-size: 16px;
+  font-size: 18px;
   color: #000;
   }
   
@@ -1677,7 +1692,7 @@ body {
   }
   
   .cst-about-accordiansText .accordion-section {
-  background: #f0f5f4;
+  background: var(--green);
   padding: 20px;
   border-radius: 20px;
   }
@@ -1722,11 +1737,11 @@ body {
   .versus-section-cst h2.versus-section-title {
   line-height: 50px;
   font-weight: 500;
-  color: #085a48;
+  color: #085848;
   text-align: left;
   font-size: 40px;
   margin-bottom: 90px;
-  text-transform: none;
+  text-transform: capitalize;
   }
   .versus-section-cst .table-heading {
   display: grid;
@@ -1779,7 +1794,7 @@ body {
   right: auto;
   }
   .versus-section-cst .difference-table .heading-column2-cst p {
-  color: #085a48;
+  color: #085848;
   }
   .versus-section-cst .table-row p {
   font-size: 24px;
@@ -1798,27 +1813,27 @@ body {
   margin-top: 13px;
   }
   .cst-custom-our-approach-heath-issues .container.cst-flex {
-  background: #f3dfc933;
+  background: var(--beige);
   justify-content: unset;
   }
   .cst-issues-AyurvedicPerspective .text-container h3 {
   line-height: 50px;
   font-weight: 500;
-  color: #085a48;
+  color: #085848;
   text-align: left;
   font-size: 40px;
   }
   
   .cst-issues-AyurvedicPerspective .text-container .cst-content p {
   font-size: 18px;
-  color: #085848;
+  color: #000;
   line-height: 28px;
   font-weight: 400;
   }
   
   .cst-issues-AyurvedicPerspective .text-container li {
   font-size: 18px;
-  color: #085848;
+  color: #000;
   line-height: 28px;
   font-weight: 400;
   list-style: disc;
@@ -1834,7 +1849,7 @@ body {
   }
   .cst-issues-AyurvedicPerspective .maincontent.maincontent2 p {
   font-size: 18px;
-  color: #085848;
+  color: #000;
   line-height: 21px;
   font-weight: 400;
   }
@@ -1886,7 +1901,7 @@ body {
   }
   
   .cst-custom-table-section-only {
-  background: #fdf9f4;
+  background: var(--beige);
   margin-top: 120px 0 0 0;
   }
   
@@ -1906,16 +1921,17 @@ body {
   font-family: "Urbanist";
   }
   body .cst-symptoms-heath-issues h2 {
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 500;
-  color: #085a48;
-  text-align: left;
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 500;
+      color: #085848;
+      text-align: left;
+      text-transform: capitalize;
   }
   
   body .cst-symptoms-heath-issues.custom-multi-column {
   padding: 80px 60px;
-  background: #085a4814;
+  background: var(--green);
   }
   
   .cst-symptoms-heath-issues .column {
@@ -1960,7 +1976,6 @@ body {
   font-weight: 500;
   color: #085848;
   margin-bottom: 20px;
-  max-width: 638px;
   }
   .cst-custom-issues-Ayurvedic {
   padding: 70px 60px;
@@ -2006,13 +2021,13 @@ body {
   list-style: disc;
   }
   body .cst-custom-image-with-text-therapies {
-  background: #ebf2f0;
+  background: var(--green);
   padding: 0;
   }
   .cst-custom-wich-text-with-images h2.heading-title {
   line-height: 50px;
   font-weight: 500;
-  color: #085a48;
+  color: #085848;
   text-align: left;
   font-size: 40px;
   }
@@ -2078,7 +2093,7 @@ body {
   }
   .cst-custom-wich-text-with-images .rich-text__content p {
   font-size: 18px;
-  color: #085848;
+  color: #000;
   line-height: 28px;
   font-weight: 400;
   margin-bottom: 0;
@@ -2259,6 +2274,8 @@ body {
   font-weight: bold;
   color: #085848;
   margin-top: 18px;
+      font-size: 18px;
+      font-weight: 500;
   }
   
   .cst-issues-ayurvediccontainer {
@@ -2296,10 +2313,9 @@ body {
   
   .cst-issues-imgText .cst-content p {
   font-size: 18px;
-  color: #085848;
-  line-height: 24px;
+  color: #000;
+  line-height: 27px;
   text-align: left;
-  max-width: 638px;
   }
   .cst-issues-imgText .cst-banner-btn {
   text-align: left;
@@ -2318,6 +2334,9 @@ body {
   }
   .cst-custom-banner-therapies-page .left-div p {
   text-align: left;
+  color: #000;
+  font-size: 18px;
+  line-height: 27px;
   }
   .cst-custom-banner-therapies-page .cst-banner-btn {
   display: flex;
@@ -2371,6 +2390,7 @@ body {
   display: block;
   position: relative;
   padding-left: 20px;
+   padding-bottom: 6px;
   }
   .how-it-is-done-cst .rich-text__content strong::before{
   position: absolute;
@@ -2435,7 +2455,7 @@ body {
   justify-content: start !important;
   }
   .article_sidebar.cst-mainArticle {
-  background: #f0f5f4;
+  background: var(--green);
   padding: 24px;
   max-width: 304px;
   position: sticky;
@@ -2472,7 +2492,7 @@ body {
   margin-bottom: 10px;
   }
   .cst-custom-richtext-image-quiz-result-page .grid p strong {
-  color: #085a48;
+  color: #085848;
   margin-bottom: 0;
   }
   .cst-custom-info-quiz-result-page .title_heading::before {
@@ -2553,17 +2573,17 @@ body {
   font-size: 26px;
   font-weight: 500;
   font-family: "Outfit";
-  color: #085a48;
+  color: #085848;
   }
   .cst-custom-banner-quiz-result-page .left-div h2 {
   font-size: 40px;
   font-weight: 500;
-  color: #085a48;
+  color: #085848;
   }
   .cst-custom-banner-quiz-result-page .left-div p {
   font-size: 18px;
   max-width: 420px;
-  color: #085a48;
+  color: #085848;
   font-weight: 400;
   margin-top: 24px;
   }
@@ -2573,7 +2593,7 @@ body {
   }
   .cst-knowBody-quiz .quix-wrap-content {
   padding: 40px;
-  background: #fbf5ef;
+  background: var(--beige);
   margin-bottom: 24px;
   position: relative;
   z-index: 1;
@@ -2612,9 +2632,9 @@ body {
   }
   
   .cst-custom-banner-v2-quiz-page p.sub-title {
-  max-width: 700px;
+  max-width: 1070px;
   line-height: 150%;
-  font-size: 18px;
+  font-size: 24px  !important;
   }
   
   .cst-custom-banner-v2-quiz-page .section-banner-v2 {
@@ -2630,7 +2650,7 @@ body {
   color: #085848;
   font-size: 40px;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 30px;
   text-align: left;
   }
@@ -2660,7 +2680,7 @@ body {
   .cst-knowBody-quiz .answers span {
   font-size: 16px;
   font-weight: 500;
-  color: #085a48;
+  color: #000;
   }
   
   .cst-knowBody-quiz button {
@@ -2691,6 +2711,7 @@ body {
   
   .review__content p {
   font-size: 18px !important;
+  color: #000;
   }
   
   .review__image__wrapper .review__title {
@@ -2733,7 +2754,6 @@ body {
   }
   
   .cst-home-faq .card-body {
-  font-size: 16px !important;
   font-family: "Urbanist";
   }
   
@@ -2742,8 +2762,8 @@ body {
   .content_askeds
   .box_content_question
   .card-body {
-  font-size: 16px !important;
-  color: #111 !important;
+  font-size: 18px !important;
+  color: #000 !important;
   }
   
   button#quiz-kit-question-next-button {
@@ -3050,11 +3070,12 @@ body {
   }
   
   .cst-faqPage-Faq .newsletter .box-content h3 {
-  font-size: 40px !important;
-  font-weight: 500 !important;
-  color: #085848;
-  line-height: normal !important;
-  text-align: center;
+      font-size: 40px!important;
+      font-weight: 500!important;
+      color: #085848;
+      line-height: normal!important;
+      text-align: center;
+      text-transform: capitalize;
   }
   
   body .cst-faqPage-Faq .top_asked p.mb-0 {
@@ -3104,7 +3125,9 @@ body {
   border-top-left-radius: 16px;
   border-bottom-right-radius: 16px;
   }
-  
+  .section-blog-v2{
+    background: var(--beige)!important;
+  }
   /* faq-css-end */
   
   /* Blog-css-start */
@@ -3112,24 +3135,26 @@ body {
   color: #000 !important;
   }
   .cst-mainBlogs .section-blog-v2 .info_blog .content {
-  color: #085848;
+  color: #000;
+  font-size: 18px;
   }
   .cst-mainBlogs .section-blog-v2 .info_blog .date .day {
-  color: #085848;
+  color: #000;
   }
   .cst-mainBlogs .section-blog-v2 .info_blog .date .day:after {
   display: none;
   }
   .cst-mainBlogs h3.title-section-blog {
-  text-align: center;
-  display: block;
-  color: #085848 !important;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: normal;
-  margin-bottom: 0;
-  font-family: "Outfit";
-  letter-spacing: 0;
+      text-align: center;
+      display: block;
+      color: #085848!important;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: normal;
+      margin-bottom: 0;
+      font-family: Outfit;
+      letter-spacing: 0;
+      text-transform: capitalize;
   }
   
   .cst-mainBlogs h3.title-section-blog::before {
@@ -3158,7 +3183,7 @@ body {
   }
   .cst-mainArticle .cst-custom-blog-info-right-side h2 {
   font-size: 40px;
-  color: #085a48;
+  color: #085848;
   font-weight: 500;
   font-family: Outfit;
   max-width: 533px;
@@ -3169,6 +3194,7 @@ body {
   .cst-mainArticle .cst-custom-blog-info-right-side p {
   font-size: 18px;
   max-width: 658px;
+  color: #000;
   }
   
   .cst-mainArticle .cst-custom-blog-info-left-side p {
@@ -3211,7 +3237,7 @@ body {
   position: relative;
   }
   .cst-mainArticle .article_sidebar {
-  background: #f0f5f4;
+  background: var(--green);
   padding: 24px;
   max-width: 304px;
   position: sticky;
@@ -3511,7 +3537,7 @@ body {
   }
   .cst-custom-tab-section-only {
   padding: 60px;
-  background: #fdf9f4;
+  background: var(--beige);
   margin-bottom: 50px;
   }
   .cst-custom-tab-section-only .tab-flex {
@@ -3636,7 +3662,7 @@ body {
   display: block;
   }
   .cst-heading-two-column {
-  background: #f0f5f4;
+  background: var(--green);
   padding-top: 120px;
   padding-left: 60px;
   padding-right: 60px;
@@ -3664,13 +3690,14 @@ body {
   font-size: 40px;
   line-height: 50px;
   font-weight: 500;
-  color: #085a48;
+  color: #085848;
   }
   .cst-heading-two-column p {
   font-size: 18px;
   font-weight: 500;
   line-height: 25px;
   font-family: "Urbanist";
+  color: #000;
   max-width: 1320px;
   }
   .bread-crumb {
@@ -3708,7 +3735,7 @@ body {
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
-  color: #085A48;
+  color: #000;
   }
   .therapy-virechana-page ul {
   padding-left: 25px;
@@ -3735,6 +3762,30 @@ body {
   body .therapy-virechana-page .image-container img {
   height: 100%;
   }
+  
+   body .cst-first-bannerSlide .box-content-center h3.title-small.mb-0{
+    color: #000!important;
+  }
+  
+  
+  
+  
+  #our-services-amp-offerings-therapies ul.slick-dots {
+      DISPLAY: NONE;
+  }
+  
+  body#our-services-amp-offerings-therapies .section-banner-v2 .box-img-banner img {
+      min-height: 500px;
+  }
+  
+  
+  body#our-services-amp-offerings-therapies  .section-banner-v2 .banner-box .banner-info .sub-title {
+  margin-bottom: 0;
+  }
+  
+  
+  
+  
   /* therapy-virechana-css-end */
   /* Responsive-Css-Start */
   
@@ -3744,7 +3795,7 @@ body {
   }
   
   #header .menu ul .nav-item .nav-link {
-  font-size: 13px;
+  font-size: 15px;
   }
   
   .cst-knowBody-quiz .answers span {
@@ -4006,6 +4057,9 @@ body {
   }
   
   @media screen and (max-width: 991px) {
+    .cst-custom-banner-v2-quiz-page p.sub-title{
+      font-size: 18px !important;
+    }
   .cst-custom-tab-section-only .cst-therapy-grid .tab-button {
       width: unset !important;
       font-size: 14px;
@@ -4460,6 +4514,7 @@ body {
   }
   .cst-custom-banner-v2-quiz-page p.sub-title {
   margin-bottom: 0;
+  font-size: 18px;
   }
   .cst-issues-ayurvedic.container {
   padding: 40px 20px;
@@ -4802,6 +4857,10 @@ body {
   .page-pitta .cst-bodyType-image1 img {
   height: 450px;
   }
+  body#our-services-amp-offerings-therapies .section-banner-v2 .box-img-banner img {
+      min-height: 723px;
+      object-position: -629px 0;
+  }
   }
   
   @media screen and (max-width: 575px) {
@@ -4821,7 +4880,9 @@ body {
   padding: 7px 43px;
   font-size: 14px;
   }
-  
+  .cst-custom-banner-v2-quiz-page .section-banner-v2 .banner-box .banner-info .title {
+      font-size: 29px;
+  }
   .m-column-container:after {
   display: none;
   }
