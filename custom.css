@@ -612,13 +612,18 @@ body {
   }
   
   .cst-home-treatment .column {
-  display: flex;
-  justify-content: space-between;
-  background: #f3dfc9;
-  border-radius: 0;
-  padding: 13px 0 0 20px;
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: #f3dfc9;
+        border-radius: 0;
+        padding: 13px 20px;
+        height: 100%;
+        min-height: 150px;
   }
-  
+  body .cst-home-treatment .owl-nav.disabled {
+    display: block;
+}
   .cst-home-treatment .column-container {
   gap: 18px;
   }
@@ -4940,6 +4945,11 @@ body {
   .versus-section-cst .table-heading {
   grid-template-columns: 1fr;
   }
+  }
+  @media screen and (max-width: 340px) {
+    .cst-home-treatment .column{
+      flex-direction: column-reverse;
+    }
   }
   /* Responsive-Css-End */
   
